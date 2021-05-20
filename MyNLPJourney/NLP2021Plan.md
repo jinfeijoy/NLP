@@ -9,6 +9,7 @@
   - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning)
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
+  - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
 - sentiment analysis (2W) (June10): Tweet sentiment analysis 
 - sentiment analysis (opinion mining) (3W) (June30): 
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
