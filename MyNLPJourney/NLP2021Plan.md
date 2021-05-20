@@ -28,3 +28,8 @@ Other interesting topics:
 - Discover how data is used for the public good (text): https://www.kaggle.com/c/coleridgeinitiative-show-us-the-data/overview
 - Paperswithcode: https://paperswithcode.com/task/opinion-mining/codeless
 
+To Do List:
+- Attention Model
+- Reinforcement Learning 
+- Transfer Learning
+- Transformer 
