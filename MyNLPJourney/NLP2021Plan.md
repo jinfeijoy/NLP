@@ -6,6 +6,8 @@
 - sentiment analysis (May20): IMDB Review (Traditional method and DL word embedding, Supervise Learning)
   - https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review 
 - Supervised learning and unsupervised learning collaboration (1W May24): (know the concept and how does it works, how do we apply it in real word, make plan how to apply it in the future task.
+  - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning)
+      - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
 - sentiment analysis (2W) (June10): Tweet sentiment analysis 
 - sentiment analysis (opinion mining) (3W) (June30): 
