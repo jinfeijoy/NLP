@@ -1,8 +1,8 @@
-# Good Blog
+# Blog
 - https://medium.com/@makcedward
 - 
 
-# Good Github
+# Github
 - https://github.com/makcedward/nlp
 
-# Good Website
+# Website
