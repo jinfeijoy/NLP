@@ -4,7 +4,9 @@
 2021 NLP Plan:
 - 2021 NLP Trend: https://www.analyticsinsight.net/top-10-natural-language-processing-nlp-trends-for-2021/
 - sentiment analysis (May20): IMDB Review (Traditional method and DL word embedding, Supervise Learning)
+  - https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review 
 - Supervised learning and unsupervised learning collaboration (1W May24): (know the concept and how does it works, how do we apply it in real word, make plan how to apply it in the future task.
+  - [combining supervised learning](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
 - sentiment analysis (2W) (June10): Tweet sentiment analysis 
 - sentiment analysis (opinion mining) (3W) (June30): 
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
