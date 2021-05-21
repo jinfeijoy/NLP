@@ -28,7 +28,9 @@
 
 
 Reference:
-- Recommender System: https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101, https://www.kaggle.com/rounakbanik/the-movies-dataset
+- Recommender System: 
+  - https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
+  - https://www.kaggle.com/rounakbanik/the-movies-dataset
 - Sentiment analysis:
   - Youtube Trending data: https://www.kaggle.com/rsrishav/youtube-trending-video-dataset?select=CA_youtube_trending_data.csv
   - Basic Sentiment analysis data: https://www.kaggle.com/kazanova/sentiment140 
