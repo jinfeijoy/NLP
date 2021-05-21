@@ -18,6 +18,7 @@
     - opinion about different vaccines (aspect-based sentiment analysis)
     - public sentiment of vaccines
     - vaccines side effect
+    - subjective/objective
 - sentiment analysis (continuous target) (1W) (June 30):
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
