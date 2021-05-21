@@ -10,3 +10,4 @@
   - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
   - [Opinion Mining From Social Media Short Texts: Does Collective Intelligence Beat Deep Learning?](https://www.frontiersin.org/articles/10.3389/frobt.2018.00138/full)
     - Decision tree based classification model has better performance on twitter comments analysis due to crowd-tagging, while DL has similar performance on twitter and facebook posting.
+    - [fasttext](https://amitness.com/2020/06/fasttext-embeddings/): pretrained word vector(https://fasttext.cc/docs/en/crawl-vectors.html)
