@@ -14,6 +14,11 @@
   - [Covid Tweet sentiment analysis](https://www.kaggle.com/arunavakrchakraborty/covid19-twitter-dataset): vader, pre-processing, multi-target
   - [Covid Article sentiment analysis](https://www.kaggle.com/saurabhshahane/covid-19-online-articles): contextual string embeddings, flair
 - sentiment analysis (opinion mining) (3W) (June25): 
+  - [Covid Vaccines tweet](https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets)
+    - opinion about different vaccines (aspect-based sentiment analysis)
+    - public sentiment of vaccines
+    - vaccines side effect
+    - subjective/objective
 - sentiment analysis (continuous target) (1W) (June 30):
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
@@ -40,6 +45,13 @@ Reference:
   - Time series: https://www.kaggle.com/omermetinn/tweets-about-the-top-companies-from-2015-to-2020?select=Tweet.csv
 - Opinion Mining: 
   - Covid vaccination Tweet: https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets
+  - Opinion Mining Application:
+    - social mdeia analysis: opinion about brands and products offered on social media
+    - brand awareness: public sentiment of your brands
+    - customer feedback: 
+    - customer service: to know how the customers feel about the interactions with employee
+    - market research: to find out if there is room for new products or if certain services are falling out of favor.
+    - evaluating market campaigns: 
 
 
 Other interesting topics: 

@@ -4,3 +4,5 @@
   - pre-processing
   - vader
   - multi-target
+  - subjective/objective
+  - emotion analysis
