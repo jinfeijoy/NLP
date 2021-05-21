@@ -4,3 +4,4 @@
   - pre-processing
   - vader
   - multi-target
+  - subjective/objective
