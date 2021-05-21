@@ -11,8 +11,8 @@
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
 - sentiment analysis (2W) (June4): 
-  - [Covid Tweet sentiment analysis](https://www.kaggle.com/arunavakrchakraborty/covid19-twitter-dataset)
-  - [Covid Article sentiment analysis](https://www.kaggle.com/saurabhshahane/covid-19-online-articles)
+  - [Covid Tweet sentiment analysis](https://www.kaggle.com/arunavakrchakraborty/covid19-twitter-dataset): vader, pre-processing, multi-target
+  - [Covid Article sentiment analysis](https://www.kaggle.com/saurabhshahane/covid-19-online-articles): contextual string embeddings, flair
 - sentiment analysis (opinion mining) (3W) (June25): 
 - sentiment analysis (continuous target) (1W) (June 30):
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
