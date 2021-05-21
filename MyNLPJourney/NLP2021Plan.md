@@ -10,20 +10,35 @@
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
-- sentiment analysis (2W) (June10): Tweet sentiment analysis 
-- sentiment analysis (opinion mining) (3W) (June30): 
+- sentiment analysis (2W) (June4): 
+  - [Covid Tweet sentiment analysis](https://www.kaggle.com/arunavakrchakraborty/covid19-twitter-dataset)
+  - [Covid Article sentiment analysis](https://www.kaggle.com/saurabhshahane/covid-19-online-articles)
+- sentiment analysis (opinion mining) (3W) (June25): 
+- sentiment analysis (continuous target) (1W) (June 30):
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
 - semantic search (3W) (Aug4)
 - Auto ML (automation in NLP) (3W) (Aug25): 
-- content based recommend system (2M -- 1M E 1M C) (Oct25): 
+- content based recommend system (2M -- 1M E 1M C) (Oct25):
+  - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
+  - Chinewe weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
 - Market Inteligence Monitoring (1M) (Nov25): in the end to create a system to recommend news summary given topics
 - chat bot/customer assistant/intallegence communication (Dec25)
+  - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
 
 Reference:
 - Recommender System: https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101, https://www.kaggle.com/rounakbanik/the-movies-dataset
-- Tweets sentiment analysis: https://www.kaggle.com/kazanova/sentiment140
+- Sentiment analysis:
+  - Youtube Trending data: https://www.kaggle.com/rsrishav/youtube-trending-video-dataset?select=CA_youtube_trending_data.csv
+  - Basic Sentiment analysis data: https://www.kaggle.com/kazanova/sentiment140 
+  - Continuous target variable: 
+    - https://www.kaggle.com/edenbd/150k-lyrics-labeled-with-spotify-valence
+    - https://www.kaggle.com/wjia26/big-tech-companies-tweet-sentiment
+  - Time series: https://www.kaggle.com/omermetinn/tweets-about-the-top-companies-from-2015-to-2020?select=Tweet.csv
+- Opinion Mining: 
+  - Covid vaccination Tweet: https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets
+
 
 Other interesting topics: 
 - use GANs to create arts: https://www.kaggle.com/c/gan-getting-started
