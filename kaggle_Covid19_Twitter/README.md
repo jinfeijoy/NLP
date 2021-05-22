@@ -6,3 +6,7 @@
   - multi-target
   - subjective/objective
   - emotion analysis
+  - opinion about different vaccines (aspect-based sentiment analysis)
+  - public sentiment of vaccines
+  - vaccines side effect
+
