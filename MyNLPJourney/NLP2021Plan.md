@@ -3,7 +3,8 @@
 
 2021 NLP Plan:
 - 2021 NLP Trend: https://www.analyticsinsight.net/top-10-natural-language-processing-nlp-trends-for-2021/
-- sentiment analysis (May20): [IMDB Review](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) 
+- sentiment analysis (May20): 
+  - [IMDB Review](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) 
 - Supervised learning and unsupervised learning collaboration (1W May24): (know the concept and how does it works, how do we apply it in real word, make plan how to apply it in the future task.
   - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning)
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
