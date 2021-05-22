@@ -1,8 +1,8 @@
-# Covid19 Twitter Sentiment Analysis
-- Dataset can be found here: https://www.kaggle.com/arunavakrchakraborty/covid19-twitter-dataset
+# Twitter Sentiment Analysis
+- Dataset can be found here: 
+  - https://www.kaggle.com/maxjon/complete-tweet-sentiment-extraction-data
+  - https://www.kaggle.com/kazanova/sentiment140
 - To do list:
-  - pre-processing
-  - vader
-  - multi-target
-  - subjective/objective
-  - emotion analysis
+  - sentiment analysis
+  - fastai
+  - transfer learning
