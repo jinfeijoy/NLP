@@ -3,21 +3,17 @@
 
 2021 NLP Plan:
 - 2021 NLP Trend: https://www.analyticsinsight.net/top-10-natural-language-processing-nlp-trends-for-2021/
-- sentiment analysis (May20): IMDB Review (Traditional method and DL word embedding, Supervise Learning)
-  - https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review 
+- sentiment analysis (May20): [IMDB Review](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) 
 - Supervised learning and unsupervised learning collaboration (1W May24): (know the concept and how does it works, how do we apply it in real word, make plan how to apply it in the future task.
   - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning)
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
 - sentiment analysis (2W) (June4): 
-  - [Covid Article sentiment analysis](https://www.kaggle.com/saurabhshahane/covid-19-online-articles): contextual string embeddings, flair
+  - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment)
+  - [Covid Article sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
 - sentiment analysis (opinion mining) (3W) (June25): 
-  - [Covid Vaccines tweet](https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets)
-    - opinion about different vaccines (aspect-based sentiment analysis)
-    - public sentiment of vaccines
-    - vaccines side effect
-    - subjective/objective
+  - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_Twitter)
 - sentiment analysis (continuous target) (1W) (June 30):
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
