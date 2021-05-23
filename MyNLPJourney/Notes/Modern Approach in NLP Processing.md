@@ -107,6 +107,46 @@ In the first “wave” of transfer learning, ELMo (Embeddings from Language Mod
     - In feature extraction, In the adoption phase, the LM’s weights do not change, and just the top layer of the model is used. The adopted model learns a linear combination of the top layer (Peters, Ruder, and Smith 2019).
     - fine-tuning adjusts the pretrained model’s weights on a specific task. The method’s disadvantage is that the general knowledge and relationship between words can get lost in the adjustment phase. This is called “catastrophic forgetting”. Techniques for preventing catastrophic forgetting are freezing learning rates and regularization, mainly explained in the ULMFiT section.
 - Models
-  - ELMo: The Allen Institute introduced with ELMo a state-of-the-art model that can distinguish between the same word’s varying meaning in different contexts (contextual word embedding).
-  - ULMFiT: Howard and Ruder introduced ULMFiT, an adaption of fine-tuning in NLP.
-  - GPT: Open AI published GPT, the first transformer model, which is an urge for the upcoming chapters. This model architecture is mainly used in the most recent developments
+  - [ELMo](https://allennlp.org/elmo) (Embeddings from Language Models) - The “new age” of embeddings: 
+    The Allen Institute introduced with ELMo a state-of-the-art model that can distinguish between the same word’s varying meaning in different contexts (contextual word embedding).
+    - Its most significant advance compared to previous models like word2vec and Glove (chapter 3), is that ELMo can handle the different meanings of a word in different contexts (polysemy).
+    - ![image](https://user-images.githubusercontent.com/16402963/119279139-ba30ab00-bbf7-11eb-8e95-ee59077e13e5.png)
+    - In the adoption phase, a linear combination of the internal states is learned in an additional layer. This representation is different for every task. ELMo adopts the target by feature extraction; the pretrained model is frozen (all learning rates are set to 0), and the task-specific ELMo representations are calculated.
+    - ![image](https://user-images.githubusercontent.com/16402963/119279305-cd904600-bbf8-11eb-974f-1a48732fd547.png)
+    - ELMo saves semantic - context-dependent features - information more in the higher layer and syntactic information more in the lower layers. That is also why the weighting in every task should be different.
+  - ULMFiT - cutting-edge model using LSTMs: 
+    Howard and Ruder introduced ULMFiT, an adaption of fine-tuning in NLP.
+    - ![image](https://user-images.githubusercontent.com/16402963/119279376-54452300-bbf9-11eb-83f1-fc24a3512d25.png)
+    - ULMFiT follows three steps to achieve its notable transfer learning results:
+      ![image](https://user-images.githubusercontent.com/16402963/119279424-b00fac00-bbf9-11eb-990d-b73413daf25d.png)   
+      - Language Model pretraining
+      - Language Model fine-tuning (Adoption I)
+        - Discriminative fine-tuning
+        - slanted triangular learning rates (STLR)  
+      - Classifier fine-tuning (Adoption II)
+        - Concat pooling
+        - Gradual unfreezing
+    - tutorial links [1](https://www.analyticsvidhya.com/blog/2018/11/tutorial-text-classification-ulmfit-fastai-library/)[2](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83)[3](https://humboldt-wi.github.io/blog/research/information_systems_1819/group4_ulmfit/)       
+  - GPT - First step towards transformers: 
+    Open AI published GPT, the first transformer model, which is an urge for the upcoming chapters. This model architecture is mainly used in the most recent developments. To sum up, GPT is a multi-layer transformer-decoder with task-aware input transformations GPT is trained on the Book-Corpus data set, where the input is tokenized as a sub-word. 
+    ![image](https://user-images.githubusercontent.com/16402963/119279756-c28ae500-bbfb-11eb-89ce-cbc1bd7215e4.png)
+    - Difference compare with above model:
+      - ELMo is based on word embeddings, whereas GPT is based on fine-tuning like ULMFiT.
+      - GPT uses a different model architecture. Instead of the multi-layer LSTM, GPT is a multi-layer transformer decoder.
+      - In contrast to ELMo, that works character-wise, GPT uses tokens (subwords) from the words.
+      - GPT is trained on a large number of data (especially the subsequent models like GPT-2 or GPT-3)
+
+## Chapter 8 Attention and Self-Attention for NLP
+- Attention
+  - Bahdanau-Attention
+  - Luong-Attention 
+- Self-Attention
+
+## Chapter 9 Transfer Learning for NLP II
+Unsupervised representation learning has been highly successful in NLP. Typically, these methods first pre-train neural networks on large-scale unlabeled text corpora and then fine-tune the models on downstream tasks. [Huggingface Transformer Github](https://github.com/huggingface/transformers)
+- Bidirectional Encoder Representations from Transformers (BERT)
+  BERT is published by researchers at Google AI in 2018. It is regarded as a milestone in the NLP community by proposing a bidirectional Language model based on Transformer.
+  - BERT is a notable example of AE and it uses the structure of the AutoEncoding model, which means that some tokens in the training data will be masked. BERT uses the Transformer Encoder as the structure of the pre-train model and addresses the unidirectional constraints by proposing new pre-training objectives: the Masked Language Model(MLM) and Next-sentence Prediction(NSP).
+    ![image](https://user-images.githubusercontent.com/16402963/119280466-8f4a5500-bbff-11eb-8fe1-5253e6b0a279.png)
+  - BERT limits the length of the entire sequence to no more than 512 tokens. Whether it is a one-sentence sequence or a sentence-pairs sequence, sequences exceeding 512 will be divided at intervals of 512 tokens. In practice, considering computational efficiency, BERT mostly divides the sequence with a length of 128 tokens.
+- 
