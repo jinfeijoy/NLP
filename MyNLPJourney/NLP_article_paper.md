@@ -15,3 +15,4 @@
 - May22:
   - [State of transfer learning in NLP](https://ruder.io/state-of-transfer-learning-in-nlp/)
   - [morden approach in NLP processing](https://compstat-lmu.github.io/seminar_nlp_ss20/)
+  - [Using Fastai pkg to apply ULMFiT for Text Classification](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83)
