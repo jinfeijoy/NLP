@@ -1,5 +1,5 @@
 ## [Modern Approach in NLP Processing](https://compstat-lmu.github.io/seminar_nlp_ss20/introduction-deep-learning-for-nlp.html)
-- Chaper2 Introduction: DL for NLP
+## Chaper2 Introduction: DL for NLP
   - Word Embedding and Nueral Netword Model
     - Word Embedding
       - Word embeddings use dense vector representations for words. That means they map each word to a continuous vector with n dimensions. The distance in the vector space denotes semantic (dis)similarity.
@@ -10,7 +10,7 @@
     - CNN: convolutional neural networks (CNN) are widely used in computer vision, utilizing CNN to word embedding matrices and automatically extract features to handle NLP tasks appeared inevitable
     ![image](https://user-images.githubusercontent.com/16402963/119266509-188a6900-bbb9-11eb-84be-6eb3d28e9152.png)
     
-- Chaper3 Foundations/Applications of Modern NLP
+## Chaper3 Foundations/Applications of Modern NLP
   - The Evolution of Word Embeddings
     - Bag-of-Words is especially useful if the number of distinct words is small and the sequence of the words doesn’t play a key role, like in sentiment analysis. The major drawback of these methods is that there is no notion of similarity between words.
   - Methods to Obtain Word Embeddings
@@ -34,4 +34,4 @@
     - First of the word embeddings are mostly learned from text corpora from the internet, therefore they learn a lot of stereotypes that reflect everyday human culture.
     - there are some domains and languages for which only little training data exists on the internet
 
-- Chaper4 RNN
+## Chaper4 RNN
