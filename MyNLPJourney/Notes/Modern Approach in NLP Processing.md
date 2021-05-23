@@ -37,10 +37,7 @@
 ## Chaper4 RNN
 - Structure and Training of Simple RNNs: Recurrent neural networks (RNNs) enable to relax the condition of non-cyclical connections in the classical feedforward neural networks which were described in the previous chapter. This means, while simple multilayer perceptrons can only map from input to output vectors, RNNs allow the entire history of previous inputs to influence the network output. 
 - Gated RNNs: Main feature of gated RNNs is the ability to store long-term memory for a long time and at the same time to account for new inputs as effectively as possible. In modern NLP, two types of gated RNNs are used widely: Long Short-Term Memory networks and Gated Recurrent Units.
-  ![image](https://user-images.githubusercontent.com/16402963/119271708-a4f45600-bbd0-11eb-98a7-9a04f6c7f8e5.png)
   - LSTM: Instead of a simple hidden unit that combines inputs and previous hidden states linearly and outputs their nonlinear transformation to the next step, hidden units are now extended by special input, forget and output gates that help to control the flow of information.
-  - ![image](https://user-images.githubusercontent.com/16402963/119271815-2c41c980-bbd1-11eb-84d5-45d23bc048dd.png)
-
-
+  - ![image](https://user-images.githubusercontent.com/16402963/119271960-dd486400-bbd1-11eb-8919-02d3ab842afc.png)
   - 
 - 
