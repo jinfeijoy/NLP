@@ -35,9 +35,21 @@
     - there are some domains and languages for which only little training data exists on the internet
 
 ## Chaper4 RNN
-- Structure and Training of Simple RNNs: Recurrent neural networks (RNNs) enable to relax the condition of non-cyclical connections in the classical feedforward neural networks which were described in the previous chapter. This means, while simple multilayer perceptrons can only map from input to output vectors, RNNs allow the entire history of previous inputs to influence the network output. 
+- Structure and Training of Simple RNNs: RNNs are powerful models for sequential data. Recurrent neural networks (RNNs) enable to relax the condition of non-cyclical connections in the classical feedforward neural networks. This means, while simple multilayer perceptrons can only map from input to output vectors, RNNs allow the entire history of previous inputs to influence the network output. 
 - Gated RNNs: Main feature of gated RNNs is the ability to store long-term memory for a long time and at the same time to account for new inputs as effectively as possible. In modern NLP, two types of gated RNNs are used widely: Long Short-Term Memory networks and Gated Recurrent Units.
-  - LSTM: Instead of a simple hidden unit that combines inputs and previous hidden states linearly and outputs their nonlinear transformation to the next step, hidden units are now extended by special input, forget and output gates that help to control the flow of information.
-  - ![image](https://user-images.githubusercontent.com/16402963/119271960-dd486400-bbd1-11eb-8919-02d3ab842afc.png)
+  - LSTM: Instead of a simple hidden unit that combines inputs and previous hidden states linearly and outputs their nonlinear transformation to the next step, hidden units are now extended by special input, forget and output gates that help to control the flow of information.\n
+  ![image](https://user-images.githubusercontent.com/16402963/119271960-dd486400-bbd1-11eb-8919-02d3ab842afc.png)
+  - Gated Recurrent Units (GRU) whose structure is simpler than that of LSTM because they have only two gates, namely reset and update gate.\n
+  ![image](https://user-images.githubusercontent.com/16402963/119274374-99f3f280-bbdd-11eb-9d67-352e51191d55.png)
+- Extensions of Simple RNNs:
+  - Deep RNN: Deep RNNs with several hidden layers may improve model performance significantly. 
+    - Stacked RNNs
+    - Deep Transition RNNs
+  - Encoder-Decoder Architecture: The problem of mapping variable-length input sequences to variable-length output sequences is known as Sequence-to-Sequence or seq2seq learning in NLP. Although originally applied in machine translation tasks (Sutskever, Vinyals, and Le (2014), Cho et al. (2014)), the seq2seq approach achieved state-of-the-art results also in speech recognition (Prabhavalkar et al. 2017) and video captioning (Venugopalan et al. 2015)
+  ![image](https://user-images.githubusercontent.com/16402963/119274579-93b24600-bbde-11eb-9e63-bd75b6e41ee3.png)
+  
+## Chaper5 CNN
+- Basic Architecture of CNN: a convolutional neural network includes successively an input layer, multiple hidden layers, and an output layer, the input layer will be dissimilar according to various applications. The hidden layers, which are the core block of a CNN architecture, consist of a series of convolutional layers, pooling layers, and finally export the output through the fully-connected layer.
+  ![image](https://user-images.githubusercontent.com/16402963/119274764-8c3f6c80-bbdf-11eb-8d7b-8393608f787b.png)
+
   - 
-- 
