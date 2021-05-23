@@ -6,3 +6,4 @@
   - sentiment analysis
   - fastai
   - transfer learning
+  - hashtag analysis
