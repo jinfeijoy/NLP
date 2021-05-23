@@ -97,5 +97,16 @@
   
 ## Chapter 7 Transfer Learning for NLP I
 In the first “wave” of transfer learning, ELMo (Embeddings from Language Models), ULMFiT (Universal Language Model Fine-tuning for Text Classification), and GPT (Generative Pretraining) were published. These models enhanced the performance and introduced ideas like contextual embeddings, fine-tuning, and transformers in natural language processing.
- 
-- 
+- Sequential Inductive Transfer Learning
+  - Type of transfer learning:
+    ![image](https://user-images.githubusercontent.com/16402963/119278856-f95dfc80-bbf5-11eb-8fe8-c075d76e7f06.png)
+  - Feature Extraction vs. Fine-tuning
+    Sequential inductive transfer learning mainly consists of two steps: pretraining and adoption.
+    ![image](https://user-images.githubusercontent.com/16402963/119278888-2b6f5e80-bbf6-11eb-8f3f-bdc158904b07.png)
+    adoption on the target task. Here, the main distinction is if the pretrained model weights are kept (embedding or feature extraction) or adjusted to the target task (fine-tuning) (Peters, Ruder, and Smith 2019)
+    - In feature extraction, In the adoption phase, the LM’s weights do not change, and just the top layer of the model is used. The adopted model learns a linear combination of the top layer (Peters, Ruder, and Smith 2019).
+    - fine-tuning adjusts the pretrained model’s weights on a specific task. The method’s disadvantage is that the general knowledge and relationship between words can get lost in the adjustment phase. This is called “catastrophic forgetting”. Techniques for preventing catastrophic forgetting are freezing learning rates and regularization, mainly explained in the ULMFiT section.
+- Models
+  - ELMo: The Allen Institute introduced with ELMo a state-of-the-art model that can distinguish between the same word’s varying meaning in different contexts (contextual word embedding).
+  - ULMFiT: Howard and Ruder introduced ULMFiT, an adaption of fine-tuning in NLP.
+  - GPT: Open AI published GPT, the first transformer model, which is an urge for the upcoming chapters. This model architecture is mainly used in the most recent developments
