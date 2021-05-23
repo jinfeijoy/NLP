@@ -87,4 +87,15 @@
   - it is essential to improve the accuracy of complex and deep models by introducing appropriate components (e.g. shortcut connections).
 
 ## Chapter 6 Introduction: Transfer Learning for NLP
+- What is transfer learning: Transfer learning allows us to deal with the learning of a task by using the existing labeled data of some related tasks or domains
+  ![image](https://user-images.githubusercontent.com/16402963/119275906-cdd31600-bbe5-11eb-9c39-ee3d96c5a2fd.png)
+- (Self-)attention
+  - A Transformer still consists of the typical encoder-decoder setup but uses a novel new architecture for both. The encoder consists of 6 Layers with 2 sublayers each. The newly developed self-attention in the first sublayer allows a transformer model to process all input words at once and model the relationships between all words in a sentence. This allows transformers to model long-range dependencies in a sentence faster than RNN and CNN based models. 
+  - BERT
+- Overview over important NLP models
+  ![image](https://user-images.githubusercontent.com/16402963/119276069-bb0d1100-bbe6-11eb-9184-82408c2e74e8.png)
+  
+## Chapter 7 Transfer Learning for NLP I
+
+ 
 - 
