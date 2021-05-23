@@ -35,3 +35,5 @@
     - there are some domains and languages for which only little training data exists on the internet
 
 ## Chaper4 RNN
+- Structure and Training of Simple RNNs
+- 
