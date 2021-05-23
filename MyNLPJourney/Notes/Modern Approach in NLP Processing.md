@@ -96,6 +96,6 @@
   ![image](https://user-images.githubusercontent.com/16402963/119276069-bb0d1100-bbe6-11eb-9184-82408c2e74e8.png)
   
 ## Chapter 7 Transfer Learning for NLP I
-
+In the first “wave” of transfer learning, ELMo (Embeddings from Language Models), ULMFiT (Universal Language Model Fine-tuning for Text Classification), and GPT (Generative Pretraining) were published. These models enhanced the performance and introduced ideas like contextual embeddings, fine-tuning, and transformers in natural language processing.
  
 - 
