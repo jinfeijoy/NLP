@@ -12,3 +12,6 @@
     - [fasttext](https://amitness.com/2020/06/fasttext-embeddings/): pretrained word vector(https://fasttext.cc/docs/en/crawl-vectors.html)
 - May21:
   - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
+- May22:
+  - [State of transfer learning in NLP](https://ruder.io/state-of-transfer-learning-in-nlp/)
+  - [morden approach in NLP processing](https://compstat-lmu.github.io/seminar_nlp_ss20/)
