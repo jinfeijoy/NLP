@@ -144,7 +144,7 @@ In the first “wave” of transfer learning, ELMo (Embeddings from Language Mod
 
 ## Chapter 9 Transfer Learning for NLP II
 Unsupervised representation learning has been highly successful in NLP. Typically, these methods first pre-train neural networks on large-scale unlabeled text corpora and then fine-tune the models on downstream tasks. [Huggingface Transformer Github](https://github.com/huggingface/transformers)
-- Bidirectional Encoder Representations from Transformers (BERT)
+- Bidirectional Encoder Representations from Transformers (BERT) -- Auto Encoding (AE)
   BERT is published by researchers at Google AI in 2018. It is regarded as a milestone in the NLP community by proposing a bidirectional Language model based on Transformer.
   - BERT is a notable example of AE and it uses the structure of the AutoEncoding model, which means that some tokens in the training data will be masked. BERT uses the Transformer Encoder as the structure of the pre-train model and addresses the unidirectional constraints by proposing new pre-training objectives: the Masked Language Model(MLM) and Next-sentence Prediction(NSP).
     - Masked Language Model
@@ -157,5 +157,48 @@ Unsupervised representation learning has been highly successful in NLP. Typicall
   - BERT performs fine-tuning by comparing the loss between the prediction and the true value. It cannot generate new vocabulary by itself, but can only choose from the vocabulary of the latter sentence.
   - As for the Question Answering Task (e.g.Reading comprehension, task(c)), BERT needs to find the correct answer in the latter sentence to answer the question raised by the previous sentence. For each token in the second sentence, BERT will use the output embeddings of the token to make two predictions, representing whether the token is the beginning or the end of the answer.
   - [Hands on Example](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
-- Generative Pre-Training(GPT-2)
+- Generative Pre-Training(GPT-2) -- Auto-regressive Language Model(AR) 
+  - GPT-2 is a unidirectional language model, such model structure is also called Auto-regressive language model.
+    ![image](https://user-images.githubusercontent.com/16402963/119354185-c3f6f480-bc71-11eb-9444-293bee7a2b9c.png)
+  - package: [AllenNLP](https://demo.allennlp.org/next-token-lm?text=AllenNLP%20is)
+  - Decoder-only Block:
+    ![image](https://user-images.githubusercontent.com/16402963/119354815-8181e780-bc72-11eb-912f-cafe7f44ec46.png)
+   - The framework of GPT-2 is the combination of pre-training based on Transformer Decoder and fine-tuning based on unsupervised downstream tasks.
+- XLNet -- Permutation Language Modeling(PLM)
+  - Two-Stream Self-Attention
+  - XLNet has built a bridge between language modeling and bidirectional models. Overall, XLNet is a generalized AR pre-training method that uses a permutation language modeling objective to combine the advantages of AR and AE methods 
+  - ![image](https://user-images.githubusercontent.com/16402963/119355476-51871400-bc73-11eb-82ca-67a1d51c3c8c.png)
+
+## Chapter 11 Resources and Benchmarks for NLP
+- Metrics
+  - Exact match (EM): The percentage of predictions that match any one of the answers exactly.
+  - (Macro-averaged) F1 score (F1): Each answer and prediction is tokenized into words. For every answer to a given question, the overlap between the prediction and each answer is calculated and the maximum F1 is chosen. 
+  - Perplexity: Perplexity is a measurement of how well a probability model predicts a sample. A low perplexity indicates the probability distribution is good at predicting the sample.
+  - BLEU: BLEU (Bilingual Evaluation Understudy) is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations.
+  - Accuracy: Accuracy is the ratio of number of correct predictions to the total number of input samples.
+  - Matthews correlation coefficient: The MCC is used as a measure of quality of binary classifications. It takes true and false positives and negatives into account and is regarded as a balanced measure which can be used even if the classes are imbalanced. 
+
+## Chapter 13 Natural Language Generation
+Machine learning systems can be differentiated into two types: Discriminative and Generative. While discriminative systems like classification, regression, clustering are the more well known type, it’s the Generative systems that hold greater promise of achieving Artificial General Intelligence.
+- Definition
+  - Text-to-Text
+    - Machine Translation : Automatically translating between various human languages
+    - Text Summarization : Summarizing a (big) text document into a shorter summary/abstract.
+  - Data-to-Text
+    - Image Captioning : Describe the image in a short sentence.
+    - Video Captioning : Generate captions that change with the video scenes.
+    - Business Intelligence : Creating text summaries of data from conventional databases (e.g SQL)
+  - Ideas-to-Text
+    - Poetry/Song Generation : Generating a song from a few keywords or mimicking the style of a certain artist.
+    - Fake News : Automatically generating news items that look credible but are not.
+  - Dialog Systems (Chatbots)
+    - Goal Oriented : Chatting with a computer system (agent) with a specific purpose (e.g. booking a flight)
+    - Open ended conversations : When the conversation with the agent is casual chit-chat but has the components of information, emotion and human like empathy.
+    - A chatbot touches upon all areas of NLP and NLG; for example in the above case, it would need QnA ability, text generation, summarization, information retrieval and classification, to name a few.
+    ![image](https://user-images.githubusercontent.com/16402963/119395532-a6418380-bca1-11eb-9dc6-7fa71482f423.png)
+
+
+
+
+ 
 
