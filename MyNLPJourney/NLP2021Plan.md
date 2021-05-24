@@ -10,15 +10,16 @@
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
-- sentiment analysis (2W) (June4): 
+- Twitter sentiment analysis (3W) (June14): 
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment)
-  - [Covid Article sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
-- sentiment analysis (opinion mining) (3W) (June25): 
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_Twitter)
-- sentiment analysis (continuous target) (1W) (June 30):
+- Document analysis (opinion mining) (3W) (July5): 
+  - [Covid Article sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
+  - Summarization
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
 - semantic search or NER(3W) (Aug4)
+- Text Generation (2W) (Aug18)
 - Auto ML (automation in NLP) (3W) (Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
