@@ -147,6 +147,15 @@ Unsupervised representation learning has been highly successful in NLP. Typicall
 - Bidirectional Encoder Representations from Transformers (BERT)
   BERT is published by researchers at Google AI in 2018. It is regarded as a milestone in the NLP community by proposing a bidirectional Language model based on Transformer.
   - BERT is a notable example of AE and it uses the structure of the AutoEncoding model, which means that some tokens in the training data will be masked. BERT uses the Transformer Encoder as the structure of the pre-train model and addresses the unidirectional constraints by proposing new pre-training objectives: the Masked Language Model(MLM) and Next-sentence Prediction(NSP).
+    - Masked Language Model
+      - 80% of the time: Replace the word with the [MASK] token, e.g., my dog is hairy  ⇒ my dog is [MASK]
+      - 10% of the time: Replace the word with a random word,e.g., my dog is hairy  ⇒my dog is apple.
+      - 10% of the time: Keep the word unchanged, e.g., my dog is hairy  ⇒ my dog is hairy. (Since we keep 10% of the masked token unchanged, if we do not add random noise, the model will be “lazy” in our training, the model will plagiarize current tokens, rather than learning)
+    - Next-sentence Prediction 
     ![image](https://user-images.githubusercontent.com/16402963/119280466-8f4a5500-bbff-11eb-8fe1-5253e6b0a279.png)
   - BERT limits the length of the entire sequence to no more than 512 tokens. Whether it is a one-sentence sequence or a sentence-pairs sequence, sequences exceeding 512 will be divided at intervals of 512 tokens. In practice, considering computational efficiency, BERT mostly divides the sequence with a length of 128 tokens.
-- 
+  - BERT performs fine-tuning by comparing the loss between the prediction and the true value. It cannot generate new vocabulary by itself, but can only choose from the vocabulary of the latter sentence.
+  - As for the Question Answering Task (e.g.Reading comprehension, task(c)), BERT needs to find the correct answer in the latter sentence to answer the question raised by the previous sentence. For each token in the second sentence, BERT will use the output embeddings of the token to make two predictions, representing whether the token is the beginning or the end of the answer.
+  - [Hands on Example](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
+- Generative Pre-Training(GPT-2)
+
