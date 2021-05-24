@@ -15,7 +15,7 @@
 - May23:
   - [Using Fastai pkg to apply ULMFiT for Text Classification](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83)
 - May24:
-  - [Why is removing stop words not always a good idea]https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214  
+  - [Why is removing stop words not always a good idea](https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214)
 - May25:
   - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
 
