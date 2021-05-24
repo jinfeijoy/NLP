@@ -11,7 +11,7 @@
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
 - Twitter sentiment analysis (3W) (June14): 
-  - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment)
+  - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_Twitter)
 - Document analysis (opinion mining) (3W) (July5): 
   - [Covid Article sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
