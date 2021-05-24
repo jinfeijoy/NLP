@@ -11,9 +11,11 @@
     - Decision tree based classification model has better performance on twitter comments analysis due to crowd-tagging, while DL has similar performance on twitter and facebook posting.
     - [fasttext](https://amitness.com/2020/06/fasttext-embeddings/): pretrained word vector(https://fasttext.cc/docs/en/crawl-vectors.html)
 - May22:
-  - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
-- May23:
   - [State of transfer learning in NLP](https://ruder.io/state-of-transfer-learning-in-nlp/)
+- May23:
   - [Using Fastai pkg to apply ULMFiT for Text Classification](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83)
 - May24:
   - [Why is removing stop words not always a good idea]https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214  
+- May25:
+  - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
+
