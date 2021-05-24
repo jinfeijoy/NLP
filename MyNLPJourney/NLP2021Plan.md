@@ -18,7 +18,7 @@
 - sentiment analysis (continuous target) (1W) (June 30):
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
-- semantic search (3W) (Aug4)
+- semantic search or NER(3W) (Aug4)
 - Auto ML (automation in NLP) (3W) (Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
