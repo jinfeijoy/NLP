@@ -50,15 +50,3 @@ Reference:
     - evaluating market campaigns: 
 
 
-Other interesting topics: 
-- use GANs to create arts: https://www.kaggle.com/c/gan-getting-started
-- Jane street market prediction: https://www.kaggle.com/c/jane-street-market-prediction/data
-- Discover how data is used for the public good (text): https://www.kaggle.com/c/coleridgeinitiative-show-us-the-data/overview
-- Paperswithcode: https://paperswithcode.com/task/opinion-mining/codeless
-
-To Do List:
-- Attention Model
-- Reinforcement Learning 
-- Transfer Learning
-- Transformer 
-- Google NLP interprate: https://github.com/pair-code/lit
