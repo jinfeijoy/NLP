@@ -10,16 +10,10 @@
   - [Opinion Mining From Social Media Short Texts: Does Collective Intelligence Beat Deep Learning?](https://www.frontiersin.org/articles/10.3389/frobt.2018.00138/full)
     - Decision tree based classification model has better performance on twitter comments analysis due to crowd-tagging, while DL has similar performance on twitter and facebook posting.
     - [fasttext](https://amitness.com/2020/06/fasttext-embeddings/): pretrained word vector(https://fasttext.cc/docs/en/crawl-vectors.html)
-- May22:
-  - [State of transfer learning in NLP](https://ruder.io/state-of-transfer-learning-in-nlp/)
-- May23:
-  - [Using Fastai pkg to apply ULMFiT for Text Classification](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83)
-- May24:
-  - [Why is removing stop words not always a good idea](https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214)
-- May25:
-  - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
-- May26:
-  - [Process Mining](https://towardsdatascience.com/what-is-process-mining-8afae06b5c33) 
-- May27:
-  - [Fastai with Transformer](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta) 
+- May22:[State of transfer learning in NLP](https://ruder.io/state-of-transfer-learning-in-nlp/)
+- May23:[Using Fastai pkg to apply ULMFiT for Text Classification](https://medium.com/technonerds/using-fastais-ulmfit-to-make-a-state-of-the-art-multi-label-text-classifier-bf54e2943e83)
+- May24:[Why is removing stop words not always a good idea](https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214)
+- May25:[10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
+- May26:[Process Mining](https://towardsdatascience.com/what-is-process-mining-8afae06b5c33) 
+- May27:[Fastai with Transformer](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta) 
 - May28: [load data in colab](https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92)
