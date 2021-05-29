@@ -22,3 +22,4 @@
   - [Process Mining](https://towardsdatascience.com/what-is-process-mining-8afae06b5c33) 
 - May27:
   - [Fastai with Transformer](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta) 
+- May28: [load data in colab](https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92)
