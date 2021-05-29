@@ -4,7 +4,9 @@
   - https://www.kaggle.com/kazanova/sentiment140
 - To do list:
   - sentiment analysis
-    - word embedding with RNN (May 26)
-    - contextual word embedding with fastai (May 29)
+    - word embedding with RNN (May 26) <Basic_twitter_sentiment_analysis>
+    - contextual word embedding with fastai (May 29) <Basic_twitter_sentiment_analysis_fastai>
     - fastai with transformer (June 1)
   - hashtag analysis (June 3)
+
+# Covid Twitter Sentiment Analysis (with fastai)

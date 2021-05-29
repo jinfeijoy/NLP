@@ -18,4 +18,7 @@
   - [Why is removing stop words not always a good idea](https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214)
 - May25:
   - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
-
+- May26:
+  - [Process Mining](https://towardsdatascience.com/what-is-process-mining-8afae06b5c33) 
+- May27:
+  - [Fastai with Transformer](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta) 
