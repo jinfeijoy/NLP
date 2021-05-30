@@ -1,7 +1,7 @@
 # Twitter Sentiment Analysis
 - Dataset can be found here: 
   - https://www.kaggle.com/maxjon/complete-tweet-sentiment-extraction-data
-  - https://www.kaggle.com/kazanova/sentiment140
+  - https://www.kaggle.com/kazanova/sentiment140 this dataset dont have neutrla sentiment
 - To do list:
   - sentiment analysis
     - word embedding with RNN (May 26) <Basic_twitter_sentiment_analysis>
