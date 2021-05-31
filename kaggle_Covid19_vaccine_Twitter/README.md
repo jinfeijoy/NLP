@@ -3,7 +3,7 @@
 - To do list:
   - pre-processing
   - vader
-  - multi-target
+  - fastai with transformer
   - subjective/objective
   - emotion analysis
   - opinion about different vaccines (aspect-based sentiment analysis)
