@@ -12,7 +12,7 @@
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
 - Twitter sentiment analysis (3W) (June14): 
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
-  - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_Twitter)
+  - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter)
 - Document analysis (opinion mining) (3W) (July5): 
   - [Covid Article sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
   - Summarization
