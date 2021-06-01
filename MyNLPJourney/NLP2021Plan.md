@@ -33,6 +33,10 @@ Reference:
 - Recommender System: 
   - https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
   - https://www.kaggle.com/rounakbanik/the-movies-dataset
+-  Kaggle Cord Research Engine:
+  -  https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+  - https://www.kaggle.com/danielwolffram/topic-modeling-finding-related-articles
+  - https://www.kaggle.com/dgunning/cord-research-engine-search-and-similarity
 - Sentiment analysis:
   - Youtube Trending data: https://www.kaggle.com/rsrishav/youtube-trending-video-dataset?select=CA_youtube_trending_data.csv
   - Basic Sentiment analysis data: https://www.kaggle.com/kazanova/sentiment140 
