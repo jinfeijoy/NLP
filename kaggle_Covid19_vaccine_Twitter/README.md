@@ -16,3 +16,7 @@
   - [NLP: Vaccine Sentiment & Tweet Generation [FastAI]](https://www.kaggle.com/joshuaswords/nlp-vaccine-sentiment-tweet-generation-fastai)
   - [Explore Vaccines Tweets](https://www.kaggle.com/gpreda/explore-vaccines-tweets)
   - [COVID-19 Vaccine Sentiment Analysis with fastai](https://www.kaggle.com/twhelan/covid-19-vaccine-sentiment-analysis-with-fastai)
+
+## Other dataset:
+- [World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
+- 
