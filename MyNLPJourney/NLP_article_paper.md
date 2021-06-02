@@ -19,3 +19,4 @@
 - May28: [load data in colab](https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92)
 - May31: [Unsupervised Data Augmentation for Consistency Training](https://arxiv.org/pdf/1904.12848.pdf)
 - June1: [Top NLP libraries to use 2020](https://towardsdatascience.com/top-nlp-libraries-to-use-2020-4f700cdb841f)
+- June2: [Tweet analytics using nlp](https://medium.com/analytics-vidhya/tweet-analytics-using-nlp-f83b9f7f7349)
