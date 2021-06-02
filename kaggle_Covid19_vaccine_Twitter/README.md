@@ -3,8 +3,8 @@
 - To do list:
   - pre-processing
   - data exploration and visualization
-  - fastai sentiment classification (pos/neg and emotion analysis)
-  - fastai with transformer
+  - fastai sentiment classification (pos/neg and emotion analysis based on LSTM)
+  - fastai with transformer (June 4 - June 6)
   - opinion about different vaccines (aspect-based sentiment analysis and emotion)
   - vaccines side effect
   - vaccine update report
