@@ -2,11 +2,12 @@
 - Dataset can be found here: https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets
 - To do list:
   - pre-processing
-  - fastai sentiment classification (pos/neg and emotion analysis)
-  - fastai with transformer
-  - opinion about different vaccines (aspect-based sentiment analysis)
-  - public sentiment of vaccines
+  - data exploration and visualization
+  - fastai sentiment classification (pos/neg and emotion analysis based on LSTM)
+  - fastai with transformer (June 4 - June 6)
+  - opinion about different vaccines (aspect-based sentiment analysis and emotion)
   - vaccines side effect
+  - vaccine update report
 - Reference
   - [Deep Learning For NLP: Zero To Transformers & BERT](https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert)
   - [Fastai with 🤗 Transformers (BERT, RoBERTa, ...)](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta)   
