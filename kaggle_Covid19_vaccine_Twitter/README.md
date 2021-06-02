@@ -17,4 +17,4 @@
 
 ## Other dataset:
 - [World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
-- [Geospatial Analysis on Covid-19]https://www.kaggle.com/eswarchandt/geospatial-analysis-on-covid-19-day-to-day-track
+- [Geospatial Analysis on Covid-19](https://www.kaggle.com/eswarchandt/geospatial-analysis-on-covid-19-day-to-day-track)
