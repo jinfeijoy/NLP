@@ -10,7 +10,7 @@
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
-- Twitter sentiment analysis (3W) (June14): 
+- Twitter sentiment analysis (3W) (June18): 
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter)
 - Document analysis (opinion mining) (3W) (July5): 
@@ -33,6 +33,10 @@ Reference:
 - Recommender System: 
   - https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
   - https://www.kaggle.com/rounakbanik/the-movies-dataset
+- Kaggle Cord Research Engine:
+  - https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+  - https://www.kaggle.com/danielwolffram/topic-modeling-finding-related-articles
+  - https://www.kaggle.com/dgunning/cord-research-engine-search-and-similarity
 - Sentiment analysis:
   - Youtube Trending data: https://www.kaggle.com/rsrishav/youtube-trending-video-dataset?select=CA_youtube_trending_data.csv
   - Basic Sentiment analysis data: https://www.kaggle.com/kazanova/sentiment140 
