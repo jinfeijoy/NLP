@@ -1,4 +1,4 @@
-# Covid19 Twitter Sentiment Analysis
+# Covid19 Vaccine Twitter Sentiment Analysis
 - Dataset can be found here: https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets
 - To do list:
   - pre-processing
