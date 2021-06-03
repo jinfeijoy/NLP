@@ -3,6 +3,7 @@
 - To do list:
   - pre-processing
   - data exploration and visualization
+  - flair: https://towardsdatascience.com/text-classification-with-state-of-the-art-nlp-library-flair-b541d7add21f
   - fastai sentiment classification (pos/neg and emotion analysis based on LSTM)
   - fastai with transformer (June 4 - June 6)
   - opinion about different vaccines (aspect-based sentiment analysis and emotion)
