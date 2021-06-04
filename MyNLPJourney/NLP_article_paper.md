@@ -20,3 +20,4 @@
 - May31: [Unsupervised Data Augmentation for Consistency Training](https://arxiv.org/pdf/1904.12848.pdf)
 - June1: [Top NLP libraries to use 2020](https://towardsdatascience.com/top-nlp-libraries-to-use-2020-4f700cdb841f)
 - June2: [Tweet analytics using nlp](https://medium.com/analytics-vidhya/tweet-analytics-using-nlp-f83b9f7f7349)
+- June3: [How AI fosters customer loyalty](https://atif-blogs.medium.com/how-artificial-intelligence-fosters-customer-loyalty-b6a6a2a3817)
