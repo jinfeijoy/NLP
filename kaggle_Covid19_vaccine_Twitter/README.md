@@ -12,6 +12,7 @@
 - Reference
   - [Deep Learning For NLP: Zero To Transformers & BERT](https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert)
   - [Fastai with 🤗 Transformers (BERT, RoBERTa, ...)](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta)   
+  - [fastai with roberta](https://www.kaggle.com/melissarajaram/roberta-fastai-huggingface-transformers/#data)
   - [COVID-19 Vaccine Sentiment Analysis with fastai](https://www.kaggle.com/twhelan/covid-19-vaccine-sentiment-analysis-with-fastai)
   - [NLP: Vaccine Sentiment & Tweet Generation [FastAI]](https://www.kaggle.com/joshuaswords/nlp-vaccine-sentiment-tweet-generation-fastai)
   - [Explore Vaccines Tweets](https://www.kaggle.com/gpreda/explore-vaccines-tweets)
