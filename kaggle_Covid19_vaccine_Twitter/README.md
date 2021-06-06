@@ -6,12 +6,15 @@
   - flair: https://towardsdatascience.com/text-classification-with-state-of-the-art-nlp-library-flair-b541d7add21f
   - fastai sentiment classification (pos/neg and emotion analysis based on LSTM)
   - fastai with transformer (June 4 - June 6)
+    - https://github.com/morganmcg1/ntentional/blob/master/_notebooks/2020-04-24-fasthugs_language_model.ipynb
+    - https://github.com/huggingface/blog/blob/master/how-to-train.md   
   - opinion about different vaccines (aspect-based sentiment analysis and emotion)
   - vaccines side effect
   - vaccine update report
 - Reference
   - [Deep Learning For NLP: Zero To Transformers & BERT](https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert)
   - [Fastai with 🤗 Transformers (BERT, RoBERTa, ...)](https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta)   
+  - [fastai with roberta](https://www.kaggle.com/melissarajaram/roberta-fastai-huggingface-transformers/#data)
   - [COVID-19 Vaccine Sentiment Analysis with fastai](https://www.kaggle.com/twhelan/covid-19-vaccine-sentiment-analysis-with-fastai)
   - [NLP: Vaccine Sentiment & Tweet Generation [FastAI]](https://www.kaggle.com/joshuaswords/nlp-vaccine-sentiment-tweet-generation-fastai)
   - [Explore Vaccines Tweets](https://www.kaggle.com/gpreda/explore-vaccines-tweets)
