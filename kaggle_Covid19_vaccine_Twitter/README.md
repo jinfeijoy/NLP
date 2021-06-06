@@ -6,6 +6,8 @@
   - flair: https://towardsdatascience.com/text-classification-with-state-of-the-art-nlp-library-flair-b541d7add21f
   - fastai sentiment classification (pos/neg and emotion analysis based on LSTM)
   - fastai with transformer (June 4 - June 6)
+    - https://github.com/morganmcg1/ntentional/blob/master/_notebooks/2020-04-24-fasthugs_language_model.ipynb
+    - https://github.com/huggingface/blog/blob/master/how-to-train.md   
   - opinion about different vaccines (aspect-based sentiment analysis and emotion)
   - vaccines side effect
   - vaccine update report
