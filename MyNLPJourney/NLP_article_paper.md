@@ -23,3 +23,5 @@
 - June3: [How AI fosters customer loyalty](https://atif-blogs.medium.com/how-artificial-intelligence-fosters-customer-loyalty-b6a6a2a3817)
 - June4: [fastai and deeplearning.ai](https://towardsdatascience.com/two-sides-of-the-same-coin-fast-ai-vs-deeplearning-ai-b67e9ec32133)
 - June5: [deploy fastai transformer using amazon](https://towardsdatascience.com/deploy-fastai-transformers-based-nlp-models-using-amazon-sagemaker-and-creating-api-using-aws-7ea39bbcc021)
+- June6: [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
+- June7: [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
