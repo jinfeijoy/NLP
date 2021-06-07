@@ -11,5 +11,5 @@ My NLP learning plan and references.
 * kaggle_Twitter_sentiment()
 * kaggle_Covid19_vaccine_Twitter()
 * Summary:
- * Traditional twitter sentiment analysis with same domain: RNN  
- * twitter sentiment analysis with different domain: transferlearning with fastai (AWD-LSTM) 
+  * Traditional twitter sentiment analysis with same domain: RNN  
+  * twitter sentiment analysis with different domain: transferlearning with fastai (AWD-LSTM) 
