@@ -24,3 +24,10 @@
 ## Other dataset:
 - [World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
 - [Geospatial Analysis on Covid-19](https://www.kaggle.com/eswarchandt/geospatial-analysis-on-covid-19-day-to-day-track)
+
+## Notebook:
+* Covid_twitter_vec_sentiment_analysis_google_colab: run AWD_LSTM in google colab to generate emotion and sentiment for covid vacc tweets
+* Covid19_vaccination_twitter_exploration: word cloud and topic modelling
+* Covid19_vaccination_twitter_analysis: did analysis on the output from google_colab file, visulization tools applied
+* Vaccination_tracker: track covid and covid vacc, visualization tools applied 
+* covid_twitter_vec_fastai1_with_transformer_googlecolab: applied pre-trained transformer to fastai, but performance is not good (0.38), need to do further investigation in future task

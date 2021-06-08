@@ -25,3 +25,5 @@
 - June5: [deploy fastai transformer using amazon](https://towardsdatascience.com/deploy-fastai-transformers-based-nlp-models-using-amazon-sagemaker-and-creating-api-using-aws-7ea39bbcc021)
 - June6: [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
 - June7: [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
+- June8: [Using Encoder-Decoder Model to Summarize Customer Reviews on Amazon](https://medium.com/@gangyang0912/using-encoder-decoder-model-to-summarize-customer-reviews-on-amazon-1ca8fd860b8e)
+- June9: explore word embedding, article analysis, content mining, difference between sentence and article
