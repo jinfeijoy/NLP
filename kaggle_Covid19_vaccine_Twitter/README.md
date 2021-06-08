@@ -7,7 +7,8 @@
   - fastai sentiment classification (pos/neg and emotion analysis based on LSTM)
   - fastai with transformer (June 4 - June 6)
     - https://github.com/morganmcg1/ntentional/blob/master/_notebooks/2020-04-24-fasthugs_language_model.ipynb
-    - https://github.com/huggingface/blog/blob/master/how-to-train.md   
+    - https://github.com/huggingface/blog/blob/master/how-to-train.md  
+    - after some exploration, with transformer like BERT, the accuracy is very low, around 0.4 for sentiment target (3 category), because the twitter is too short and some tweets are even not a full sentence, so it is not worth to use transformer when we analyze tweets. 
   - opinion about different vaccines (aspect-based sentiment analysis and emotion)
   - vaccines side effect
   - vaccine update report

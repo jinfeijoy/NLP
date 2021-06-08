@@ -16,6 +16,8 @@
 - Document analysis (opinion mining) (3W) (July5): 
   - [Covid Article sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
   - Summarization
+    - [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
+    - [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
 - cluster/topic modelling + elastic search (2W) (July14): real&fake job description
 - Accelerating the training of large language models (Jul31-Aug2)
 - semantic search or NER(3W) (Aug4)
