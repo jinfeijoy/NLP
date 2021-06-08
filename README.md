@@ -13,8 +13,8 @@ My NLP learning plan and references.
 * Summary:
   * Traditional twitter sentiment analysis with same domain: 
     * binary classification: RNN (0.74), LSTM (0.816)
-    * 3-class classification: RNN (.55), LSTM (.6807), AWD-LSTM (0.74) 
+    * 3-class classification: RNN (.55), LSTM (.6807), AWD-LSTM (0.74), transformer distilbert (0.38)
     * RNN and LSTM (basic) are easy to understand and fast
     * AWD-LSTM was run with fastai, more complicated and time consuming 
   * twitter sentiment analysis with different domain: transferlearning with fastai (AWD-LSTM) 
-    * tried other pre-trained model (BERT), the performance is not good, so for short sentence like tweets, if we have dataset can be trained and it won't take long time to train, it is better to train our own model with similar content/domain. For long sentence or article, we can discuss this later. 
+    * tried other pre-trained model (distilbert), the performance is not good and model might be wrong, so for short sentence like tweets, if we have dataset can be trained and it won't take long time to train, it is better to train our own model with similar content/domain. For long sentence or article, we can discuss this later. 
