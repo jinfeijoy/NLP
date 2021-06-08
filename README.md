@@ -4,15 +4,14 @@
 My NLP learning plan and references.
 
 ## Review Sentiment Analysis
-* kaggle_IMDB_Review()
-   * Kaggle IBDM Review task, 1st task to learn NLP basic. Create my own function to do text pre-processing. Tried traditional ML model and deeplearning word embedding. (2021May)
-
+* [kaggle_IMDB_Review](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) (2021May)
+   * Kaggle IBDM Review task, 1st task to learn NLP basic. Create my own function to do text pre-processing. Tried traditional ML model and deeplearning word embedding. 
+   * binary classification: RNN (0.74), LSTM (0.816)
 ## Twitter Sentiment Analysis
-* kaggle_Twitter_sentiment()
-* kaggle_Covid19_vaccine_Twitter()
+* [kaggle_Twitter_sentiment](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment)
+* [kaggle_Covid19_vaccine_Twitter](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter)
 * Summary:
   * Traditional twitter sentiment analysis with same domain: 
-    * binary classification: RNN (0.74), LSTM (0.816)
     * 3-class classification: RNN (.55), LSTM (.6807), AWD-LSTM (0.74) 
     * RNN and LSTM (basic) are easy to understand and fast
     * AWD-LSTM was run with fastai, more complicated and time consuming 
