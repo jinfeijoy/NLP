@@ -25,7 +25,8 @@
 - Auto ML (automation in NLP) (3W) (Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
-  - Chinewe weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
+  - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
+  - Chinese bilibili: https://www.kaggle.com/sherrytp/bilibili-cells-at-work
 - Market Inteligence Monitoring (1M) (Nov25): in the end to create a system to recommend news summary given topics
 - chat bot/customer assistant/intallegence communication (Dec25)
   - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
