@@ -13,11 +13,12 @@
 - Twitter sentiment analysis (3W) (June18): 
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter) (June 11)
-- Document analysis (opinion mining) (3W) (July5): 
+- Document analysis (opinion mining) (3W) (June12 - July5): 
   - [kaggle article analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis)
-- cluster/topic modelling + elastic search (2W) (July14): real&fake job description
+- cluster/topic modelling + elastic search (3W) (July5 - July21):
+  - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
 - Accelerating the training of large language models (Jul31-Aug2)
-- semantic search or NER(3W) (Aug4)
+- semantic search or NER(2W) (July22 - Aug4)
 - Text Generation (2W) (Aug18)
 - Auto ML (automation in NLP) (3W) (Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
