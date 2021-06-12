@@ -10,7 +10,7 @@
       - The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
-- Twitter sentiment analysis (3W) (June18): 
+- Twitter sentiment analysis (2W) (June11): 
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter) (June 11)
 - Document analysis (opinion mining) (3W) (June12 - July5): 
