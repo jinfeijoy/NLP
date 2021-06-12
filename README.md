@@ -19,3 +19,7 @@ My NLP learning plan and references.
     * AWD-LSTM was run with fastai, more complicated and time consuming 
   * twitter sentiment analysis with different domain: transferlearning with fastai (AWD-LSTM) 
     * tried other pre-trained model (distilbert), the performance is not good and model might be wrong, so for short sentence like tweets, if we have dataset can be trained and it won't take long time to train, it is better to train our own model with similar content/domain. For long sentence or article, we can discuss this later. 
+  * Vaccine Tracker: visualization tools
+ 
+ ## Article Analysis
+   * [kaggle Covid Article](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
