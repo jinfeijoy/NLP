@@ -15,3 +15,9 @@
 * Exploration: covid article sentiment
 * Sentiment analsis:stock news sentiment
 * Topic classification: research article classification
+
+
+## Key words:
+* Doc2Vect
+* Transformers
+* Text similarity
