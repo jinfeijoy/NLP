@@ -26,4 +26,7 @@
 - June6: [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
 - June7: [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
 - June8: [Using Encoder-Decoder Model to Summarize Customer Reviews on Amazon](https://medium.com/@gangyang0912/using-encoder-decoder-model-to-summarize-customer-reviews-on-amazon-1ca8fd860b8e)
-- June9: explore word embedding, article analysis, content mining, difference between sentence and article
+- June9: 
+- June10: [BERT for Text Classification with NO model training](https://towardsdatascience.com/text-classification-with-no-model-training-935fe0e42180)
+- June11: [Understanding Semantic Analysis Using Python — NLP](https://pub.towardsai.net/understanding-semantic-analysis-using-python-nlp-f48016422677)
+- June12: [Text Classification with NLP tfidf vs word2vec vs BERT](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794)
