@@ -14,4 +14,4 @@
 ## Tasks:
 * Exploration: covid article sentiment
 * Sentiment analsis:stock news sentiment
-* Article classification: research article classification
+* Topic classification: research article classification
