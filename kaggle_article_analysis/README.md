@@ -1,5 +1,5 @@
 ## Dataset:
-* [Covie Article Sentiment](https://www.kaggle.com/saurabhshahane/covid-19-online-articles)
+* [Covie Article Sentiment](https://www.kaggle.com/saurabhshahane/covid-19-online-articles) (June12 - June19)
     - contextual string embeddings
     - flair
     - ord embedding RNN
