@@ -22,7 +22,7 @@
 * Transformers
 * Text similarity
 
-## Notebooko
+## Notebook
 * document similarity:
     * document_similarity.ipynb
         * data process
