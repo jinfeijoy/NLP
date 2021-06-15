@@ -21,3 +21,14 @@
 * Doc2Vect
 * Transformers
 * Text similarity
+
+## Notebooko
+* document similarity:
+    * document_similarity.ipynb
+        * data process
+        * word cloud
+        * word frequent
+        * document similarity (tfidf, word2vec, transformers)   
+    * document_similarity_goclab.ipynb
+        * sentiment analysis
+        * Q&A    
