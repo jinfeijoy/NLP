@@ -32,6 +32,6 @@
 - June12: [Text Classification with NLP tfidf vs word2vec vs BERT](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794): SHAP for word embedding model
 - June13: [Headlines Articles Analysis and NLP](https://towardsdatascience.com/headlines-articles-analysis-and-nlp-4013a66dbac): animated plot for most cited words
 - June14: [Beginner’s Guide to Sentiment Analysis for Simplified Chinese using SnowNLP](https://towardsdatascience.com/beginners-guide-to-sentiment-analysis-for-simplified-chinese-using-snownlp-ce88a8407efb)
-- June15:
+- June15: [LSA Hidden Topic](https://towardsdatascience.com/latent-semantic-analysis-deduce-the-hidden-topic-from-the-document-f360e8c0614b)
 - June16:
 - June17:
