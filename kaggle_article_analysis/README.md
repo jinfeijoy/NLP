@@ -32,3 +32,8 @@
     * document_similarity_goclab.ipynb
         * sentiment analysis
         * Q&A    
+* Covie Article Sentiment:
+    * Covid19_article_wordEmbedding.ipynb
+        * TFIDF+XGBoost, glove+RNN/LSTM
+    * Covid19_article_wordEmbedding_gcolab.ipynb
+        * AWD_LSTM   
