@@ -1,9 +1,9 @@
 ## Dataset:
 * [Covie Article Sentiment](https://www.kaggle.com/saurabhshahane/covid-19-online-articles) (June12 - June19)
-    - contextual string embeddings
-    - flair
-    - word embedding RNN
+    - TFIDF + XGBoost
+    - word embedding RNN (tfidf+xgboost performance is better than word-embedding + rnn/lstm)
     - AWD_LSTM
+    - contextual word embedding
     - transformer
         - covid_article_fastai1_with_transformer_googlecolab.ipynb was first try, need to be modified to optimize memory usage.
  
