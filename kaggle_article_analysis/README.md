@@ -37,3 +37,6 @@
         * TFIDF+XGBoost, glove+RNN/LSTM
     * Covid19_article_wordEmbedding_gcolab.ipynb
         * AWD_LSTM   
+    * Covid19_article_sentiment_XLNet.ipynb
+        * XLNet 
+    * 
