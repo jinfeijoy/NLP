@@ -7,8 +7,8 @@
     - [transformer](https://github.com/jinfeijoy/NLP/blob/main/kaggle_article_analysis/Notebook/covid19_article_sentiment/Covid19_article_sentiment_transformers.ipynb): can use multiple different transformers, run "bert-base-cased" successfully on sample dataset; this code can be used as templete
         - covid_article_fastai1_with_transformer_googlecolab.ipynb was first try, need to be modified to optimize memory usage, failed
  
-* [Stock News Sentiment](https://www.kaggle.com/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company)
-* [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv)
+* [Stock News Sentiment](https://www.kaggle.com/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company) (June19 - June22)
+* [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June25)
 
 
 ## Tasks:
