@@ -3,7 +3,7 @@
     - TFIDF + XGBoost (0.85 accuracy)
     - word embedding RNN (tfidf+xgboost performance is better than word-embedding + rnn/lstm 0.76 accuracy)
     - AWD_LSTM (AWD_LSTM is better than tfidf+xgboost 0.883 accuracy)
-    - contextual word embedding
+    - XLNet: time consuming, run in sample dataset accuracy is 0.877 with Epoch2
     - transformer
         - covid_article_fastai1_with_transformer_googlecolab.ipynb was first try, need to be modified to optimize memory usage.
  
