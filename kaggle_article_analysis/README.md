@@ -4,7 +4,7 @@
     - word embedding RNN (tfidf+xgboost performance is better than word-embedding + rnn/lstm 0.76 accuracy)
     - AWD_LSTM (AWD_LSTM is better than tfidf+xgboost 0.883 accuracy)
     - XLNet: time consuming, run with val accuracy as 0.928 with Epoch1
-    - transformer: can use multiple different transformers, run "bert-base-cased" successfully on sample dataset
+    - [transformer](https://github.com/jinfeijoy/NLP/blob/main/kaggle_article_analysis/Notebook/covid19_article_sentiment/Covid19_article_sentiment_transformers.ipynb): can use multiple different transformers, run "bert-base-cased" successfully on sample dataset; this code can be used as templete
         - covid_article_fastai1_with_transformer_googlecolab.ipynb was first try, need to be modified to optimize memory usage, failed
  
 * [Stock News Sentiment](https://www.kaggle.com/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company)
