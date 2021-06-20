@@ -8,6 +8,8 @@
         - covid_article_fastai1_with_transformer_googlecolab.ipynb was first try, need to be modified to optimize memory usage, failed
  
 * [Stock News Sentiment](https://www.kaggle.com/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company) (June19 - June22)
+    * word embedding + RNN: validation accuracy: 0.68
+    * transformers bert: validation accuracy: 0.688 
 * [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June25)
 
 
