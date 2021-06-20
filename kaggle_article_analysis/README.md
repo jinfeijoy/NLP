@@ -43,3 +43,8 @@
         * XLNet 
     * Covid19_article_sentiment_transformers.ipynb
         * transformers 
+* Stock News Sentiment: 
+    * stock_news_sentiment_exploration.ipynb
+        * word embedding + RNN 
+    * stock_news_sentiment_transformers.ipynb
+        * transformers 
