@@ -10,7 +10,7 @@
 * [Stock News Sentiment](https://www.kaggle.com/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company) (June19 - June22)
     * word embedding + RNN: validation accuracy: 0.68
     * transformers bert: validation accuracy: 0.688 
-    * fastai AWD_LSTM
+    * fastai AWD_LSTM: validation accuracy: 0.65
 * [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June25)
 
 
