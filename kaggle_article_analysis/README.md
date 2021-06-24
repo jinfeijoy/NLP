@@ -8,10 +8,11 @@
         - covid_article_fastai1_with_transformer_googlecolab.ipynb was first try, need to be modified to optimize memory usage, failed
  
 * [Stock News Sentiment](https://www.kaggle.com/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company) (June19 - June22)
-    * word embedding + RNN: validation accuracy: 0.68
+    * word embedding + RNN: validation accuracy: 0.68 (3 categories)
     * transformers bert: validation accuracy: 0.688 
-    * fastai AWD_LSTM
+    * fastai AWD_LSTM: validation accuracy: 0.65
 * [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June25)
+    * word embedding + RNN: validation accuracy:  0.29 (6 categories)
 
 
 ## Tasks:
@@ -49,3 +50,8 @@
         * word embedding + RNN 
     * stock_news_sentiment_transformers.ipynb
         * transformers 
+    * stock_news_sentiment_AWD_LSTM.ipynb
+        * AWD_LSTM with fastai 
+* Research Article Classification:
+    * research_aricle_category.ipynv
+        * word embedding + RNN  
