@@ -41,3 +41,6 @@
 - June21: [Contextual word embeddings — Part2](https://medium.com/analytics-vidhya/contextual-word-embeddings-part2-bb4888310be1)
 - June22: [PyTorch ELMo, trained from scratch](https://towardsdatascience.com/pytorch-elmo-844d2391a0b2)
 - June23: [Richer Sentence Embeddings using Sentence-BERT — Part I](https://medium.com/genei-technology/richer-sentence-embeddings-using-sentence-bert-part-i-ce1d9e0b1343)
+- June27: [A gentle introduction to Doc2Vec](https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
+- June28: [DOC2VEC gensim tutorial](https://medium.com/@mishra.thedeepak/doc2vec-simple-implementation-example-df2afbbfbad5)
+- June29: [Multi-Class Text Classification with Doc2Vec & Logistic Regression](https://towardsdatascience.com/multi-class-text-classification-with-doc2vec-logistic-regression-9da9947b43f4)
