@@ -11,7 +11,7 @@
     * word embedding + RNN: validation accuracy: 0.68 (3 categories)
     * transformers bert: validation accuracy: 0.688 
     * fastai AWD_LSTM: validation accuracy: 0.65
-* [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June28)
+* [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June30)
     * word embedding + RNN: validation accuracy:  0.29 (6 categories)
 
 
