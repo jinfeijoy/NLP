@@ -14,7 +14,7 @@
 * [Research Article Classification](https://www.kaggle.com/blessondensil294/topic-modeling-for-research-articles?select=train.csv) (June23 - June30)
     * word embedding + RNN: validation accuracy:  0.29 (6 categories)
     * transformer bert-base-uncased: 0.75
-    * fastai AWD_LSTM:
+    * fastai AWD_LSTM: 0.72
 
 
 ## Tasks:
@@ -57,3 +57,5 @@
 * Research Article Classification:
     * research_aricle_category.ipynv
         * word embedding + RNN  
+    * research_aricle_category_transformer.ipynb
+    * research_aricle_category_fastai.ipynb
