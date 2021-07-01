@@ -1,7 +1,11 @@
 # Text Classification (1-5)
 * [Kaggle Real or Fake] https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction
-  * classification
-  * topic modellings (job category)
+  * data exploration + reports items (1/2)
+  * classification (2/3)
+    *  transformers
+    *  doc2vec + multinomialnb/xgboost/logit
+  * topic modellings (job category) (4)
+  * prepare reports (5)
 
 
 # Text Summary (6-13)
