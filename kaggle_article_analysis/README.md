@@ -60,3 +60,4 @@
         * word embedding + RNN  
     * research_aricle_category_transformer.ipynb
     * research_aricle_category_fastai.ipynb
+    * research_aricle_category_doc2vec.ipynb
