@@ -1,10 +1,10 @@
-# Text Classification
+# Text Classification (1-5)
 * [Kaggle Real or Fake] https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction
   * classification
   * topic modellings (job category)
 
 
-# Text Summary
+# Text Summary (6-13)
 * Topic Summary: [Covid News Sentiment](https://www.kaggle.com/databar/coronavirus-articles-marchapril-2020-with-sent)
     - Summarization
       - [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
@@ -12,5 +12,5 @@
     - topic modellings: news category
 
 
-# Document Generation
+# Document Generation (14-20)
 * [Taylor Swift Song Lyrics](https://www.kaggle.com/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums)
