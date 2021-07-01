@@ -15,6 +15,7 @@
     * word embedding + RNN: validation accuracy:  0.29 (6 categories)
     * transformer bert-base-uncased: 0.75 with Title and 0.79 with ABSTRACT
     * fastai AWD_LSTM: 0.72
+    * doc2vec: 0.5
 
 
 ## Tasks:
@@ -59,3 +60,4 @@
         * word embedding + RNN  
     * research_aricle_category_transformer.ipynb
     * research_aricle_category_fastai.ipynb
+    * research_aricle_category_doc2vec.ipynb
