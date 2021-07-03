@@ -4,7 +4,7 @@
   * classification (2)
     *  transformers: 0.99 accuracy in testing dataset with bert
     *  doc2vec + multinomialnb/xgboost/logit: 0.95 accuracy in testing dataset (binary target)
-  * topic modellings (job category) (3)
+  * topic modellings (job category) (4)
   * prepare reports (5)
 
 
