@@ -46,3 +46,6 @@
 - June29: [Multi-Class Text Classification with Doc2Vec & Logistic Regression](https://towardsdatascience.com/multi-class-text-classification-with-doc2vec-logistic-regression-9da9947b43f4)
 - June30: [Kaggle fake jobposting](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction/code)
 - July2: [Topic Modeling with LSA, PLSA, LDA & lda2Vec](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05)
+- July3: [Techniques for Content-based Recommender Systems](https://towardsdatascience.com/techniques-for-content-based-recommender-systems-64f812d2b5a0)
+- July4: [Introducing our Hybrid lda2vec Algorithm](https://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec/#topic=38&lambda=1&term=)
+- July5:
