@@ -11,8 +11,11 @@
 # Text Summary (6-13)
 * Topic Summary: [Covid News Sentiment](https://www.kaggle.com/databar/coronavirus-articles-marchapril-2020-with-sent)
     - Summarization
-      - [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
-      - [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
+      - Extraction 
+      - Abstraction
+      - Reference
+        -  [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
+        - [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
     - topic modellings: news category
 
 
