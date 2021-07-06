@@ -12,6 +12,8 @@
 * Topic Summary: [BBC news summary](https://www.kaggle.com/pariza/bbc-news-summary) 
     - Summarization 
       - Extraction (6-7)
+        - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization)
+        - [CNN](https://github.com/alexvlis/extractive-document-summarization) 
       - Abstraction (8-11)
       - Reference
         -  [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
