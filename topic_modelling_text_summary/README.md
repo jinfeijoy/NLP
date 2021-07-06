@@ -9,7 +9,7 @@
 
 
 # Text Summary (6-13)
-* Topic Summary: [Covid News Sentiment](https://www.kaggle.com/databar/coronavirus-articles-marchapril-2020-with-sent)
+* Topic Summary: [BBC news summary](https://www.kaggle.com/pariza/bbc-news-summary)
     - Summarization
       - Extraction 
       - Abstraction
