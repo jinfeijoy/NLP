@@ -48,4 +48,6 @@
 - July2: [Topic Modeling with LSA, PLSA, LDA & lda2Vec](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05)
 - July3: [Techniques for Content-based Recommender Systems](https://towardsdatascience.com/techniques-for-content-based-recommender-systems-64f812d2b5a0)
 - July4: [Introducing our Hybrid lda2vec Algorithm](https://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec/#topic=38&lambda=1&term=)
-- July5:
+- July5: [How to Summarize Text With Google’s T5](https://betterprogramming.pub/how-to-summarize-text-with-googles-t5-4dd1ae6238b6)
+- July6: [Automatic Text Summarization with Machine Learning — An overview](https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25)
+- July7: [Text Summarization on the Books of Harry Potter](https://towardsdatascience.com/text-summarization-on-the-books-of-harry-potter-5e9f5bf8ca6c)
