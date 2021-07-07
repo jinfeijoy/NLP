@@ -13,6 +13,7 @@
     - Summarization 
       - Extraction (6-7)
         - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization)
+          - package sumy 
         - [CNN](https://github.com/alexvlis/extractive-document-summarization) 
       - Abstraction (8-11)
       - Reference
