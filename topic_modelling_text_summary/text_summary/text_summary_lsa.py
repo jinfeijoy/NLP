@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[1]:
 
 
 import sys
@@ -13,6 +13,7 @@ import nlpbasic.docVectors as DocVector
 import nlpbasic.dataExploration as DataExploration
 import nlpbasic.lda as lda
 import nlpbasic.tfidf as tfidf
+import nlpbasic.text_summarize as txtsmr
 
 import model_explain.plot as meplot
 import model_explain.shap as meshap
@@ -40,9 +41,6 @@ import plotly.express as px
 import matplotlib
 import matplotlib.dates as mdates
 
-import nltk.data
-from numpy.linalg import svd as singular_value_decomposition
-import math
 
 text_path = 'C:\\Users\\luoyan011\\Desktop\\PersonalLearning\\GitHub\\NLP_data\\BBC_News_Summary\\BBC_News_Summary\\News_Articles'
 smr_path = 'C:\\Users\\luoyan011\\Desktop\\PersonalLearning\\GitHub\\NLP_data\\BBC_News_Summary\\BBC_News_Summary\\Summaries'
@@ -115,6 +113,9 @@ print_article(rawdata,0)
 # In[38]:
 
 
+import nltk.data
+from numpy.linalg import svd as singular_value_decomposition
+import math
 def lsa_text_extraction(textdoc, smooth=0.4, MIN_DIMENSIONS = 3, REDUCTION_RATIO = 1/1, topn = 5):
     """
     reduction_ratio: used to reduce computation cost: limit diagonal size, when it is 1 it keeps original diagonal size, when it is 0.4 only keep 0.4 * original diagonal size
@@ -175,21 +176,11 @@ test = lsa_text_extraction(rawdata.news[1], smooth = 0.4, topn = 6)
 test
 
 
-# In[36]:
+# In[4]:
 
 
-A = [[1, 4, 5, 12], 
-    [-5, 8, 9, 0],
-    [-6, 7, 11, 19]]
-u, sigma, v_matrix = singular_value_decomposition(A, full_matrices=False)
-A
-np.max(A, axis=0)
-
-
-# In[25]:
-
-
-tuple(s**2 if i < 2 else 0.0 for i, s in enumerate(sigma))
+test = txtsmr.lsa_text_extraction(rawdata.news[1], smooth = 0.4, topn = 6)
+test
 
 
 # ## Package sumy
