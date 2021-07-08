@@ -112,11 +112,14 @@ def print_article(data, index_id):
 print_article(rawdata,0)
 
 
-# In[15]:
+# In[38]:
 
 
 def lsa_text_extraction(textdoc, smooth=0.4, MIN_DIMENSIONS = 3, REDUCTION_RATIO = 1/1, topn = 5):
-
+    """
+    reduction_ratio: used to reduce computation cost: limit diagonal size, when it is 1 it keeps original diagonal size, when it is 0.4 only keep 0.4 * original diagonal size
+    smooth: is a factor appened to matrix normalization, small value might cause overfitting and large value might cause underfitting
+    """
     ''' document to sentences '''
     tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
     document = tokenizer.tokenize(textdoc)
@@ -168,8 +171,25 @@ def lsa_text_extraction(textdoc, smooth=0.4, MIN_DIMENSIONS = 3, REDUCTION_RATIO
     return output_sentence
     
 
-test = lsa_text_extraction(rawdata.news[1], topn = 6)
+test = lsa_text_extraction(rawdata.news[1], smooth = 0.4, topn = 6)
 test
+
+
+# In[36]:
+
+
+A = [[1, 4, 5, 12], 
+    [-5, 8, 9, 0],
+    [-6, 7, 11, 19]]
+u, sigma, v_matrix = singular_value_decomposition(A, full_matrices=False)
+A
+np.max(A, axis=0)
+
+
+# In[25]:
+
+
+tuple(s**2 if i < 2 else 0.0 for i, s in enumerate(sigma))
 
 
 # ## Package sumy
