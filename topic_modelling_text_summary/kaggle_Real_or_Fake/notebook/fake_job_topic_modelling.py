@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[10]:
 
 
 import sys
@@ -36,6 +36,7 @@ import re
 import pycountry
 import seaborn as sns
 import plotly.express as px
+from gensim.models.coherencemodel import CoherenceModel
 
 import matplotlib
 import matplotlib.dates as mdates
@@ -141,14 +142,15 @@ lda_allbow, bow_corpus, dictionary = lda.fit_lda(profile_tokens, num_topics = 10
 lda.lda_topics(lda_allbow)
 
 
-# In[8]:
+# In[24]:
 
 
 profile_tokens = list(raw_data['benefit_tokens'])
 print(tfidf.get_top_n_tfidf_bow(profile_tokens, top_n_tokens = 30))
 DataExploration.generate_word_cloud(profile_tokens)
-no_topics = 10
+no_topics = 5
 lda_allbow, bow_corpus, dictionary = lda.fit_lda(profile_tokens, num_topics = 10)
+print('Coherence',CoherenceModel(model=lda_allbow,texts=profile_tokens,dictionary=dictionary,coherence='c_v').get_coherence())
 lda.lda_topics(lda_allbow)
 
 
