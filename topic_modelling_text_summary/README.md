@@ -14,6 +14,7 @@
       - Extraction (6-8)
         - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization)
           - package sumy 
+          - [svd](https://www.youtube.com/watch?v=OIe48iAqh8E&list=LL&index=1)
         - [CNN](https://github.com/alexvlis/extractive-document-summarization) 
       - Abstraction (9-11)
       - Reference
