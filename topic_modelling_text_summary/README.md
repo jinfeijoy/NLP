@@ -10,11 +10,12 @@
 
 # Text Summary (6-13)
 * Topic Summary: [BBC news summary](https://www.kaggle.com/pariza/bbc-news-summary) 
-    - Summarization 
+    - Summarization: text_summary_overall
       - Extraction (6-9)
-        - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization)
+        - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization): text_summary_lsa
           - package sumy 
           - [svd](https://www.youtube.com/watch?v=OIe48iAqh8E&list=LL&index=1)
+        - word embedding + similarity: text_summary_glove_pagerank
         - [CNN](https://github.com/alexvlis/extractive-document-summarization) 
       - Abstraction (10-12)
       - Reference
