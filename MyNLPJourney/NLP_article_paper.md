@@ -51,5 +51,6 @@
 - July5: [How to Summarize Text With Google’s T5](https://betterprogramming.pub/how-to-summarize-text-with-googles-t5-4dd1ae6238b6)
 - July6: [Automatic Text Summarization with Machine Learning — An overview](https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25)
 - July7: [Text Summarization on the Books of Harry Potter](https://towardsdatascience.com/text-summarization-on-the-books-of-harry-potter-5e9f5bf8ca6c)
-- July8: [List of free sites/programs that are powered by GPT-3 and can be used now without a waiting list](https://www.reddit.com/r/artificial/comments/icvypl/list_of_free_sitesprograms_that_are_powered_by/)
-- July9: [时空大数据](https://gitee.com/ni1o1/pygeo-tutorial?_sasdk=d%3EDnE%40B%3FCqpo%3EBo%3A%3D%40o%40F%3E%40FrF%3EFBq%3AC%40D%40%3FCA%3A%3F%3DD%40C%3D%3D%3A%3EDnE%40B%3FCqppo%3FA)
+- July8: [Evaluate Topic Models: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0)
+- July9: [List of free sites/programs that are powered by GPT-3 and can be used now without a waiting list](https://www.reddit.com/r/artificial/comments/icvypl/list_of_free_sitesprograms_that_are_powered_by/)
+- July10: [时空大数据](https://gitee.com/ni1o1/pygeo-tutorial?_sasdk=d%3EDnE%40B%3FCqpo%3EBo%3A%3D%40o%40F%3E%40FrF%3EFBq%3AC%40D%40%3FCA%3A%3F%3DD%40C%3D%3D%3A%3EDnE%40B%3FCqppo%3FA)

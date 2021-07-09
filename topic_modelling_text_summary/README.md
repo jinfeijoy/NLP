@@ -10,17 +10,18 @@
 
 # Text Summary (6-13)
 * Topic Summary: [BBC news summary](https://www.kaggle.com/pariza/bbc-news-summary) 
-    - Summarization 
-      - Extraction (6-8)
-        - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization)
+    - Summarization: text_summary_overall.ipynb
+      - Extraction (6-9)
+        - [LSA](https://github.com/luisfredgs/LSA-Text-Summarization): text_summary_lsa.ipynb
           - package sumy 
           - [svd](https://www.youtube.com/watch?v=OIe48iAqh8E&list=LL&index=1)
+        - word embedding + similarity: text_summary_glove_pagerank.ipynb
         - [CNN](https://github.com/alexvlis/extractive-document-summarization) 
-      - Abstraction (9-11)
+      - Abstraction (10-12)
       - Reference
         -  [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
         - [Fine-tuning BART for Abstractive Text Summarisation with fastai2](https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13)
-    - topic modellings: news category (12-13)
+    - topic modellings: news category (13)
 
 
 # Document Generation (14-20)
