@@ -18,11 +18,11 @@
 - cluster/topic modelling + elastic search (3W) (July1 - July21):
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
 - Accelerating the training of large language models (Jul31-Aug2)
-- NER(2W) (July22 - Aug4)
-- Text Generation and Semantic Analysis (2W) (Aug5 - Aug19)
+- Text Generation and Semantic Analysis (2W) (July22 - Aug4)
   - intent classification
   - keyword extraction 
   - relationship extraction
+- NER(2W) (Aug5 - Aug19)
 - Auto ML (automation in NLP) (1W) (Aug20 - Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
