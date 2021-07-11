@@ -21,5 +21,16 @@ My NLP learning plan and references.
     * tried other pre-trained model (distilbert), the performance is not good and model might be wrong, so for short sentence like tweets, if we have dataset can be trained and it won't take long time to train, it is better to train our own model with similar content/domain. For long sentence or article, we can discuss this later. 
   * Vaccine Tracker: visualization tools
  
- ## Article Analysis
-   * [kaggle Covid Article](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_article)
+ ## Document analysis (opinion mining)
+   * [Kaggle Article Analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis)
+     * article sentiment
+     * article classification 
+
+## [Topic Modelling and Text Summarization](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary)
+   * Document Classification
+     * doc2vec
+     * transformers 
+   * Topic Modelling
+   * Text Summarization
+     * Text Extraction: tf + similarity; word embedding + text rank
+     * Text Abstraction: transformers T5
