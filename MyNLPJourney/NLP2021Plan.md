@@ -18,7 +18,7 @@
 - topic modelling / elastic search / text summarization(2W) (July1 - July13):
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
 - Text Generation and Semantic Analysis (3W) (July14 - Aug2)
-  - Text Generation (July14 - July24)
+  - [Text Generation](https://github.com/jinfeijoy/NLP/tree/main/text_generation) (July14 - July24)
   - Semantic Analysis (July25 - Aug2)
     - keyword extraction (July25 - July26)
     - intent classification (July27 - July28)
