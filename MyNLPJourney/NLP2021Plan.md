@@ -17,12 +17,15 @@
   - [kaggle article analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis)
 - topic modelling / elastic search / text summarization(2W) (July1 - July13):
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
-- Text Generation and Semantic Analysis (3W) (July14 - Aug1)
-  - intent classification
-  - keyword extraction 
-  - relationship extraction
-- Accelerating the training of large language models (Aug2-Aug4)
+- Text Generation and Semantic Analysis (3W) (July14 - Aug2)
+  - Text Generation (July14 - July24)
+  - Semantic Analysis (July25 - Aug2)
+    - keyword extraction (July25 - July26)
+    - intent classification (July27 - July28)
+    - relationship extraction (July29 - Aug2)
+- Accelerating the training of large language models (Aug3-Aug4)
 - NER(2W) (Aug5 - Aug19)
+   - Entity Extraction 
 - Auto ML (automation in NLP) (1W) (Aug20 - Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
