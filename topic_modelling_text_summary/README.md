@@ -22,7 +22,7 @@
       - Reference
         -  [PEGASUS: Google’s State of the Art Abstractive Summarization Model](https://towardsdatascience.com/pegasus-google-state-of-the-art-abstractive-summarization-model-627b1bbbc5ce) 
     - topic modellings: news category (12)
-      - 
+
 
 
 # Document Generation (14-20)
