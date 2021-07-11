@@ -15,9 +15,9 @@
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter) (June 11)
 - Document analysis (opinion mining) (3W) (June12 - July2): 
   - [kaggle article analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis)
-- cluster/topic modelling + elastic search (3W) (July1 - July13):
+- topic modelling / elastic search / text summarization(2W) (July1 - July13):
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
-- Text Generation and Semantic Analysis (2W) (July14 - Aug1)
+- Text Generation and Semantic Analysis (3W) (July14 - Aug1)
   - intent classification
   - keyword extraction 
   - relationship extraction
