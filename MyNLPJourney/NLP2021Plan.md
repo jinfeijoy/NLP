@@ -15,13 +15,13 @@
   - [Covid Vaccines tweet](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter) (June 11)
 - Document analysis (opinion mining) (3W) (June12 - July2): 
   - [kaggle article analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis)
-- cluster/topic modelling + elastic search (3W) (July1 - July21):
+- cluster/topic modelling + elastic search (3W) (July1 - July13):
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
-- Accelerating the training of large language models (Jul31-Aug2)
-- Text Generation and Semantic Analysis (2W) (July22 - Aug4)
+- Text Generation and Semantic Analysis (2W) (July14 - Aug1)
   - intent classification
   - keyword extraction 
   - relationship extraction
+- Accelerating the training of large language models (Aug2-Aug4)
 - NER(2W) (Aug5 - Aug19)
 - Auto ML (automation in NLP) (1W) (Aug20 - Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
