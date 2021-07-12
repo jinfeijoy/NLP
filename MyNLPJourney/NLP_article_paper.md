@@ -55,4 +55,5 @@
 - July9: [Extractive Document Summarization Based on Convolutional Neural Networks](https://github.com/alexvlis/extractive-document-summarization/blob/master/papers/CNN_Summarization___Final_Report.pdf)
 - July10: [List of free sites/programs that are powered by GPT-3 and can be used now without a waiting list](https://www.reddit.com/r/artificial/comments/icvypl/list_of_free_sitesprograms_that_are_powered_by/)
 - July11: [时空大数据](https://gitee.com/ni1o1/pygeo-tutorial?_sasdk=d%3EDnE%40B%3FCqpo%3EBo%3A%3D%40o%40F%3E%40FrF%3EFBq%3AC%40D%40%3FCA%3A%3F%3DD%40C%3D%3D%3A%3EDnE%40B%3FCqppo%3FA)
-- July12: [Controllable Neural Text Generation](https://lilianweng.github.io/lil-log/2021/01/02/controllable-neural-text-generation.html)
+- July12: [Topic Modelling and Clustering with Bert](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)
+- July13: [Controllable Neural Text Generation](https://lilianweng.github.io/lil-log/2021/01/02/controllable-neural-text-generation.html)
