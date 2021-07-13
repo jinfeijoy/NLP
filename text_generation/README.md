@@ -1,6 +1,7 @@
 # Document Generation (July14 - July24)
 * [Taylor Swift Song Lyrics](https://www.kaggle.com/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums)
-  * Reference: https://www.kaggle.com/modmari/taylor-swift-s-song-lyrics-generator 
+  * Reference1: https://www.kaggle.com/modmari/taylor-swift-s-song-lyrics-generator 
+  * Reference2: https://www.kaggle.com/dikshabhati2002/song-lyrics-generator
 
 
 ## Reference:
