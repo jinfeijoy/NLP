@@ -31,8 +31,9 @@
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
   - Chinese bilibili: https://www.kaggle.com/sherrytp/bilibili-cells-at-work
-- Market Inteligence Monitoring (1M) (Nov25): in the end to create a system to recommend news summary given topics
-- chat bot/customer assistant/intallegence communication (Dec25)
+- Chinese Text Generation (2W) (Nov10)
+- Market Inteligence Monitoring (3W) (Nov30): in the end to create a system to recommend news summary given topics
+- chat bot/customer assistant/intallegence communication (Dec30)
   - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
 
