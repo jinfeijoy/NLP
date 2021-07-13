@@ -25,5 +25,3 @@
 
 
 
-# Document Generation (14-20)
-* [Taylor Swift Song Lyrics](https://www.kaggle.com/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums)
