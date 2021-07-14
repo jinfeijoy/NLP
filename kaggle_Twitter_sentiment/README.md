@@ -22,3 +22,10 @@
 * Load_model_and_do_prediction: load model file from google colab and do prediction
 * Covid_Twitter_sentiment_analysis: word cloud and topic modelling
 * Covid_twitter_emotion_analysis: generate emotion prediction dataset by using AWD_LSTM in google colab
+
+# Other Python Package: tidytext
+The tidytext package contains 3 general purpose lexicons in the sentiments dataset.
+
+* AFINN - listing of english words rated for valence between -5 and +5
+* bing - listing of positive and negative sentiment
+* nrc - list of English words and their associations with 8 emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and 2 sentiments (negative and positive); binary
