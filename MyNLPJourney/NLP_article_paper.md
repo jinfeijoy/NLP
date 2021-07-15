@@ -57,3 +57,4 @@
 - July11: [时空大数据](https://gitee.com/ni1o1/pygeo-tutorial?_sasdk=d%3EDnE%40B%3FCqpo%3EBo%3A%3D%40o%40F%3E%40FrF%3EFBq%3AC%40D%40%3FCA%3A%3F%3DD%40C%3D%3D%3A%3EDnE%40B%3FCqppo%3FA)
 - July12: [Topic Modelling and Clustering with Bert](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)
 - July13: [Controllable Neural Text Generation](https://lilianweng.github.io/lil-log/2021/01/02/controllable-neural-text-generation.html)
+- July14: [Song Lyrics Generator](https://www.kaggle.com/dikshabhati2002/song-lyrics-generator)
