@@ -59,3 +59,4 @@
 - July13: [Controllable Neural Text Generation](https://lilianweng.github.io/lil-log/2021/01/02/controllable-neural-text-generation.html)
 - July14: [Song Lyrics Generator](https://www.kaggle.com/dikshabhati2002/song-lyrics-generator)
 - July15: [让AI写点金庸](https://leemeng.tw/how-to-generate-interesting-text-with-tensorflow2-and-tensorflow-js.html)
+- July16: [几乎最全的中文NLP资源库](https://blog.csdn.net/ningyanggege/article/details/106070272)
