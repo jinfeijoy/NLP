@@ -2,6 +2,9 @@
 * [Taylor Swift Song Lyrics](https://www.kaggle.com/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums)
   * Reference1: https://www.kaggle.com/modmari/taylor-swift-s-song-lyrics-generator 
   * Reference2: https://www.kaggle.com/dikshabhati2002/song-lyrics-generator
+  * Generation-from-scratch: taylor_swift_lyrics_generation_rnnlstm.py
+  * Generation-fastai-awdlstm: taylor_swift_lyrics_generation_fastai.py
+  * Generation-gpt2:
 
 
 ## Reference:
