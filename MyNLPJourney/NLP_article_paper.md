@@ -61,4 +61,4 @@
 - July15: [让AI写点金庸](https://leemeng.tw/how-to-generate-interesting-text-with-tensorflow2-and-tensorflow-js.html)
 - July16: [几乎最全的中文NLP资源库](https://blog.csdn.net/ningyanggege/article/details/106070272)
 - July17: [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
-- July18: [Faster than training from scratch — Fine-tuning the English GPT-2 in any language with Hugging Face and fastai v2 (practical case with Portuguese)](https://medium.com/@pierre_guillou/faster-than-training-from-scratch-fine-tuning-the-english-gpt-2-in-any-language-with-hugging-f2ec05c98787)
+- July18: [Faster than training from scratch — Fine-tuning the English GPT-2 in any language with Hugging Face and fastai v2](https://medium.com/@pierre_guillou/faster-than-training-from-scratch-fine-tuning-the-english-gpt-2-in-any-language-with-hugging-f2ec05c98787)
