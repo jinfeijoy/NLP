@@ -4,8 +4,9 @@
   * Reference2: https://www.kaggle.com/dikshabhati2002/song-lyrics-generator
   * Generation-from-scratch: taylor_swift_lyrics_generation_rnnlstm.py
   * Generation-fastai-awdlstm: taylor_swift_lyrics_generation_fastai.py
-  * Generation-gpt2:
-
+  * Generation-gpt2 (simple): taylor_swift_lyrics_generation_gpt2.py
+* GPT2-Chinese
+* GPT2-English
 
 ## Reference:
 * [Text Generation with Python and TensorFlow/Keras](https://stackabuse.com/text-generation-with-python-and-tensorflow-keras)
