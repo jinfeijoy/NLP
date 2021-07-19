@@ -62,3 +62,4 @@
 - July16: [几乎最全的中文NLP资源库](https://blog.csdn.net/ningyanggege/article/details/106070272)
 - July17: [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
 - July18: [Faster than training from scratch — Fine-tuning the English GPT-2 in any language with Hugging Face and fastai v2](https://medium.com/@pierre_guillou/faster-than-training-from-scratch-fine-tuning-the-english-gpt-2-in-any-language-with-hugging-f2ec05c98787)
+- July19: [直接理解GPT-2语言模型并生成金庸小说](https://leemeng.tw/gpt2-language-model-generate-chinese-jing-yong-novels.html)
