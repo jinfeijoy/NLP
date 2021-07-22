@@ -13,3 +13,4 @@
 * [Keyword Extraction: from TF-IDF to BERT](https://towardsdatascience.com/keyword-extraction-python-tf-idf-textrank-topicrank-yake-bert-7405d51cd839)
 * [Keyword Extraction process in Python with Natural Language Processing(NLP)](https://towardsdatascience.com/keyword-extraction-process-in-python-with-natural-language-processing-nlp-d769a9069d5c)
 * [Using keyword extraction for unsupervised text classification in NLP](https://towardsdatascience.com/using-keyword-extraction-for-unsupervised-text-classification-in-nlp-10433a1c0cf9)
+* [RAKE: Rapid Automatic Keyword Extraction Algorithm](https://medium.datadriveninvestor.com/rake-rapid-automatic-keyword-extraction-algorithm-f4ec17b2886c)
