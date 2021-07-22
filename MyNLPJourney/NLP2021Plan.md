@@ -19,7 +19,7 @@
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
 - Text Generation and Semantic Analysis (3W) (July14 - Aug2)
   - [Text Generation](https://github.com/jinfeijoy/NLP/tree/main/text_generation) (July14 - July24)
-  - Semantic Analysis (July22 - July31)
+  - [Semantic Analysis](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis) (July22 - July31)
     - keyword extraction (July22 - July24)
     - intent classification (July25 - July26)
     - relationship extraction (July27 - July31)
