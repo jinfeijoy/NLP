@@ -65,4 +65,6 @@
 - July19: [直接理解GPT-2语言模型并生成金庸小说](https://leemeng.tw/gpt2-language-model-generate-chinese-jing-yong-novels.html)
 - July22: [Keyword Extraction with BERT](https://towardsdatascience.com/keyword-extraction-with-bert-724efca412ea)
 - July23: [Understand TextRank for Keyword Extraction by Python](https://towardsdatascience.com/textrank-for-keyword-extraction-by-python-c0bae21bcec0)
-
+- July24: [Keyword Extraction: from TF-IDF to BERT](https://towardsdatascience.com/keyword-extraction-python-tf-idf-textrank-topicrank-yake-bert-7405d51cd839)
+- July25: [100 Days to RASA Chatbot](https://medium.com/analytics-vidhya/100-days-to-rasa-chatbot-2ff92f945c81)
+- July26: [Learn how to Build and Deploy a Chatbot in Minutes using Rasa](https://medium.com/analytics-vidhya/learn-how-to-build-and-deploy-a-chatbot-in-minutes-using-rasa-5787fe9cce19)
