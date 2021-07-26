@@ -25,7 +25,7 @@
     - relationship extraction (July27 - July31)
 - Accelerating the training of large language models (Aug1-Aug4)
 - NER(2W) (Aug5 - Aug19)
-   - Entity Extraction 
+   - [Entity Extraction](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
 - Auto ML (automation in NLP) (1W) (Aug20 - Aug25): 
 - content based recommend system (2M -- 1M E 1M C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
