@@ -33,4 +33,8 @@ My NLP learning plan and references.
    * Topic Modelling
    * Text Summarization
      * Text Extraction: tf + similarity; word embedding + text rank
-     * Text Abstraction: transformers T5
+     * Text Abstraction: transformers 
+   * Text Generation
+     * fastai, gpt2, lstmrnn
+
+## [Sementic Analysis](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis)
