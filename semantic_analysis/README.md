@@ -2,6 +2,7 @@
 
 * keyword extraction (July22 - July24)
 * intent classification (July25 - July26)
+   * [Chatbots: Intent Recognition Dataset](https://www.kaggle.com/elvinagammed/chatbots-intent-recognition-dataset) 
 * relationship extraction (July27 - July31)
 
 ## Reference
