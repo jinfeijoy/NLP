@@ -33,6 +33,8 @@
   - Chinese bilibili: https://www.kaggle.com/sherrytp/bilibili-cells-at-work
 - Chinese Text Generation (2W) (Nov10)
 - Market Inteligence Monitoring (3W) (Nov30): in the end to create a system to recommend news summary given topics
+  - Event Detection: get key word of event
+  - Summary Extraction: get summary report based on key words
 - chat bot/customer assistant/intallegence communication (Dec30)
   - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
@@ -63,3 +65,6 @@ Reference:
     - evaluating market campaigns: 
 
 
+Next Year Plan:
+- Kownledge Graph
+- Image Recognation 
