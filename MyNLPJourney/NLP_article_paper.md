@@ -68,3 +68,4 @@
 - July24: [Keyword Extraction: from TF-IDF to BERT](https://towardsdatascience.com/keyword-extraction-python-tf-idf-textrank-topicrank-yake-bert-7405d51cd839)
 - July25: [100 Days to RASA Chatbot](https://medium.com/analytics-vidhya/100-days-to-rasa-chatbot-2ff92f945c81)
 - July26: [Learn how to Build and Deploy a Chatbot in Minutes using Rasa](https://medium.com/analytics-vidhya/learn-how-to-build-and-deploy-a-chatbot-in-minutes-using-rasa-5787fe9cce19)
+- July27: [Build a Conversational Chatbot with Rasa Stack and Python— Rasa NLU](https://itsromiljain.medium.com/build-a-conversational-chatbot-with-rasa-stack-and-python-rasa-nlu-b79dfbe59491)
