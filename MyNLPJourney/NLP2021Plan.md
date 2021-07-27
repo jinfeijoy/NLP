@@ -25,7 +25,6 @@
 - Accelerating the training of large language models (July27-July28)
 - [Information Extraction](https://github.com/jinfeijoy/NLP/tree/main/information_extraction) (July29 - Aug26)
   - NER(2W) (July29 - Aug11)
-     - [Entity Extraction](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
   - Relationship Extraction(2W) (Aug12 - Aug25)
 - Auto ML (automation in NLP) (1W) (Aug25 - Aug29): 
 - content based recommend system (2M -- 3W E 5W C) (Oct25):
