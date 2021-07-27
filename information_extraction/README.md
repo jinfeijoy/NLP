@@ -1,5 +1,9 @@
+## Name Entity Recogination
 
-
+* Data Source:
+  * [Resume Entities for NER](https://www.kaggle.com/dataturks/resume-entities-for-ner)
+  * [Annotated Corpus for Named Entity Recognition](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus) 
+* Reference:
 
 ## Relationship Extraction
 
