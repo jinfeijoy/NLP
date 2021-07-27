@@ -19,20 +19,23 @@
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) 
 - Text Generation and Semantic Analysis (3W) (July14 - Aug2)
   - [Text Generation](https://github.com/jinfeijoy/NLP/tree/main/text_generation) (July14 - July24)
-  - [Semantic Analysis](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis) (July22 - July31)
+  - [Semantic Analysis](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis) (July22 - July26)
     - keyword extraction (July22 - July24)
     - intent classification (July25 - July26)
-    - relationship extraction (July27 - July31)
-- Accelerating the training of large language models (Aug1-Aug4)
-- NER(2W) (Aug5 - Aug19)
-   - [Entity Extraction](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
-- Auto ML (automation in NLP) (1W) (Aug20 - Aug25): 
-- content based recommend system (2M -- 1M E 1M C) (Oct25):
+- Accelerating the training of large language models (July27-July28)
+- Information Extraction (July29 - Aug26)
+  - NER(2W) (July29 - Aug11)
+     - [Entity Extraction](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
+  - Relationship Extraction(2W) (Aug12 - Aug25)
+- Auto ML (automation in NLP) (1W) (Aug25 - Aug29): 
+- content based recommend system (2M -- 3W E 5W C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
   - Chinese bilibili: https://www.kaggle.com/sherrytp/bilibili-cells-at-work
 - Chinese Text Generation (2W) (Nov10)
 - Market Inteligence Monitoring (3W) (Nov30): in the end to create a system to recommend news summary given topics
+  - Event Detection: get key word of event
+  - Summary Extraction: get summary report based on key words
 - chat bot/customer assistant/intallegence communication (Dec30)
   - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
@@ -63,3 +66,6 @@ Reference:
     - evaluating market campaigns: 
 
 
+Next Year Plan:
+- Kownledge Graph
+- Image Recognation 
