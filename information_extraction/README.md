@@ -4,6 +4,7 @@
   * [Resume Entities for NER](https://www.kaggle.com/dataturks/resume-entities-for-ner)
   * [Annotated Corpus for Named Entity Recognition](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus) 
 * Reference:
+  * [Medium Link](https://medium.com/tag/named-entity-recognition/top/all-time) 
 
 ## Relationship Extraction
 
