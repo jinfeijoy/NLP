@@ -5,6 +5,9 @@
   * [Annotated Corpus for Named Entity Recognition](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus) 
 * Reference:
   * [Medium Link](https://medium.com/tag/named-entity-recognition/top/all-time) 
+  * [Custom Named Entity Recognition Using spaCy](https://towardsdatascience.com/custom-named-entity-recognition-using-spacy-7140ebbb3718)
+  * [Named-Entity Recognition (NER) using Keras Bidirectional LSTM](https://towardsdatascience.com/named-entity-recognition-ner-using-keras-bidirectional-lstm-28cd3f301f54)
+  * [Training your own transformer-based NER tagger](https://danpaulius.medium.com/training-your-own-transformer-based-ner-tagger-e719ac1cbd8a)
 
 ## Relationship Extraction (Aug12 - Aug25)
 
