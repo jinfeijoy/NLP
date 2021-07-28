@@ -1,4 +1,4 @@
-## Name Entity Recogination
+## Name Entity Recogination (July28 - Aug11)
 
 * Data Source:
   * [Resume Entities for NER](https://www.kaggle.com/dataturks/resume-entities-for-ner)
@@ -6,7 +6,7 @@
 * Reference:
   * [Medium Link](https://medium.com/tag/named-entity-recognition/top/all-time) 
 
-## Relationship Extraction
+## Relationship Extraction (Aug12 - Aug25)
 
 * Reference:
   *  https://medium.com/@bramblexu/acl2020-information-extraction-related-paper-list-958b345716f5
