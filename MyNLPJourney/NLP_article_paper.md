@@ -70,3 +70,4 @@
 - July26: [Learn how to Build and Deploy a Chatbot in Minutes using Rasa](https://medium.com/analytics-vidhya/learn-how-to-build-and-deploy-a-chatbot-in-minutes-using-rasa-5787fe9cce19)
 - July27: [Build a Conversational Chatbot with Rasa Stack and Python— Rasa NLU](https://itsromiljain.medium.com/build-a-conversational-chatbot-with-rasa-stack-and-python-rasa-nlu-b79dfbe59491)
 - July28: [DeepSpeed: Accelerating large-scale model inference and training via system optimizations and compression](https://www.microsoft.com/en-us/research/blog/deepspeed-accelerating-large-scale-model-inference-and-training-via-system-optimizations-and-compression/)
+- July29: [Everything you need to know about Named Entity Recognition](https://umagunturi789.medium.com/everything-you-need-to-know-about-named-entity-recognition-2a136f38c08f)
