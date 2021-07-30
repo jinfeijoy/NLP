@@ -38,3 +38,6 @@ My NLP learning plan and references.
      * fastai, gpt2, lstmrnn
 
 ## [Sementic Analysis](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis)
+  * Keyword Extraction
+  * Intent Classification
+

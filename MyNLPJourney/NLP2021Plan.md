@@ -22,12 +22,16 @@
   - [Semantic Analysis](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis) (July22 - July26)
     - keyword extraction (July22 - July24)
     - intent classification (July25 - July26)
-- Accelerating the training of large language models (July27-July28)
-- Information Extraction (July29 - Aug26)
-  - NER(2W) (July29 - Aug11)
-     - [Entity Extraction](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
+- Accelerating the training of large language models (July27)
+  - [Determined: Deep Learning Training Platform](https://www.determined.ai/blog/faster-nlp-with-deep-learning-distributed-training): AWS
+  - [ONNX Runtime (ORT)](https://www.onnxruntime.ai/): Azure
+  - Google Cloud: GPU/TPU
+- [Information Extraction](https://github.com/jinfeijoy/NLP/tree/main/information_extraction) (July28 - Aug26)
+  - NER(2W) (July28 - Aug11)
   - Relationship Extraction(2W) (Aug12 - Aug25)
 - Auto ML (automation in NLP) (1W) (Aug25 - Aug29): 
+  - [What is automated machine learning (AutoML)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) 
+  - implement AutoML on Cloud
 - content based recommend system (2M -- 3W E 5W C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
