@@ -9,10 +9,11 @@
   * [Named-Entity Recognition (NER) using Keras Bidirectional LSTM](https://towardsdatascience.com/named-entity-recognition-ner-using-keras-bidirectional-lstm-28cd3f301f54)
   * [Training your own transformer-based NER tagger](https://danpaulius.medium.com/training-your-own-transformer-based-ner-tagger-e719ac1cbd8a)
 * Project:
-  * NLTK + SpaCy (July29-July31)
-  * CRF (Aug1 - Aug3)
-  * RNN LSTM (Aug4 - Aug7)
-  * BERT (Aug8 - Aug11)
+  * NLTK + SpaCy (July29-July30)
+  * CRF (July31 - Aug1)
+  * RNN LSTM (Aug2 - Aug5)
+  * BERT (Aug6 - Aug9)
+  * RealTaskCompetition (Aug10 - Aug11)
 
 ## Relationship Extraction (Aug12 - Aug25)
 
