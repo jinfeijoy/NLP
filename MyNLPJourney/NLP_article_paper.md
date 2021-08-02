@@ -74,3 +74,4 @@
 - July30: [Named Entity Recognition(NER) using Conditional Random Fields (CRFs)in NLP](https://medium.com/data-science-in-your-pocket/named-entity-recognition-ner-using-conditional-random-fields-in-nlp-3660df22e95c)
 - July31: [谈谈推荐系统中的用户行为序列建模](http://joyk.com/dig/detail/1614742378178834)
 - Aug1: [Named-Entity Recognition (NER) using Keras Bidirectional LSTM](https://towardsdatascience.com/named-entity-recognition-ner-using-keras-bidirectional-lstm-28cd3f301f54)
+- Aug2: [Training your own transformer-based NER tagger](https://danpaulius.medium.com/training-your-own-transformer-based-ner-tagger-e719ac1cbd8a)
