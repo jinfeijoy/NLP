@@ -72,4 +72,5 @@
 - July28: [DeepSpeed: Accelerating large-scale model inference and training via system optimizations and compression](https://www.microsoft.com/en-us/research/blog/deepspeed-accelerating-large-scale-model-inference-and-training-via-system-optimizations-and-compression/)
 - July29: [Everything you need to know about Named Entity Recognition](https://umagunturi789.medium.com/everything-you-need-to-know-about-named-entity-recognition-2a136f38c08f)
 - July30: [Named Entity Recognition(NER) using Conditional Random Fields (CRFs)in NLP](https://medium.com/data-science-in-your-pocket/named-entity-recognition-ner-using-conditional-random-fields-in-nlp-3660df22e95c)
-- July31: [谈谈推荐系统中的用户行为序列建模](joyk.com/dig/detail/1614742378178834)
+- July31: [谈谈推荐系统中的用户行为序列建模](http://joyk.com/dig/detail/1614742378178834)
+- Aug1: [Named-Entity Recognition (NER) using Keras Bidirectional LSTM](https://towardsdatascience.com/named-entity-recognition-ner-using-keras-bidirectional-lstm-28cd3f301f54)
