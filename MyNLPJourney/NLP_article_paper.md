@@ -76,5 +76,6 @@
 - Aug1: [Named-Entity Recognition (NER) using Keras Bidirectional LSTM](https://towardsdatascience.com/named-entity-recognition-ner-using-keras-bidirectional-lstm-28cd3f301f54)
 - Aug2: [Training your own transformer-based NER tagger](https://danpaulius.medium.com/training-your-own-transformer-based-ner-tagger-e719ac1cbd8a)
 - Aug3: [Easy Fine-Tuning of Transformers for Named-Entity Recognition](https://towardsdatascience.com/easy-fine-tuning-of-transformers-for-named-entity-recognition-d72f2b5340e3)
-- Aug4: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
+- Aug4:
 - Aug6: [Bi-LSTM](https://medium.com/@raghavaggarwal0089/bi-lstm-bc3d68da8bd0)
+- Aug7: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
