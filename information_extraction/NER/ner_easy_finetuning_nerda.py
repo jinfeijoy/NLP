@@ -17,8 +17,18 @@ from NERDA.datasets import get_conll_data, download_conll_data
 download_conll_data()
 training = get_conll_data('train')
 validation = get_conll_data('valid')
+tag_scheme = [
+'B-PER',
+'I-PER',
+'B-ORG',
+'I-ORG',
+'B-LOC',
+'I-LOC',
+'B-MISC',
+'I-MISC'
+]
 
-training.dtypes
+training.items()
 
 for key in training:
   print(key, '->', training[key])
@@ -42,7 +52,54 @@ class getsentence(object):
         self.grouped_tag = self.data.groupby("sentence").apply(tag_agg_func)
         self.tags = [t for t in self.grouped_tag]
         
-getter = getsentence(data)
+getter = getsentence(data.head(10000))
 sentences = getter.sentences
 tags = getter.tags
-tags[0]
+training = {'sentences': sentences, 'tags': tags}
+
+getter = getsentence(data.tail(3000))
+sentences = getter.sentences
+tags = getter.tags
+validation = {'sentences': sentences, 'tags': tags}
+
+data.head(5000).tag.unique()
+
+tag_scheme = ['B-geo', 'I-geo',
+              'B-gpe', 'I-gpe', 
+              'B-per', 'I-per',               
+              'B-org', 'I-org',               
+              'B-tim', 'I-tim',
+              'B-art', 'I-art',                
+              'B-nat', #'I-nat',
+              'B-eve', 'I-eve'              
+              ]
+
+
+
+transformer = 'bert-base-multilingual-uncased'
+
+# hyperparameters for network
+dropout = 0.1
+# hyperparameters for training
+training_hyperparameters = {
+'epochs' : 4,
+'warmup_steps' : 500,                                                   'train_batch_size': 13,                                         'learning_rate': 0.0001
+}
+
+from NERDA.models import NERDA
+model = NERDA(
+dataset_training = training,
+dataset_validation = validation,
+tag_scheme = tag_scheme, 
+tag_outside = 'O',
+transformer = transformer,
+dropout = dropout,
+hyperparameters = training_hyperparameters
+)
+
+model.train()
+
+import nltk
+nltk.download('punkt')
+
+model.predict_text('Prime Minister Jacinda Ardern has claimed that New Zealand had won a big battle over the spread of coronavirus. Her words came as the country begins to exit from its lockdown')
