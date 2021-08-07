@@ -78,4 +78,5 @@
 - Aug3: [Easy Fine-Tuning of Transformers for Named-Entity Recognition](https://towardsdatascience.com/easy-fine-tuning-of-transformers-for-named-entity-recognition-d72f2b5340e3)
 - Aug4: [Approaching a Named Entity Recognition (NER) Problem — End to End Case Study](https://medium.com/swlh/approaching-a-named-entity-recognition-ner-end-to-end-steps-685735b4a2f9)
 - Aug6: [Bi-LSTM](https://medium.com/@raghavaggarwal0089/bi-lstm-bc3d68da8bd0)
-- Aug7: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
+- Aug7: [AC5W1 Recurrent Neural Networks](https://www.youtube.com/watch?v=IV8--Y3evjw)
+- Aug8: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
