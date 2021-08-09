@@ -80,4 +80,5 @@
 - Aug6: [Bi-LSTM](https://medium.com/@raghavaggarwal0089/bi-lstm-bc3d68da8bd0)
 - Aug7: [AC5W1 Recurrent Neural Networks](https://www.youtube.com/watch?v=IV8--Y3evjw)
 - Aug8: [LSTM is dead. Long Live Transformers!](https://www.youtube.com/watch?v=S27pHKBEp30)
-- Aug9: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
+- Aug9: [Transformer Neural Netword](https://www.youtube.com/playlist?list=PLTl9hO2Oobd_bzXUpzKMKA3liq2kj6LfE)
+- Aug10: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
