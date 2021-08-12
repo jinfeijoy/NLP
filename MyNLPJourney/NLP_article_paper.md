@@ -83,3 +83,4 @@
 - Aug9: [Transformer Neural Netword](https://www.youtube.com/playlist?list=PLTl9hO2Oobd_bzXUpzKMKA3liq2kj6LfE)
 - Aug10: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
 - Aug11: [Relation Extraction | Stanford CS224U: Natural Language Understanding](https://www.youtube.com/watch?v=pO3Jsr31s_Q)
+- Aug12: [Python relation-extraction Libraries](https://pythonrepo.com/tag/relation-extraction)
