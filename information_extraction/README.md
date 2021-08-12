@@ -15,9 +15,10 @@
   * BERT (Aug6 - Aug9)
   * RealTaskCompetition (Aug10 - Aug11)
 
-## Relationship Extraction (Aug12 - Aug25)
+## Relationship Extraction (Aug11 - Aug24)（21）
 
 * Reference:
+  *  https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk/
   *  https://medium.com/@bramblexu/acl2020-information-extraction-related-paper-list-958b345716f5
   *  https://towardsdatascience.com/bert-s-for-relation-extraction-in-nlp-2c7c3ab487c4
   *  https://medium.com/southpigalle/simple-relation-extraction-with-a-bi-lstm-model-part-2-52086246c66
@@ -27,3 +28,11 @@
   *  https://towardsdatascience.com/day-108-of-nlp365-nlp-papers-summary-simple-bert-models-for-relation-extraction-and-semantic-98f7698184d7
   *  https://medium.com/analytics-vidhya/automatic-extraction-of-hypernym-relations-from-text-using-ml-4b04eb33097f
   *  https://towardsdatascience.com/nlp-deep-learning-for-relation-extraction-9c5d13110afa
+* Task:
+  * Kaggle:  https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk/notebook
+  * Stanza: https://paperswithcode.com/paper/stanza-a-python-natural-language-processing
+  * OpenNER: https://paperswithcode.com/paper/stanza-a-python-natural-language-processing
+  * Others: https://paperswithcode.com/task/relation-extraction
+* Attention
+* Transformer
+* BERT
