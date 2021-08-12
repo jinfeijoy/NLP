@@ -18,6 +18,7 @@
 ## Relationship Extraction (Aug11 - Aug24)（21）
 
 * Reference:
+  *  https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk/
   *  https://medium.com/@bramblexu/acl2020-information-extraction-related-paper-list-958b345716f5
   *  https://towardsdatascience.com/bert-s-for-relation-extraction-in-nlp-2c7c3ab487c4
   *  https://medium.com/southpigalle/simple-relation-extraction-with-a-bi-lstm-model-part-2-52086246c66
