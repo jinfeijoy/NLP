@@ -28,7 +28,11 @@
   *  https://towardsdatascience.com/day-108-of-nlp365-nlp-papers-summary-simple-bert-models-for-relation-extraction-and-semantic-98f7698184d7
   *  https://medium.com/analytics-vidhya/automatic-extraction-of-hypernym-relations-from-text-using-ml-4b04eb33097f
   *  https://towardsdatascience.com/nlp-deep-learning-for-relation-extraction-9c5d13110afa
-
+* Task:
+  * Kaggle:  https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk/notebook
+  * OpenNER: https://paperswithcode.com/paper/stanza-a-python-natural-language-processing
+  * Stanza: https://paperswithcode.com/paper/stanza-a-python-natural-language-processing
+  * Others: https://paperswithcode.com/task/relation-extraction
 * Attention
 * Transformer
 * BERT
