@@ -31,7 +31,7 @@
   - Relationship Extraction(2W) (Aug11 - Aug24)
 - Auto ML (automation in NLP) (1W) (Aug25 - Aug29): 
   - [What is automated machine learning (AutoML)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) 
-  - implement AutoML on Cloud
+  - implement AutoML on Cloud (ner, structure dataset)
 - content based recommend system (2M -- 3W E 5W C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
