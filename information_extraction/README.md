@@ -33,6 +33,7 @@
   * Stanza: https://paperswithcode.com/paper/stanza-a-python-natural-language-processing
   * OpenNER: https://paperswithcode.com/paper/stanza-a-python-natural-language-processing
   * Others: https://paperswithcode.com/task/relation-extraction
+  * python packages: https://pythonrepo.com/tag/relation-extraction
 * Attention
 * Transformer
 * BERT
