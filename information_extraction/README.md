@@ -15,7 +15,7 @@
   * BERT (Aug6 - Aug9)
   * RealTaskCompetition (Aug10 - Aug11)
 
-## Relationship Extraction (Aug11 - Aug24)（21）
+## Relationship Extraction (Aug11 - Aug21)（21）
 
 * Reference:
   *  https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk/
