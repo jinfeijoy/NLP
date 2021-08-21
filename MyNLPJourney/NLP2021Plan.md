@@ -28,8 +28,8 @@
   - Google Cloud: GPU/TPU
 - [Information Extraction](https://github.com/jinfeijoy/NLP/tree/main/information_extraction) (July28 - Aug26)
   - NER(2W) (July28 - Aug11)
-  - Relationship Extraction(2W) (Aug11 - Aug24)
-- Auto ML (automation in NLP) (1W) (Aug25 - Aug29): 
+  - Relationship Extraction(2W) (Aug11 - Aug21)
+- Auto ML (automation in NLP) (1W) (Aug22 - Aug29): 
   - [What is automated machine learning (AutoML)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) 
   - implement AutoML on Cloud (ner, structure dataset)
 - content based recommend system (2M -- 3W E 5W C) (Oct25):
