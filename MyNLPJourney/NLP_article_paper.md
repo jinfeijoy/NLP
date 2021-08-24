@@ -84,3 +84,7 @@
 - Aug10: [Unsupervised NER using BERT](https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a)
 - Aug11: [Relation Extraction | Stanford CS224U: Natural Language Understanding](https://www.youtube.com/watch?v=pO3Jsr31s_Q)
 - Aug12: [Python relation-extraction Libraries](https://pythonrepo.com/tag/relation-extraction)
+- Aug22: [Six Levels of Auto ML](https://medium.com/@tunguz/six-levels-of-auto-ml-a277aa1f0f38)
+- Aug23: [Automated Machine Learning — An Overview](https://medium.com/thinkgradient/automated-machine-learning-an-overview-5a3595d5c4b5)
+- Aug24: [Comparing Machine Learning as a Service: Amazon, Microsoft Azure, Google Cloud AI, IBM Watson
+](https://www.altexsoft.com/blog/datascience/comparing-machine-learning-as-a-service-amazon-microsoft-azure-google-cloud-ai-ibm-watson/)

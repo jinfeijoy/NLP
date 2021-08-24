@@ -30,8 +30,10 @@
   - NER(2W) (July28 - Aug11)
   - Relationship Extraction(2W) (Aug11 - Aug21)
 - Auto ML (automation in NLP) (1W) (Aug24 - Aug29): 
+  - [Automl In Towards Data Science](https://towardsdatascience.com/tagged/automl)
   - [What is automated machine learning (AutoML)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) 
-  - implement AutoML on Cloud (ner, structure dataset)
+  - implement AutoML on Cloud (ner, structure dataset) (24-26)
+  - H2O (27-29)
 - content based recommend system (2M -- 3W E 5W C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
