@@ -88,3 +88,5 @@
 - Aug23: [Automated Machine Learning — An Overview](https://medium.com/thinkgradient/automated-machine-learning-an-overview-5a3595d5c4b5)
 - Aug24: [Comparing Machine Learning as a Service: Amazon, Microsoft Azure, Google Cloud AI, IBM Watson
 ](https://www.altexsoft.com/blog/datascience/comparing-machine-learning-as-a-service-amazon-microsoft-azure-google-cloud-ai-ibm-watson/)
+- Aug25: [An Introduction to AWS Comprehend Part 2 of Auto-ML on AWS: Simplifying NLP](https://towardsaws.com/an-introduction-to-aws-comprehend-239da9c48bec)
+- Aug26: [Sentiment Analysis in Five Steps using AutoML](https://medium.com/analytics-vidhya/sentiment-analysis-in-five-steps-using-automl-d16feeab2a36)
