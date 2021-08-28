@@ -33,7 +33,7 @@
   - [Automl In Towards Data Science](https://towardsdatascience.com/tagged/automl)
   - [What is automated machine learning (AutoML)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) 
   - implement AutoML on Cloud (ner, structure dataset) (24-26)
-  - H2O (27-29)
+  - H2O (28-31)
 - content based recommend system (2M -- 3W E 5W C) (Oct25):
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
