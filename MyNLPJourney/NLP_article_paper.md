@@ -93,3 +93,4 @@
 - Aug30: [Applying AutoML (Part-4) using H2O](https://insaid.medium.com/applying-automl-part-4-using-h2o-4814bed74efe)
 - Aug31: [Deep Learning based Recommender System: A Survey and New Perspectives
 ](https://arxiv.org/pdf/1707.07435.pdf)
+- Sep1: [python interesting plot](https://www.python-graph-gallery.com/all-charts/)
