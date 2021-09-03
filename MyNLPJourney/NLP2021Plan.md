@@ -34,7 +34,7 @@
   - [What is automated machine learning (AutoML)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) 
   - implement AutoML on Cloud (ner, structure dataset) (24-26)
   - H2O (28-30)
-- content based recommend system (2M -- 3W E 5W C) (Oct25):
+- [Content based recommend system](https://github.com/jinfeijoy/NLP/tree/main/recomend_system) (2M -- 3W E 5W C) (Oct25):
   - [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/pdf/1707.07435.pdf)
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
