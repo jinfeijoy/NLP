@@ -12,3 +12,6 @@
   * medium:
     * https://medium.com/search?q=content%20recomend%20system
   * kaggle task planning
+    * https://www.kaggle.com/marlesson/myanimelist-dataset-animes-profiles-reviews
+    * https://www.kaggle.com/andradaolteanu/work-w-audio-data-visualise-classify-recommend
+    * https://www.kaggle.com/achintyatripathi/content-based-news-recomender-system 
