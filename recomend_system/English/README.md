@@ -7,7 +7,7 @@
   * 11 - 13: [Recommender Systems: Evaluation and Metrics](https://www.coursera.org/learn/recommender-metrics/home/welcome)
   * 14 - 22: [Matrix Factorization and Advanced Techniques](https://www.coursera.org/learn/matrix-factorization/home/welcome)
   * 23 - 25: [Google Recomendation System](https://www.youtube.com/channel/UCQgBXHmV9BTQEIobCFt7TSQ/videos)
-  * Other Daily: [Matrix Factorization and Advanced Techniques](https://www.coursera.org/learn/matrix-factorization/home/welcome)
+  
 * Sep26 - Sep30: (Task)
   * medium:
     * https://medium.com/search?q=content%20recomend%20system
