@@ -6,7 +6,7 @@
   * 7 - 9: [Nearest Neighbor Collaborative Filtering](https://www.coursera.org/learn/collaborative-filtering/home/welcome)
   * 11 - 13: [Recommender Systems: Evaluation and Metrics](https://www.coursera.org/learn/recommender-metrics/home/welcome)
   * 14 - 22: [Matrix Factorization and Advanced Techniques](https://www.coursera.org/learn/matrix-factorization/home/welcome)
-  * 23 - 25: [Google Recomendation System](https://www.youtube.com/channel/UCQgBXHmV9BTQEIobCFt7TSQ/videos)
+  * 23 - 30: [Google Recomendation System](https://www.youtube.com/channel/UCQgBXHmV9BTQEIobCFt7TSQ/videos)
   
 * Sep26 - Sep30: (Task)
   * medium:
