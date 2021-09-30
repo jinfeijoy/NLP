@@ -8,7 +8,7 @@
   * 14 - 22: [Matrix Factorization and Advanced Techniques](https://www.coursera.org/learn/matrix-factorization/home/welcome)
   * 23 - 30: [Google Recomendation System](https://www.youtube.com/channel/UCQgBXHmV9BTQEIobCFt7TSQ/videos)
   
-* Sep26 - Sep30: (Task)
+* Sep30 - Oct7: (Task)
   * medium:
     * https://medium.com/search?q=content%20recomend%20system
   * kaggle task planning
