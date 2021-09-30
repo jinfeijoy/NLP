@@ -19,3 +19,5 @@
 * Dataset:
   * [MovieLens](https://grouplens.org/datasets/movielens/) 
   * [Million Song Dataset](http://millionsongdataset.com/)
+  * [Data Science for Good: CareerVillage.org](https://www.kaggle.com/c/data-science-for-good-careervillage/data?select=answers.csv)
+  * [goodbooks-10k](https://www.kaggle.com/zygmunt/goodbooks-10k)
