@@ -97,3 +97,5 @@
 - Sep3: [推荐系统从入门到接着入门](https://zhuanlan.zhihu.com/p/27502172)
 - Sep5: [23张图，带你入门推荐系统](http://www.woshipm.com/pd/4223123.html)
 - Sep10: [The Algorithm Worth Billions: How YouTube’s Addictive Video Recommender Works](https://faun.pub/the-algorithm-worth-billions-how-youtubes-addictive-video-recommender-works-d75646dac6a3)
+- Sep30: [How companies use collaborative filtering to learn exactly what you want](https://medium.com/free-code-camp/how-companies-use-collaborative-filtering-to-learn-exactly-what-you-want-a3fc58e22ad9)
+- Oct1: [Learn about collaborative filtering and weighted alternating least square with tensorflow](https://fairyonice.github.io/Learn-about-collaborative-filtering-and-weighted-alternating-least-square-with-tensorflow.html)
