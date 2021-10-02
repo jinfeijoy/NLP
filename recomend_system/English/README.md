@@ -15,6 +15,10 @@
     * https://www.kaggle.com/marlesson/myanimelist-dataset-animes-profiles-reviews
     * https://www.kaggle.com/andradaolteanu/work-w-audio-data-visualise-classify-recommend
     * https://www.kaggle.com/achintyatripathi/content-based-news-recomender-system 
+* good-book task:
+  * [Collaborative filtering and weighted alternating least square (latent factors)](https://fairyonice.github.io/Learn-about-collaborative-filtering-and-weighted-alternating-least-square-with-tensorflow.html) (Sep30 - Oct2)
+  * Create dataset with collaborative filtering factors, content factors and knowledge factors (Oct3 - Oct4)
+  * Fit DL and do prediction (Oct5 - Oct7)
 
 * Dataset:
   * [MovieLens](https://grouplens.org/datasets/movielens/) 
