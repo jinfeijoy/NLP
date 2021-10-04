@@ -99,3 +99,4 @@
 - Sep10: [The Algorithm Worth Billions: How YouTube’s Addictive Video Recommender Works](https://faun.pub/the-algorithm-worth-billions-how-youtubes-addictive-video-recommender-works-d75646dac6a3)
 - Sep30: [How companies use collaborative filtering to learn exactly what you want](https://medium.com/free-code-camp/how-companies-use-collaborative-filtering-to-learn-exactly-what-you-want-a3fc58e22ad9)
 - Oct1: [Learn about collaborative filtering and weighted alternating least square with tensorflow](https://fairyonice.github.io/Learn-about-collaborative-filtering-and-weighted-alternating-least-square-with-tensorflow.html)
+- Oct2: [Recommendation System Series Part 4: The 7 Variants of Matrix Factorization For Collaborative Filtering](https://towardsdatascience.com/recsys-series-part-4-the-7-variants-of-matrix-factorization-for-collaborative-filtering-368754e4fab5)
