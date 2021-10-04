@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[145]:
+# In[1]:
 
 
 import pandas as pd
@@ -32,7 +32,7 @@ pysqldf = lambda q: sqldf(q, globals())
 # 
 # [Learn about collaborative filtering and weighted alternatng least square with tensorflow](https://fairyonice.github.io/Learn-about-collaborative-filtering-and-weighted-alternating-least-square-with-tensorflow.html)
 
-# In[129]:
+# In[2]:
 
 
 book_tags = pd.read_csv(os.path.join(root_path, "book_tags.csv"))
@@ -46,7 +46,7 @@ user_latent = pd.read_csv(os.path.join(root_path, 'user_latent.csv'))
 item_latent = pd.read_csv(os.path.join(root_path, 'item_latent.csv'))
 
 
-# In[130]:
+# In[3]:
 
 
 def change_id_from_0(data, column):
@@ -70,7 +70,7 @@ item_latent.columns = ['id','i_latent_1','i_latent_2','i_latent_3','i_latent_4',
                        'i_latent_13','i_latent_14','i_latent_15']
 
 
-# In[131]:
+# In[4]:
 
 
 print('--------------book_tags--------------')
@@ -89,7 +89,7 @@ print('--------------item_latent--------------')
 display(item_latent.head(3))
 
 
-# In[132]:
+# In[5]:
 
 
 def count_N_unique(data, column):
@@ -101,7 +101,7 @@ for i in books.columns:
     count_N_unique(books, i)
 
 
-# In[142]:
+# In[6]:
 
 
 i = 7
@@ -109,7 +109,7 @@ print(ratings[ratings.user_id == i])
 print(to_read[to_read.user_id == i])
 
 
-# In[17]:
+# In[7]:
 
 
 query = """
@@ -124,7 +124,7 @@ test = pysqldf(query)
 test.head(3)
 
 
-# In[18]:
+# In[8]:
 
 
 stats = ratings.describe()
@@ -133,7 +133,7 @@ stats
 
 # ## Content-Based Recomender System
 
-# In[161]:
+# In[9]:
 
 
 content_data = books[['id','authors','original_title','language_code','average_rating']]
@@ -142,7 +142,7 @@ content_data = content_data.dropna()
 content_data.head(3)
 
 
-# In[177]:
+# In[10]:
 
 
 processed_doc = TextProcessing.pipeline(content_data['doc'].to_list(), 
@@ -165,17 +165,17 @@ processed_doc = TextProcessing.pipeline(content_data['doc'].to_list(),
 dataExploration.generate_word_cloud(processed_doc)
 
 
-# In[185]:
+# In[11]:
 
 
 tfidf_value_data = tfidf.get_tfidf_dataframe(processed_doc,no_below =2, no_above = 1)
 tfidf_value_data.head(10)
 
 
-# In[215]:
+# In[12]:
 
 
-base_book = 'The Secret'
+base_book = 'To Kill a Mockingbird'
 base_book_detail = content_data[content_data.original_title == base_book]
 bookid = base_book_detail['id'].values
 filter_data = tfidf_value_data[tfidf_value_data.doc_id.isin(bookid)]
@@ -188,12 +188,4 @@ print('Base Book Details')
 display(base_book_detail)
 print('Recomended Book Details')
 display(recommendation)
-
-
-# ## Collaborative Filtering
-
-# In[ ]:
-
-
-
 
