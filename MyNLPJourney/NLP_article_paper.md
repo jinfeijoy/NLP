@@ -100,3 +100,4 @@
 - Sep30: [How companies use collaborative filtering to learn exactly what you want](https://medium.com/free-code-camp/how-companies-use-collaborative-filtering-to-learn-exactly-what-you-want-a3fc58e22ad9)
 - Oct1: [Learn about collaborative filtering and weighted alternating least square with tensorflow](https://fairyonice.github.io/Learn-about-collaborative-filtering-and-weighted-alternating-least-square-with-tensorflow.html)
 - Oct2: [Recommendation System Series Part 4: The 7 Variants of Matrix Factorization For Collaborative Filtering](https://towardsdatascience.com/recsys-series-part-4-the-7-variants-of-matrix-factorization-for-collaborative-filtering-368754e4fab5)
+- Oct3: [Recommender Systems with Python— Part II: Collaborative Filtering (K-Nearest Neighbors Algorithm)](https://heartbeat.comet.ml/recommender-systems-with-python-part-ii-collaborative-filtering-k-nearest-neighbors-algorithm-c8dcd5fd89b2)
