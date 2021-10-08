@@ -7,6 +7,8 @@
   * 11 - 13: [Recommender Systems: Evaluation and Metrics](https://www.coursera.org/learn/recommender-metrics/home/welcome)
   * 14 - 22: [Matrix Factorization and Advanced Techniques](https://www.coursera.org/learn/matrix-factorization/home/welcome)
   * 23 - 30: [Google Recomendation System](https://www.youtube.com/channel/UCQgBXHmV9BTQEIobCFt7TSQ/videos)
+    * [Tensorflow Train Model Referece](https://www.tensorflow.org/tutorials/structured_data/feature_columns)
+    * [Tensorflow Feature Column](https://developers.googleblog.com/2017/11/introducing-tensorflow-feature-columns.html) 
   
 * Sep30 - Oct7: (Task)
   * medium:
