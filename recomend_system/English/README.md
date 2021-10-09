@@ -22,7 +22,7 @@
   * Fit Content-based recommendation System (Oct3) (goodbooks_20k_content_based_recomender)
   * Fit Collaborative Filter Recommendation System (Oct4) (Both Latent factor methods and Neighborhood methods) (goodbook_latent_factor_collaborative/goodbooks_nearest_neighbor_collaborative)
   * Create dataset with collaborative filtering factors, content factors and knowledge factors (Oct5) (goodbooks_hybrid_recommender)
-  * Fit DL and do prediction (Oct6 - Oct7) (goodbooks_hybrid_recommender **Not Finished -- Need further investigation in the future**)
+  * Fit DL and do prediction (Oct6 - Oct7) (goodbooks_hybrid_recommender) **Not Finished -- Need further investigation in the future**
 
 * Dataset:
   * [MovieLens](https://grouplens.org/datasets/movielens/) 
