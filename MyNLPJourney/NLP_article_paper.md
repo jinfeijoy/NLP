@@ -103,3 +103,6 @@
 - Oct3: [Recommender Systems with Python— Part II: Collaborative Filtering (K-Nearest Neighbors Algorithm)](https://heartbeat.comet.ml/recommender-systems-with-python-part-ii-collaborative-filtering-k-nearest-neighbors-algorithm-c8dcd5fd89b2)
 - Oct7: [Intro to Recommender Systems with TensorFlow and TFRS](https://towardsdatascience.com/intro-to-recommender-systems-with-tensorflow-and-tfrs-c4d7fdacd0a4)
 - Oct8: [TensorFlow Deep Learning Recommenders on Retail Dataset](https://medium.com/codex/tensorflow-deep-learning-recommenders-on-retail-dataset-ce0c50aff5fa)
+- Oct9: [分词 – Tokenization](https://easyai.tech/ai-definition/tokenization/amp/)
+- Oct10: [疫情微博内容情感分析](https://blog.csdn.net/qq_42103091/article/details/119978834?utm_source=app&app_version=4.16.0)
+- Oct11: [微博情绪分析评测(SMP2020-EWECT) 参赛总结](https://mp.weixin.qq.com/s/ik5232joxYYw-gNABT1-qw)
