@@ -45,7 +45,7 @@
   - Summary Extraction: get summary report based on key words
 - chat bot/customer assistant/intallegence communication (Dec30)
   - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
-
+- ludwig-ai (open-source auto-ml)
 
 Reference:
 - Recommender System: 
