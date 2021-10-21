@@ -107,3 +107,5 @@
 - Oct10: [疫情微博内容情感分析](https://blog.csdn.net/qq_42103091/article/details/119978834?utm_source=app&app_version=4.16.0)
 - Oct11: [微博情绪分析评测(SMP2020-EWECT) 参赛总结](https://mp.weixin.qq.com/s/ik5232joxYYw-gNABT1-qw)
 - Oct12: [Beginner’s Guide to Sentiment Analysis for Simplified Chinese using SnowNLP](https://towardsdatascience.com/beginners-guide-to-sentiment-analysis-for-simplified-chinese-using-snownlp-ce88a8407efb)
+- Oct19: [生成对抗网络(Generative Adversarial Net, GAN)](https://mp.weixin.qq.com/s/XhTB13CVsMA8UzMvzLH4Xg)
+- Oct20: [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
