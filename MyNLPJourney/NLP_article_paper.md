@@ -110,3 +110,4 @@
 - Oct19: [生成对抗网络(Generative Adversarial Net, GAN)](https://mp.weixin.qq.com/s/XhTB13CVsMA8UzMvzLH4Xg)
 - Oct20: [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
 - Oct25: [Metaverse元宇宙近在眼前了嗎](https://theinitium.com/article/20210526-technology-understanding-metaverse/)
+- Oct27: [Time Series Analysis in R - Decomposing Time Series](https://rpubs.com/davoodastaraky/TSA1)
