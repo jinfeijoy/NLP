@@ -7,6 +7,8 @@ Oct 10 - Oct 21:
   - https://cloud.tencent.com/developer/article/1751841 
 
 Oct 29 - Oct 31: Chinese Content-based Recomender System
+ - chinese key word tag
+ - douban movie
 
 Interesting Dataset:
 * douban:
