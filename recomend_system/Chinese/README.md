@@ -10,7 +10,7 @@ Oct 29 - Oct 31: Chinese Content-based Recomender System
 
 Interesting Dataset:
 * douban:
-  * https://www.kaggle.com/fengzhujoey/douban-datasetratingreviewside-information
+  * https://www.kaggle.com/fengzhujoey/douban-datasetratingreviewside-information: this dataset is good for recommendation system task (not only for content based, but also for collabrative filter and DL)
   * https://www.kaggle.com/hirschsun/covid19-chinesesocialmedia-hotspots
   * https://www.kaggle.com/russellwu/douban-top250-movie
   * https://www.kaggle.com/lianglirong/douban
