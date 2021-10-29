@@ -6,4 +6,4 @@ Oct 10 - Oct 21:
   - https://github.com/dataabc/weiboSpider
   - https://cloud.tencent.com/developer/article/1751841 
 
-Oct 24 - Oct 28: Chinese Content-based Recomender System
+Oct 29 - Oct 31: Chinese Content-based Recomender System
