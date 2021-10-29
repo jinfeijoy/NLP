@@ -6,4 +6,13 @@ Oct 10 - Oct 21:
   - https://github.com/dataabc/weiboSpider
   - https://cloud.tencent.com/developer/article/1751841 
 
-Oct 24 - Oct 28: Chinese Content-based Recomender System
+Oct 29 - Oct 31: Chinese Content-based Recomender System
+ - chinese key word tag
+ - douban movie
+
+Interesting Dataset:
+* douban:
+  * https://www.kaggle.com/fengzhujoey/douban-datasetratingreviewside-information: this dataset is good for recommendation system task (not only for content based, but also for collabrative filter and DL)
+  * https://www.kaggle.com/hirschsun/covid19-chinesesocialmedia-hotspots
+  * https://www.kaggle.com/russellwu/douban-top250-movie
+  * https://www.kaggle.com/lianglirong/douban
