@@ -111,3 +111,4 @@
 - Oct20: [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
 - Oct25: [Metaverse元宇宙近在眼前了嗎](https://theinitium.com/article/20210526-technology-understanding-metaverse/)
 - Oct27: [Time Series Analysis in R - Decomposing Time Series](https://rpubs.com/davoodastaraky/TSA1)
+- Oct28: [基于xgb+lime的中文情感分析结果可解释性展示](https://ask.hellobi.com/blog/zlx19930503/10578)
