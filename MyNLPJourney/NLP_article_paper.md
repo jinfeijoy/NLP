@@ -112,3 +112,4 @@
 - Oct25: [Metaverse元宇宙近在眼前了嗎](https://theinitium.com/article/20210526-technology-understanding-metaverse/)
 - Oct27: [Time Series Analysis in R - Decomposing Time Series](https://rpubs.com/davoodastaraky/TSA1)
 - Oct28: [基于xgb+lime的中文情感分析结果可解释性展示](https://ask.hellobi.com/blog/zlx19930503/10578)
+- Oct29: [预训练自然语言模型 (Pre-trained Models for NLP)](https://leovan.me/cn/2020/03/pre-trained-model-for-nlp/)
