@@ -115,3 +115,4 @@
 - Oct29: [预训练自然语言模型 (Pre-trained Models for NLP)](https://leovan.me/cn/2020/03/pre-trained-model-for-nlp/)
 - Oct30: [高质量中文预训练模型集合](https://lonepatient.top/2021/01/20/awesome-pretrained-chinese-nlp-models)
 - Oct31: [中文Transformer（BERT，GPT，T5等）预训练模型权重_P01son的博客-程序员宅基地](https://www.cxyzjd.com/article/qq_34832393/115463344)
+- Nov1: [Text Generation with Pretrained GPT2 Using PyTorch](https://towardsdatascience.com/text-generation-with-pretrained-gpt2-using-pytorch-563c7c90700)
