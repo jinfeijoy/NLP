@@ -39,10 +39,10 @@
   - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
   - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
   - Chinese bilibili: https://www.kaggle.com/sherrytp/bilibili-cells-at-work
-- [Chinese Text Generation](https://github.com/jinfeijoy/NLP/tree/main/chinese_text_generation) (2W) (Nov10)
+- [Chinese Text Generation](https://github.com/jinfeijoy/NLP/tree/main/chinese_text_generation) (3W) (Nov15)
   - Fine tune pre-trained model
   - read GPT3 details 
-- Market Inteligence Monitoring (3W) (Nov30): in the end to create a system to recommend news summary given topics
+- Market Inteligence Monitoring (3W) (Dec6): in the end to create a system to recommend news summary given topics
   - Event Detection: get key word of event
   - Summary Extraction: get summary report based on key words
 - chat bot/customer assistant/intallegence communication (Dec30)
