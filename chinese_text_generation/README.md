@@ -1,5 +1,5 @@
 Oct31 - Nov15
-* Pre-trained BERT
+* Pre-trained BERT: [Chinese Bert Classification](https://github.com/jinfeijoy/NLP/tree/main/recomend_system/Chinese)
 * 小说generation(GPT2-Chinese)
 
 
