@@ -1,9 +1,7 @@
-Oct31 - Nov10
+Oct31 - Nov15
 * Pre-trained BERT
-* 小说generation
-* 新闻稿generation
-* 诗词generation
-* 微博generation
+* 小说generation(GPT2-Chinese)
+
 
 Pre-trained Model + Fine Tune:
 * https://github.com/ymcui/Chinese-XLNet
