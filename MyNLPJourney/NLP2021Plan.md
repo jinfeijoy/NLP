@@ -42,7 +42,7 @@
 - [Chinese Text Generation](https://github.com/jinfeijoy/NLP/tree/main/chinese_text_generation) (3W) (Nov15)
   - Fine tune pre-trained model
   - read GPT3 details 
-- Market Inteligence Monitoring (3W) (Dec6): in the end to create a system to recommend news summary given topics
+- [Market Inteligence Monitoring](https://github.com/jinfeijoy/NLP/tree/main/market_inteligence_monitoring) (3W) (Dec6): in the end to create a system to recommend news summary given topics
   - Event Detection: get key word of event
   - Summary Extraction: get summary report based on key words
 - chat bot/customer assistant/intallegence communication (Dec30)
