@@ -9,7 +9,7 @@ Plan: (3W) (Dec6): in the end to create a system to recommend news summary given
 * summary
 * generate report
 
-
+--- Dec 6 ---
 * google news/other news source given a key words
 * summary news
 * get news sentiment
