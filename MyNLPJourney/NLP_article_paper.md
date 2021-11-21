@@ -117,3 +117,4 @@
 - Oct31: [中文Transformer（BERT，GPT，T5等）预训练模型权重_P01son的博客-程序员宅基地](https://www.cxyzjd.com/article/qq_34832393/115463344)
 - Nov1: [Text Generation with Pretrained GPT2 Using PyTorch](https://towardsdatascience.com/text-generation-with-pretrained-gpt2-using-pytorch-563c7c90700)
 - Nov15: [Web Scraping news articles in Python](https://towardsdatascience.com/web-scraping-news-articles-in-python-9dd605799558)
+- Nov20: [AI Art -- VQGAN-CLIP](https://github.com/nerdyrodent/VQGAN-CLIP)
