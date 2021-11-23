@@ -13,6 +13,6 @@ Plan: (3W) (Dec6): in the end to create a system to recommend news summary given
 * Fix stock report
 * google news/other news source given a key words
 * summary news
-* get news sentiment (Nov 23)
+* get news sentiment (Nov 23) --- not very useful for news, most news are neutral
 * finalized investment report (Nov 24)
 * FSA map report in R (Nov 25)
