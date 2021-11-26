@@ -45,9 +45,10 @@
 - [Market Inteligence Monitoring](https://github.com/jinfeijoy/NLP/tree/main/market_inteligence_monitoring) (3W) (Dec6): in the end to create a system to recommend news summary given topics
   - Event Detection: get key word of event
   - Summary Extraction: get summary report based on key words
-- chat bot/customer assistant/intallegence communication (Dec24)
+- chat bot/customer assistant/intallegence communication (Dec5)
   - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
-- ludwig-ai (open-source auto-ml)
+- ludwig-ai (open-source auto-ml) (Dec 10)
+- Next Yr Plan / References (Dec 24)
 
 Reference:
 - Recommender System: 
