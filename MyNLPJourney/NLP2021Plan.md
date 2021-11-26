@@ -78,5 +78,6 @@ Reference:
 
 Next Year Plan:
 - Kownledge Graph
+- Time Series
 - Image Recognation 
 - Block Chain and Data Lake
