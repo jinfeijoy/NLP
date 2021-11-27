@@ -22,6 +22,7 @@
 * Exploration: covid article sentiment
 * Sentiment analsis:stock news sentiment
 * Topic classification: research article classification
+* document similarity: document_similarity
 
 
 ## Key words:
