@@ -14,8 +14,13 @@
   - Word Embedding (GloVe + RNN/LSTM): 
     - Binary Classification: [Basic_twitter_sentiment_analysis](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Basic_twitter_sentiment_analysis.ipynb)
     - 3 Classes Classification: [Basic_twitter_sentiment_analysis_smallDataset](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Basic_twitter_sentiment_analysis_smallDataset.ipynb)
+  - Topic Modelling/Vader: [Covid_Twitter_sentiment_analysis](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Covid_Twitter_sentiment_analysis.ipynb)
 - Google Colab
-  - fastai + AWD_LSTM: [Basic_twitter_sentiment_analysis_fastai](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Basic_twitter_sentiment_analysis_fastai.ipynb): Fine-tune on tweets and predict unlabeled tweets
+  - fastai + AWD_LSTM: 
+    - [Basic_twitter_sentiment_analysis_fastai](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Basic_twitter_sentiment_analysis_fastai.ipynb): Fine-tune on tweets and predict unlabeled tweets
+    - [Analyze_covid_twitter_after_fastai_prediction](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Analyze_covid_twitter_after_fastai_prediction.ipynb)
+    - [Load_model_and_do_prediction](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Load_model_and_do_prediction.ipynb)
+    - [Covid_twitter_emotion_analysis](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/kaggle_Twitter_sentiment/notebook/Covid_twitter_emotion_analysis.ipynb)
 
 
 
