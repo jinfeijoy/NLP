@@ -16,6 +16,7 @@
   - [Chinese Text Generation](https://github.com/jinfeijoy/NLP/tree/main/chinese_text_generation) (3W) (Nov15)
     - web scrabing / vocabulary generation / GPT2 
   - [Weibo Data Scraping](https://github.com/jinfeijoy/NLP/tree/main/weibo_spider)
+    - weibo-spider / weibo-search
 - Document Summarization
   - [Document analysis (opinion mining)](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis) (3W) (June12 - July2)
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) (2W) (July1 - July13)
