@@ -1,7 +1,8 @@
 # NLP
  
 ## MyNLPJourney
-My NLP learning plan and references.
+- My NLP learning plan and references.
+- Summary of NLP Projects: https://github.com/jinfeijoy/NLP/blob/main/MyNLPJourney/NLP2021Plan.md
 
 ## Review Sentiment Analysis
 * [kaggle_IMDB_Review](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) (2021May)
