@@ -19,14 +19,22 @@
     - weibo-spider / weibo-search
 - Document Summarization
   - [Document analysis (opinion mining)](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis) (3W) (June12 - July2)
+    - Document  Similarity / Article Sentiment / Article Classification
+    - TFIDF / word2vec / transformers / XLNet / GloVe + RNN&LSTM 
   - [topic modelling and text summary](https://github.com/jinfeijoy/NLP/tree/main/topic_modelling_text_summary) (2W) (July1 - July13)
+    - Text Classification / Text Summary / Document Clustering 
+    - Transformers (BERT) / doc2vec + XGBoost / LSA / sumy / Similarity Matrix / Page Rank / SentenceTransformer   
 - Semantic Analysis
   - [NER/relation Extraction](https://github.com/jinfeijoy/NLP/tree/main/information_extraction) (July28 - Aug26)
+    - NER: BERT / Bi-LSTM / CRF / NERDA Fine-tune / NLTK / Spacy
+    - Relation: networkx / stanza
   - [Key word extraction / intent classification](https://github.com/jinfeijoy/NLP/tree/main/semantic_analysis) (July22 - July26)
-- Recommender System
-  - [Content based recommend system](https://github.com/jinfeijoy/NLP/tree/main/recomend_system) (2M -- 3W E 5W C) (Oct25)
+    - TFIDF / Text Rank / Topic Rank / YAKE / BERT
+- [Recommender System](https://github.com/jinfeijoy/NLP/tree/main/recomend_system) 
+  - English: Latent factor collaborative / content based recommender / nearest neighbor collaborative / hybrid recommendation (need to tweak code)
+  - Chinese: BERT Classification / sentiment analysis / SnowNLP / cnsenti /text processing / word cloud / content-based-recommendation / TFIDF / LDA
 - Applications
-  - [Market Inteligence Monitoring](https://github.com/jinfeijoy/NLP/tree/main/market_inteligence_monitoring) (3W) (Nov27)
+  - [Market Inteligence Monitoring](https://github.com/jinfeijoy/NLP/tree/main/market_inteligence_monitoring) (3W) (Nov27): Scraping news from web / text similarity / LDA
   - [Auto ML](https://github.com/jinfeijoy/NLP/tree/main/autoML)
   - chat bot/customer assistant/intallegence communication (Dec5)
     - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
@@ -50,21 +58,6 @@
   - ludwig-ai (open-source auto-ml) (Dec 10)
 
 
-
-
-
-- :
-  - [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/pdf/1707.07435.pdf)
-  - Chinese douban: https://www.kaggle.com/utmhikari/doubanmovieshortcomments
-  - Chinese weibo: https://www.kaggle.com/zhuflower/weibo-sentiment-analysis
-  - Chinese bilibili: https://www.kaggle.com/sherrytp/bilibili-cells-at-work
-
-
-
-
-
-
-- Next Yr Plan / References (Dec 24)
 
 Reference:
 - Recommender System: 
