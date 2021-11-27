@@ -1,8 +1,18 @@
+# Chinese Text Generation
+
+### Plan
 Oct31 - Nov15
 * Pre-trained BERT: [Chinese Bert Classification](https://github.com/jinfeijoy/NLP/tree/main/recomend_system/Chinese)
 * 小说generation(GPT2-Chinese)
 
+### Code Summary
+Local:
+- Web Scrabing: [pull_txt_from_web](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/chinese_text_generation/pull_txt_from_web.ipynb)
+- Generate Vocabulary: [make_vocab_cuizhuang](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/chinese_text_generation/make_vocab_cuizhuang.ipynb)
+Google Colab:
+- GPT2: [chinese_generation_google_colab](http://localhost:8888/notebooks/Desktop/PersonalLearning/GitHub/NLP/chinese_text_generation/chinese_generation_google_colab.ipynb)
 
+### Reference
 Pre-trained Model + Fine Tune:
 * https://github.com/ymcui/Chinese-XLNet
 * https://towardsdatascience.com/text-generation-with-pretrained-gpt2-using-pytorch-563c7c90700
