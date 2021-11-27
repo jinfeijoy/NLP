@@ -34,11 +34,11 @@
 - [Recommender System](https://github.com/jinfeijoy/NLP/tree/main/recomend_system) 
   - English: Latent factor collaborative / content based recommender / nearest neighbor collaborative / hybrid recommendation (need to tweak code)
   - Chinese: BERT Classification / sentiment analysis / SnowNLP / cnsenti /text processing / word cloud / content-based-recommendation / TFIDF / LDA
+- [Question&Answer](https://github.com/jinfeijoy/NLP/tree/main/chatbot)
 - Applications
   - [Market Inteligence Monitoring](https://github.com/jinfeijoy/NLP/tree/main/market_inteligence_monitoring) (3W) (Nov27): Scraping news from web / text similarity / LDA
   - [Auto ML](https://github.com/jinfeijoy/NLP/tree/main/autoML)
-  - chat bot/customer assistant/intallegence communication (Dec5)
-    - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
+
 
 ### Learning Project
 - [2021 NLP Trend](https://www.analyticsinsight.net/top-10-natural-language-processing-nlp-trends-for-2021/)
