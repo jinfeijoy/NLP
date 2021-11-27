@@ -27,8 +27,7 @@
 **Learning Project**
 - [2021 NLP Trend](https://www.analyticsinsight.net/top-10-natural-language-processing-nlp-trends-for-2021/)
 - Supervised learning and unsupervised learning collaboration (1W May24): 
-  - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning)
-      - The objective is to learn the structure of a language in a first step before specializing in a particular task
+  - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning): The objective is to learn the structure of a language in a first step before specializing in a particular task
   - [Combining supervised learning and unsupervised learning to improve word vectors](https://towardsdatascience.com/combining-supervised-learning-and-unsupervised-learning-to-improve-word-vectors-d4dea84ec36b)
   - [Semi-Supervised Learning](https://algorithmia.com/blog/semi-supervised-learning)
 - Accelerating the training of large language models (July27)
