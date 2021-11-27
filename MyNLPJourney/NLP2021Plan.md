@@ -14,6 +14,7 @@
   - [English Text Generation](https://github.com/jinfeijoy/NLP/tree/main/text_generation) (July14 - July24) 
     - fastai + AWD_LSTM / GPT2 / RNN + LSTM (from scratch)
   - [Chinese Text Generation](https://github.com/jinfeijoy/NLP/tree/main/chinese_text_generation) (3W) (Nov15)
+    - web scrabing / vocabulary generation / GPT2 
   - [Weibo Data Scraping](https://github.com/jinfeijoy/NLP/tree/main/weibo_spider)
 - Document Summarization
   - [Document analysis (opinion mining)](https://github.com/jinfeijoy/NLP/tree/main/kaggle_article_analysis) (3W) (June12 - July2)
