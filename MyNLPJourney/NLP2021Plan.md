@@ -5,6 +5,7 @@
 **Coding Project**
 - Sentiment Analysis
   - [IMDB Reviews](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) (May 20)
+    - TFIDF+XGBoost / GloVe+RNN / fastai+BERT
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
   - [Covid Vaccines tweet (Visualization)](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter) (June 11)
 - Text Generation
