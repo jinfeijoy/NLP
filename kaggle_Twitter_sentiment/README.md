@@ -5,10 +5,6 @@
   - [Kaggle Twitter Sentiment 140 (no neutral sentiment)](https://www.kaggle.com/kazanova/sentiment140)
   - [Kaggle Covie Twitter Data](https://www.kaggle.com/arunavakrchakraborty/covid19-twitter-dataset)
 
-- To do list:
-  - sentiment analysis
-    - word embedding with RNN (May 26) <Basic_twitter_sentiment_analysis>
-    - contextual word embedding with fastai (May 29) <Basic_twitter_sentiment_analysis_fastai>
 ### Code Summary
 - Local
   - Word Embedding (GloVe + RNN/LSTM): 
