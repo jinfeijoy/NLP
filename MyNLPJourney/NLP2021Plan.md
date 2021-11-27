@@ -3,7 +3,7 @@
 
 2021 NLP Plan:
 
-**Coding Project**
+### Coding Project
 - Sentiment Analysis
   - [IMDB Reviews](https://github.com/jinfeijoy/NLP/tree/main/kaggle_IMDB_Review) (May 20)
     - TFIDF+XGBoost / GloVe+RNN / fastai+BERT
@@ -40,8 +40,7 @@
   - chat bot/customer assistant/intallegence communication (Dec5)
     - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
-
-**Learning Project**
+### Learning Project
 - [2021 NLP Trend](https://www.analyticsinsight.net/top-10-natural-language-processing-nlp-trends-for-2021/)
 - Supervised learning and unsupervised learning collaboration (1W May24): 
   - [Semi-Supervised Learning](https://www.statworx.com/at/blog/5-types-of-machine-learning-algorithms-with-use-cases/#h-4-semi-supervised-learning): The objective is to learn the structure of a language in a first step before specializing in a particular task
@@ -59,8 +58,7 @@
   - ludwig-ai (open-source auto-ml) (Dec 10)
 
 
-
-Reference:
+### Reference:
 - Recommender System: 
   - https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
   - https://www.kaggle.com/rounakbanik/the-movies-dataset
