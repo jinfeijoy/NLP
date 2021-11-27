@@ -9,6 +9,7 @@
   - [Twitter sentiment analysis](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Twitter_sentiment) (June 3)
     - Binary/Multi-class Classification / GloVe+RNN / fastai + AWD_LSTM 
   - [Covid Vaccines tweet (Visualization)](https://github.com/jinfeijoy/NLP/tree/main/kaggle_Covid19_vaccine_Twitter) (June 11)
+    - fastai + pre-trained model / Visualization Report
 - Text Generation
   - [English Text Generation](https://github.com/jinfeijoy/NLP/tree/main/text_generation) (July14 - July24) 
   - [Chinese Text Generation](https://github.com/jinfeijoy/NLP/tree/main/chinese_text_generation) (3W) (Nov15)
