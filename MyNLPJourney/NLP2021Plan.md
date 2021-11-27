@@ -20,6 +20,7 @@
   - [Content based recommend system](https://github.com/jinfeijoy/NLP/tree/main/recomend_system) (2M -- 3W E 5W C) (Oct25)
 - Applications
   - [Market Inteligence Monitoring](https://github.com/jinfeijoy/NLP/tree/main/market_inteligence_monitoring) (3W) (Nov27)
+  - [Auto ML](https://github.com/jinfeijoy/NLP/tree/main/autoML)
   - chat bot/customer assistant/intallegence communication (Dec5)
     - customer support: https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
