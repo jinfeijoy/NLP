@@ -59,6 +59,8 @@
 
 
 ### Reference:
+- Text Frequency Plot:
+  - https://www.kaggle.com/psbots/customer-support-meets-spacy-universe 
 - Recommender System: 
   - https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
   - https://www.kaggle.com/rounakbanik/the-movies-dataset
