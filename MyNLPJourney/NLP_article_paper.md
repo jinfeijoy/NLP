@@ -118,3 +118,5 @@
 - Nov1: [Text Generation with Pretrained GPT2 Using PyTorch](https://towardsdatascience.com/text-generation-with-pretrained-gpt2-using-pytorch-563c7c90700)
 - Nov15: [Web Scraping news articles in Python](https://towardsdatascience.com/web-scraping-news-articles-in-python-9dd605799558)
 - Nov20: [AI Art -- VQGAN-CLIP](https://github.com/nerdyrodent/VQGAN-CLIP)
+- Nov27: [Building a Natural Language Question & Answer Search Engine](https://medium.com/@ODSC/building-a-natural-language-question-answer-search-engine-18dad5368eec)
+- Nov28: [Deep Learning Question — Answer model with demo](https://towardsdatascience.com/deep-learning-question-answer-model-with-demo-e21e43f60dd5)
