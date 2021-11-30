@@ -23,3 +23,4 @@
  * https://insaid.medium.com/applying-automl-part-4-using-h2o-4814bed74efe
 
 #### ludwig-ai 
+* https://www.mikulskibartosz.name/ludwig-machine-learing-model-in-kaggle/
