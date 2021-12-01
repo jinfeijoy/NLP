@@ -120,3 +120,4 @@
 - Nov20: [AI Art -- VQGAN-CLIP](https://github.com/nerdyrodent/VQGAN-CLIP)
 - Nov27: [Building a Natural Language Question & Answer Search Engine](https://medium.com/@ODSC/building-a-natural-language-question-answer-search-engine-18dad5368eec)
 - Nov28: [Deep Learning Question — Answer model with demo](https://towardsdatascience.com/deep-learning-question-answer-model-with-demo-e21e43f60dd5)
+- Nov30: [Introduction to Spark NLP: Foundations and Basic Components](https://towardsdatascience.com/introduction-to-spark-nlp-foundations-and-basic-components-part-i-c83b7629ed59)
