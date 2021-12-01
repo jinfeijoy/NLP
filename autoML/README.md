@@ -24,3 +24,4 @@
 
 #### ludwig-ai 
 * https://www.mikulskibartosz.name/ludwig-machine-learing-model-in-kaggle/
+* [Towards Automated Machine Learning: Evaluation and Comparison of AutoML Approaches and Tools](https://arxiv.org/pdf/1908.05557.pdf)
