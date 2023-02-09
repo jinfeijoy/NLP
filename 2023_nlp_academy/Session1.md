@@ -32,3 +32,21 @@
 * Reasonable zero/few-shot with the XL model
 * need at a gpi with 16GB of ram
 
+### Information Retrieval
+* Given: query q, collection of texts
+* Return: a ranked list of k texts
+* Maximizing: a metric of interest
+* A smimple Search Engine: 
+  * text -> inverted index -> initial retrieval (e.g. BM25) -> reranker (e.g. monoBERT, monoT5, miniLM) -> ranked list
+  * inverted index: a dictionary whose keys are words and values are documents that contain those words (e.g. {'apple': [doc_21, doc_5], 'house': [doc1, doc2]})
+  * retrieval/ranking: for each word q in the query, compute a score for each document D that contains word (utilized IDF in score calculation)
+  * suffer from the 'vocabulary mismatch problem': car and automobile are completely different to BM25
+  * it's a hard-to-beat algorithm, try BM25 first before other solutions, sentence bert can also be a good option
+  * (AP: average precision)
+  * monoBERT: BERT reranker: a binary classifier finetuned on pairs of <query, relevant text> and <query, non-relevant text> 
+
+
+### Visconde: multi-document QA with GPT-3 and Neural Reranking
+* paper can be found [here](https://arxiv.org/abs/2212.09656)
+* ![image](https://user-images.githubusercontent.com/16402963/217906181-dd8bd815-ef7d-4e0c-866a-52b9decd3727.png)
+* informration need -> document retrieval (text from social media and online news as documents) -> relevant documents -> aggregation -> summary
