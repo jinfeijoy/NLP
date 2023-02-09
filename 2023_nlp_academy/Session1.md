@@ -37,6 +37,7 @@
 * Return: a ranked list of k texts
 * Maximizing: a metric of interest
 * A smimple Search Engine: 
+  * ![image](https://user-images.githubusercontent.com/16402963/217909441-0904ee2c-2f00-409b-8562-674a66e1328a.png) 
   * text -> inverted index -> initial retrieval (e.g. BM25) -> reranker (e.g. monoBERT, monoT5, miniLM) -> ranked list
   * inverted index: a dictionary whose keys are words and values are documents that contain those words (e.g. {'apple': [doc_21, doc_5], 'house': [doc1, doc2]})
   * retrieval/ranking: for each word q in the query, compute a score for each document D that contains word (utilized IDF in score calculation)
