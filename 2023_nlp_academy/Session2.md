@@ -76,6 +76,9 @@
     * compute metrics such as nDCG@10 for each system
   * most common
   * reliable but expensive: change in your search system might require a new round of annotations/when the pool of system are large and diverse, need only one round of annotation (e.g. Robust04)
+* Training dataset: 
+  * MS MARCO
+  * Evaluation: BEIR
 
 * IR Metrics
   * Benchmarking: relevance judgments (is this document relevant to the query? rel(q,d) = 0/1
