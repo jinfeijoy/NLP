@@ -19,14 +19,32 @@
   * to identify mask word, it will not only look at past words, but also look at next words 
 * BERT Finetuning
   * ![image](https://user-images.githubusercontent.com/16402963/218224953-4edd7d80-d291-4ce1-a569-26b7c0c49f71.png)
-   
+
 
 ### Decoder-only (GPT)
-
+    
 ### Encoder-decoder (T5)
 
+    
 ## Text classification with BERT, GPT-3 and T5
-
+* BERT
+    * ![image](https://user-images.githubusercontent.com/16402963/218233817-a60d9b4e-20a4-4c5a-9e14-65c0202e5818.png) 
+    * CLS token has been influenced by other words, so the CLS token will be used as input during finetuning
+    * CLS token somehome capther the similar information as mean(T1,...,Tn)
+    * CLS -> Linearr (D * 2) -> Softmax P(T/F|W)     
+* GPT2/GPT3 (don't recommend using decoder only model for classification model) (good for generate text because of causal mask)
+    * Causal mask: only left token impact right token (next token prediction)
+    * Tn -> Linear (D*V) (pretrained) -> softmax (P'positive|W)
+    * Tn is the final token which capture all previous token information
+    * when finetuning GPT2/GPT3, underperform than BERT
+* T5: Full transformation (encoder+decoder)
+    * translation/classification/
+    * sequence sequence model, text in and text out
+    * it was trained to know when to stop (with '\<sos>')
+    * ![image](https://user-images.githubusercontent.com/16402963/218234362-f54ff634-a8b5-4e97-be2e-2829a7511003.png)
+    * as text classifier: Decoder input as \<sos> or \<sos> positive, and target are 2 words: "positive" and "\<eos>"
+    * all encoder and decoder are pre-trained, so less examples required to train
+    
 ## monoBERT: BERT as a reranker
 
 ## Evaluating search engines
