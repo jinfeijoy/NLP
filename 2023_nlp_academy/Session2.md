@@ -91,6 +91,12 @@
   * nDCG: DCG / ideal DCG (sorted by relevance)
 
 ## How to deal with long documents
+* Long sequence transformers such as LongFormer, LongT5, Pegasus and BigBird show some success in NLP tasks but not so much IR
+* THE 'MaxP' approach (sliding window approach)
+  * Document d-> divided to windows of N sentences -> Query Reranker -> s(ij) -> max(s(ij))
+* The FirstP
+* The SumP
+
 
 * Why do we need to split documents into shorter segments?
   * models are finetuned on shorter segments
