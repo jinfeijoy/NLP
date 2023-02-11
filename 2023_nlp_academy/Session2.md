@@ -103,3 +103,6 @@
   * quadratic memory cost
 * When using BM25, is there a problem when the index contains only a few documents?
   * poor IDF estimations: better to use a larger index than multiple small ones 
+
+## Prompt tuning
+![image](https://user-images.githubusercontent.com/16402963/218265985-3ba241c8-1520-4573-a40e-6476896e6f57.png)
