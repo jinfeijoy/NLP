@@ -81,6 +81,11 @@
   * Benchmarking: relevance judgments (is this document relevant to the query? rel(q,d) = 0/1
   * Precision: relevant docs returned/results returned 
   * Recall: relevant docs returned / relevant docs in collection
+  * Reciprocal Rank: RR(R, q) = 1/rank(i)
+  * Average Precision: precision when relevant doc returned / # relevant docs in collection
+  * Graded relevance judgments: how relevant is this document to the query
+  * DCG: how relevant/how early
+  * nDCG: DCG / ideal DCG (sorted by relevance)
 
 ## How to deal with long documents
 
