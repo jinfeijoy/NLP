@@ -19,11 +19,23 @@
   * to identify mask word, it will not only look at past words, but also look at next words 
 * BERT Finetuning
   * ![image](https://user-images.githubusercontent.com/16402963/218224953-4edd7d80-d291-4ce1-a569-26b7c0c49f71.png)
-
+* Encoder-only
+  * Bidirectional: left and right tokens can be seen, that is it has no causality as we have access to the complete input sequence at inference time
+  * Good at classifying sequences or tokens (ex.NER) needs finetuning
+  * Ex: BERT, ToBERTa, XLM, DeBERTa (this is a good one) 
 
 ### Decoder-only (GPT)
+* Causal, i.e. right (future) tokens are 'removed' from the attention calculation
+* Good text generator
+* With +3B parameters, it wors as a few-shot learner
+* With finetuning, it's not as good as encoder-only or encoder-decoder
+* Ex: GPT-2, GPT-3, BLOOM, OPT
     
 ### Encoder-decoder (T5)
+* Encoder+Decoder with causal attention + cross-attention (to communicate with the encoder)
+* separate input vs output
+* good at everything as long as you have a supervised dataset to finetune it
+* BART, T5, FLAN-T5
 
     
 ## Text classification with BERT, GPT-3 and T5
@@ -44,10 +56,31 @@
     * ![image](https://user-images.githubusercontent.com/16402963/218234362-f54ff634-a8b5-4e97-be2e-2829a7511003.png)
     * as text classifier: Decoder input as \<sos> or \<sos> positive, and target are 2 words: "positive" and "\<eos>"
     * all encoder and decoder are pre-trained, so less examples required to train
-    
+
+## Finetune with reinforcement leraining
+* hot topic: how to adapt model into reinforcement learning, reinforcement learning is an extra layer of supervise learning, since we don't need supervised target as input, reinforcement learning just give reward signal thing that you made correct/wrong translation. 
+
 ## monoBERT: BERT as a reranker
+* models: monoBERT, monoT5, miniLM
+* monoBERT: BERT reranker
+  * ![image](https://user-images.githubusercontent.com/16402963/218261580-62a921b0-637f-471a-b9ae-83fede6cc58a.png)
+  * output is always binary classification (relevent/non-relevent)
+  * Loss is the combination of positive doc and negative doc
 
 ## Evaluating search engines
+* TREC-style Polling
+  * manually create 50-100 queries:
+    * for each query:
+      * retrive documents from one or more search system
+      * manually annotate top k (e.g. 10) documents as relevant or not to the query
+    * compute metrics such as nDCG@10 for each system
+  * most common
+  * reliable but expensive: change in your search system might require a new round of annotations/when the pool of system are large and diverse, need only one round of annotation (e.g. Robust04)
+
+* IR Metrics
+  * Benchmarking: relevance judgments (is this document relevant to the query? rel(q,d) = 0/1
+  * Precision: relevant docs returned/results returned 
+  * Recall: relevant docs returned / relevant docs in collection
 
 ## How to deal with long documents
 
