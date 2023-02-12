@@ -107,3 +107,14 @@
 ## Prompt tuning
 ![image](https://user-images.githubusercontent.com/16402963/218265985-3ba241c8-1520-4573-a40e-6476896e6f57.png)
 * won't change the weight, just adapt the model with addtional tunable soft prompt
+
+## Reference
+* Prompt tuning and related methods:
+  * prompt tuning: https://arxiv.org/abs/2104.08691
+  * prefix-tuning: https://arxiv.org/abs/2101.00190
+  * T-FEW (also a parameter efficient technique but better than prompt tuning in some bechmarks such RAFT): https://arxiv.org/abs/2205.05638
+
+* Reinforcement Learning with Human Feedback (used in davinci-003 and ChatGPT):https://arxiv.org/abs/2112.09332
+  * Blog explaining the method: https://huggingface.co/blog/rlhf
+  * paper introduced RLHF: https://arxiv.org/abs/2203.02155
+  * Follow-up paper that uses GPT-3 + RLHF + web search engine:  https://arxiv.org/abs/2205.05638
