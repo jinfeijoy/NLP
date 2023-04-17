@@ -50,4 +50,7 @@
 ### Visconde: multi-document QA with GPT-3 and Neural Reranking
 * paper can be found [here](https://arxiv.org/abs/2212.09656)
 * ![image](https://user-images.githubusercontent.com/16402963/217906181-dd8bd815-ef7d-4e0c-866a-52b9decd3727.png)
+  * question decomposition: few-shot GPT3
+  * document retrieval: BM25 + monoT5
+  * aggregation: few-shot GPT3 
 * informration need -> document retrieval (text from social media and online news as documents) -> relevant documents -> aggregation -> summary
