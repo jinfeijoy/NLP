@@ -1,5 +1,5 @@
-## Lab1
-
+# Lab1
+## Few Shot
 ### Openai GPT3.5 (text-davinci-003, via paid API)
 ~~~
 !pip install openai
