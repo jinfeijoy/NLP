@@ -16,14 +16,13 @@
     * Adversarial attacks: These include sarcasm, irony, euphemisms.
 
 
- #### Week3 Vector Space Model
- * represent words and documents as vectors, representation that captures relative meaning 
- * Vector space design
+#### Week3 Vector Space Model
+* represent words and documents as vectors, representation that captures relative meaning 
+* Vector space design
     * word by word design: number of times they occur together within a certain distance k
     * word by document design: number of times a word occurs within a certain category (topics)
- * similarity: 
+* similarity: 
     * euclidean distance: ![image](https://github.com/user-attachments/assets/f42fea25-ac38-4569-8aff-c3d719c40166)
     * cosine similarity (when corpora are different sizes):  ![image](https://github.com/user-attachments/assets/f9d09256-b921-4692-89d4-5f9ec0505f52)
-
- 
+* [PCA](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/Xd2w5/pca-algorithm) can be used to visualize high dimensional data
 
