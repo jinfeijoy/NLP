@@ -22,7 +22,8 @@
     * word by word design: number of times they occur together within a certain distance k
     * word by document design: number of times a word occurs within a certain category (topics)
  * similarity: 
-    * euclidean distance: 
-    * cosine similarity 
+    * euclidean distance: ![image](https://github.com/user-attachments/assets/f42fea25-ac38-4569-8aff-c3d719c40166)
+    * cosine similarity (when corpora are different sizes):  ![image](https://github.com/user-attachments/assets/f9d09256-b921-4692-89d4-5f9ec0505f52)
+
  
 
