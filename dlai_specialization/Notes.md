@@ -18,5 +18,11 @@
 
  #### Week3 Vector Space Model
  * represent words and documents as vectors, representation that captures relative meaning 
+ * Vector space design
+    * word by word design: number of times they occur together within a certain distance k
+    * word by document design: number of times a word occurs within a certain category (topics)
+ * similarity: 
+    * euclidean distance: 
+    * cosine similarity 
  
 
