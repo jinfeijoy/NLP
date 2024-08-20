@@ -4,8 +4,6 @@
  ### Course 1 Natural Language Processing with Classification and Vector Spaces
  #### Week2: Naive Bayes
 
-
- #### Week3
  * [training naive bayese steps](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/0imfM/training-naive-bayes)
     * preprocessing: ![image](https://github.com/user-attachments/assets/5723ae49-739e-4c45-830b-303fa4162564)
     * word counts ( compute freq(w,class)): ![image](https://github.com/user-attachments/assets/d50bce5f-d502-4e09-abf5-77ddbf51825a)
@@ -16,3 +14,9 @@
     * removing words (e.g. removing 'not')
     * word order
     * Adversarial attacks: These include sarcasm, irony, euphemisms.
+
+
+ #### Week3 Vector Space Model
+ * represent words and documents as vectors, representation that captures relative meaning 
+ 
+
