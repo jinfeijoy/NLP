@@ -26,3 +26,8 @@
     * cosine similarity (when corpora are different sizes):  ![image](https://github.com/user-attachments/assets/f9d09256-b921-4692-89d4-5f9ec0505f52)
 * [PCA](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/Xd2w5/pca-algorithm) can be used to visualize high dimensional data
 
+#### Week4 Searching Document
+* ![image](https://github.com/user-attachments/assets/1ce37ff6-752b-44bc-8005-b0a68fde63e0)
+* KNN: using hashing can speed up search
+* [Hash](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/UFnGD/hash-tables-and-hash-functions)
+* [locality sensitive hashing](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/ieYM6/locality-sensitive-hashing)
