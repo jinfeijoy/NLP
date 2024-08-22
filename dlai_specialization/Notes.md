@@ -31,3 +31,13 @@
 * KNN: using hashing can speed up search
 * [Hash](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/UFnGD/hash-tables-and-hash-functions)
 * [locality sensitive hashing](https://www.coursera.org/learn/classification-vector-spaces-in-nlp/supplement/ieYM6/locality-sensitive-hashing)
+
+### Course 2 Natural Language Processing with Probabilistic Models
+
+#### Week 1 Autocorrect and Minimum Edit Distance
+* steps for autocorrect:
+   * Identify a misspelled word
+   * Find strings n edit distance away: (these could be random strings): insert, delete, switch, replace
+   * Filter candidates: (keep only the real words from the previous steps)
+   * Calculate word probabilities: (choose the word that is most likely to occur in that context)
+* [Minimum edit distance](https://www.coursera.org/learn/probabilistic-models-in-nlp/supplement/3EvOV/minimum-edit-distance-algorithm-ii): dynamic programming
