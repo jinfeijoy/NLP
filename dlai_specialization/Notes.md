@@ -55,3 +55,12 @@
    * <img width="793" alt="image" src="https://github.com/user-attachments/assets/34de0ee6-cda9-4174-8933-314e78d11e6d">
 * [Viterbi algorithm](https://www.coursera.org/learn/probabilistic-models-in-nlp/supplement/7efbd/the-viterbi-algorithm): initialization, forward pass, backward pass
 
+#### Week 3 autocomplete and language model
+* [language model evaluation](https://www.coursera.org/learn/probabilistic-models-in-nlp/supplement/71fL4/language-model-evaluation): Perplexity, smaller, better, the target perplexity of 20 to 60.
+* for unkonwn words, use <UNK>
+* Criteria to create the vocabulary
+   * Min word frequency f
+   * Max |V|, include words by frequency
+   * Use <UNK> sparingly (Why?)
+   * Perplexity -  only compare LMs with the same V
+* smoothing method: laplacian smoothing, kneser-ney smoothing, good-turning smoothing
