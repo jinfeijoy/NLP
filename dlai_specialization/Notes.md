@@ -1,5 +1,6 @@
 ## Coursera NLP Specialization
- * https://www.coursera.org/specializations/natural-language-processing 
+ * https://www.coursera.org/specializations/natural-language-processing
+ * [assignment](https://github.com/amanchadha/coursera-natural-language-processing-specialization/tree/master/2%20-%20Natural%20Language%20Processing%20with%20Probabilistic%20Models/Week%202)
 
  ### Course 1 Natural Language Processing with Classification and Vector Spaces
  #### Week2: Naive Bayes
@@ -41,3 +42,16 @@
    * Filter candidates: (keep only the real words from the previous steps)
    * Calculate word probabilities: (choose the word that is most likely to occur in that context)
 * [Minimum edit distance](https://www.coursera.org/learn/probabilistic-models-in-nlp/supplement/3EvOV/minimum-edit-distance-algorithm-ii): dynamic programming
+
+#### Week 2 part of speach tagging
+* Part of Speech Tagging (POS) is the process of assigning a part of speech to a word
+* Markov Chains: can be used to identify the probability of the next word
+   * <img width="665" alt="image" src="https://github.com/user-attachments/assets/549e114b-ec2e-45d2-a7b5-e56ccea7f30d">
+   * states: A state refers to a certain condition of the present moment.  You can think of these as the POS tags of the current word. Q  is the set of all states in your model. 
+   * transition matrix: The transition probabilities allowed you to identify the transition probability from one POS to another.
+   * <img width="741" alt="image" src="https://github.com/user-attachments/assets/4fa02a72-4994-4c30-9e59-04d7c92e9939">
+* Hidden Markov Models
+   * In hidden markov models you make use of emission probabilities that give you the probability to go from one state (POS tag) to a specific word.
+   * <img width="793" alt="image" src="https://github.com/user-attachments/assets/34de0ee6-cda9-4174-8933-314e78d11e6d">
+* [Viterbi algorithm](https://www.coursera.org/learn/probabilistic-models-in-nlp/supplement/7efbd/the-viterbi-algorithm): initialization, forward pass, backward pass
+
