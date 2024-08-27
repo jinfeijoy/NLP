@@ -64,3 +64,16 @@
    * Use ```<UNK>``` sparingly (Why?)
    * Perplexity -  only compare LMs with the same V
 * smoothing method: laplacian smoothing, kneser-ney smoothing, good-turning smoothing
+
+#### Week 4 Word embeddings and NN
+* word embedding process
+   *  corpus
+   *  embedding method: The task is self-supervised: it is both unsupervised in the sense that the input data — the corpus — is unlabelled, and supervised in the sense that the data itself provides the necessary context which would ordinarily make up the labels.
+* embedding methods (static embedding):
+   * word2vec (2013): (CBOW: continuous bag-of-words / SGNS: continuous skip-gram, skip-gram with negative sampling)
+   * Global vectors (2014): (GloVe)
+   * fastText (2016): support out-of-vacabulary (OOV) words
+* advanced word embedding method (dynamic): deep learning, contextual embeddings, tunable pre-trained models available 
+   * BERT (2018)
+   * ELMo (2018)
+   * GPT-2 (2018)
