@@ -1,4 +1,4 @@
-## [Modern Approach in NLP Processing](https://compstat-lmu.github.io/seminar_nlp_ss20/introduction-deep-learning-for-nlp.html)
+## [Modern Approach in NLP Processing](https://slds-lmu.github.io/seminar_nlp_ss20/)
 ## Chaper2 Introduction: DL for NLP
   - Word Embedding and Nueral Netword Model
     - Word Embedding
