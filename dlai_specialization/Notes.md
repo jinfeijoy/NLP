@@ -80,3 +80,14 @@
 * embedding evaluation method
    * [intrinsic](https://www.coursera.org/learn/probabilistic-models-in-nlp/lecture/BELqR/evaluating-word-embeddings-intrinsic-evaluation): Intrinsic evaluation allows you to test relationships between words. It allows you to capture semantic analogies as, “France” is to “Paris” as “Italy” is to <?> and also syntactic analogies as “seen” is to “saw” as “been” is to <?>. 
    * [extrinsic](https://www.coursera.org/learn/probabilistic-models-in-nlp/lecture/SEJkb/evaluating-word-embeddings-extrinsic-evaluation) : Extrinsic evaluation tests word embeddings on external tasks like named entity recognition, parts-of-speech tagging, etc. 
+
+
+### Course 3 sequantial model
+
+#### week 4 Siamese Network
+* Siamese Networks: learns what makes two inputs the same
+* use case: handwritten check, question duplicate, queries
+* <img width="697" alt="image" src="https://github.com/user-attachments/assets/738e92de-d52a-4910-a0bb-5005f44d25b7">
+    * These two sub-networks are sister-networks which come together to produce a similarity score. Not all Siamese networks will be designed to contain LSTMs. One thing to remember is that sub-networks share identical parameters. This means that you only need to train one set of weights and not two. 
+    * given threshold, if similarity > threshold -> same, otherwise, different
+* loss function:  [triplet loss](https://www.coursera.org/learn/sequence-models-in-nlp/lecture/L88EY/triplets)
