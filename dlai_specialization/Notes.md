@@ -91,3 +91,46 @@
     * These two sub-networks are sister-networks which come together to produce a similarity score. Not all Siamese networks will be designed to contain LSTMs. One thing to remember is that sub-networks share identical parameters. This means that you only need to train one set of weights and not two. 
     * given threshold, if similarity > threshold -> same, otherwise, different
 * loss function:  [triplet loss](https://www.coursera.org/learn/sequence-models-in-nlp/lecture/L88EY/triplets)
+
+
+### Course 4 attention model
+
+#### week 1 machine translation
+* scaled dot-product attention
+   * <img width="565" alt="image" src="https://github.com/user-attachments/assets/1e367485-cba1-40ed-af02-558b3257db72">
+* machine translation setup
+   * use pre-trained vector embeddings (otherwise, initially represent words with a one-hot vectors)
+   * keep track of index mappings with word2ind and ind2word dictionaries
+   * add end of sequence tokens : ```<EOS>```, embedding value as 1
+   * pad the token vectors with zeros 
+* teacher forcing: correct sequence of words as input (shifted right) (use original word to predict next word, but not use predicted word to predict next word)
+   * <img width="1023" alt="image" src="https://github.com/user-attachments/assets/d4c35afb-9cfe-443b-b352-6c42d4bb2a57">
+* NMT models
+   * <img width="1071" alt="image" src="https://github.com/user-attachments/assets/f8c67ce5-6e6b-4119-8a2c-33d8539c34a6">
+   * <img width="1128" alt="image" src="https://github.com/user-attachments/assets/03dfe650-9e88-4508-ad4b-d446fa712112">
+* evaluation matrix (or cost function)
+   * BLEU Score (precision): Compares candidate translations to reference (human) translations The closer to 1, the better. How many words from the candidate appear in the reference translations?
+       * doesnot consider senamtic meaning and sentence structure 
+   *  ROUGE-N Score (recall): Compares candidates with reference (human) translations Multiple versions for this metric. How many words from the reference appear in the candidate translations?
+   *  <img width="1049" alt="image" src="https://github.com/user-attachments/assets/0aae60b8-655c-4d0b-a5b5-e5633fb30876">
+* prediction selection
+   * decoding and sampling 
+      * Greedy decoding: Selects the most probable word at each step. But the best word at each step may not be the best for longer sequences...
+      * Random sampling: Often a little too random for accurate translation! Solution: Assign more weight to more probable words, and less weight to less probable words.
+      * Temperature: Can control for more or less randomness in predictions
+         * Lower temperature setting : More confident, conservative network
+         * Higher temperature setting : More excited,     random network
+   * Beam Search
+      * Probability of multiple possible sequences at each step. Beam width B determines number of sequences you keep Until all B most probable sequences end with <EOS>. Beam search with B=1 is greedy decoding. (most probable word given previous word)
+      * Penalizes long sequences, so you should normalize by the sentence length Computationally expensive and consumes a lot of memory
+   * Minimum Bayes Risk (MBR): Generate several candidate translations, Assign a similarity to every pair using a similarity score (such as ROUGE!), Select the sample with the highest average similarity
+      * <img width="904" alt="image" src="https://github.com/user-attachments/assets/f0384da1-8847-4e22-ab3d-d8550c1592c2">
+      * <img width="1075" alt="image" src="https://github.com/user-attachments/assets/42cfd4b5-9199-4149-b2c9-b02ee4338953">
+
+      
+
+#### week 2 text summarization
+
+#### week 3 question answering 
+
+#### week 4 chatbot
