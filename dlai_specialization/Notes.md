@@ -1,5 +1,6 @@
 ## Coursera NLP Specialization
  * https://www.coursera.org/specializations/natural-language-processing
+ * https://github.com/marinaramalhete/DeepLearningAI_NLP_Specialization/tree/main
  * [assignment](https://github.com/amanchadha/coursera-natural-language-processing-specialization/tree/master/2%20-%20Natural%20Language%20Processing%20with%20Probabilistic%20Models/Week%202)
 
  ### Course 1 Natural Language Processing with Classification and Vector Spaces
