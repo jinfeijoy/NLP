@@ -131,7 +131,17 @@
       
 
 #### week 2 text summarization
-
+* multi-head attention
+   * <img width="760" alt="image" src="https://github.com/user-attachments/assets/b77399fd-3f41-4cf5-834d-ab8fcb7a8697">
+   * When you use multi-head attention, each head performs the same operation, but using its own matrices and can learn different relationships between words than another head. 
+* Transformer Decoder
+   * <img width="794" alt="image" src="https://github.com/user-attachments/assets/e2829d37-fe23-46c3-9e7e-0e630ff53f51">
+   * Once you get the embeddings, you add the positional encoding, which you can think of just a number that tells you information about the position of the word.
+   * Then, you do multi-head attention as explained in the previous video/reading.
+   * There is a feedforward layer (blue) with a ReLU (and optionally some linear layers)
+   * after this, then a residual connection with layer normalization (repeat the block shown above N times),
+   * finally a linear layer with a softmax. 
+ 
 #### week 3 question answering 
 
 #### week 4 chatbot
