@@ -143,5 +143,38 @@
    * finally a linear layer with a softmax. 
  
 #### week 3 question answering 
-
+* <img width="766" alt="image" src="https://github.com/user-attachments/assets/8d9811f8-e97b-4c8f-ab4c-4a20d46f8840">
+* [bert](https://www.coursera.org/learn/attention-models-in-nlp/supplement/Ly0mk/bidirectional-encoder-representations-from-transformers-bert)
+   * input embedding: The input embeddings are the sum of the token embeddings, the segmentation embeddings and the position embeddings.
+      * The input embeddings: you have a CLS token to indicate the beginning of the sentence and a sep to indicate the end of the sentence
+      * The segment embeddings: allows you to indicate whether it is sentence a or b.
+      * Positional embeddings: allows you to indicate the word's position in the sentence.
+      * <img width="764" alt="image" src="https://github.com/user-attachments/assets/f385b4c4-722a-4e24-a6b5-3aae148aec4e">
+   * objective: <img width="661" alt="image" src="https://github.com/user-attachments/assets/c0291b95-1530-44e2-8fab-8eb245a19593">
+   * fine-tune: <img width="848" alt="image" src="https://github.com/user-attachments/assets/77dac892-15dd-4c7f-867d-58b477a8c29f">
+* [t5](https://www.coursera.org/learn/attention-models-in-nlp/supplement/5PZLm/transformer-t5)
+   * <img width="736" alt="image" src="https://github.com/user-attachments/assets/8322f622-546f-4526-af0a-b7744a151611">
+   * So we start with the basic encoder-decoder representation.  There you have a fully visible attention in the encoder and then causal attention in the decoder.  So light gray lines correspond to causal masking. And dark gray lines correspond to the fully visible masking.
+   * In the middle we have the language model which consists of a single transformer layer stack. And it's being fed the concatenation of the inputs and the target. So it uses causal masking throughout as you can see because they're all gray lines. And you have X1 going inside, you get X2, X2 goes into the model and you get X3 and so forth.
+   * To the right, we have prefix language model which corresponds to allowing fully visible masking over the inputs as you can see with the dark arrows. And then causal masking in the rest.
+* [Multi-Task Training Strategy]()
+   * training data strategy:
+      * examples-proportional mixing
+      * equal mixing
+      * temperature-scale mixing
+      * <img width="850" alt="image" src="https://github.com/user-attachments/assets/4774fec1-aadc-465e-9105-4363a0d3a246">
+   * gradual unfreezing vs adapter layers
+      * So in gradual unfreezing, what ends up happening, you unfreeze one layer at a time. So you say this is your neural network, unfreezing the last one, you fine-tune using that, you keep the others fixed, then unfreezing this one, and then you unfreeze this one, so you keep unfreezing each layer.
+      * And for the adapter layers, you basically, add a neural network to each feed-forward in each block of the transformer. And then, these new feed-forward networks, they're designed so that the output dimension matches the input. And this allows them to be inserted without having any structural change. When fine-tuning only these new adapter layers and the layer normalization parameters are being updated.
 #### week 4 chatbot
+
+
+
+
+
+
+
+
+
+
+
