@@ -166,6 +166,9 @@
    * gradual unfreezing vs adapter layers
       * So in gradual unfreezing, what ends up happening, you unfreeze one layer at a time. So you say this is your neural network, unfreezing the last one, you fine-tune using that, you keep the others fixed, then unfreezing this one, and then you unfreeze this one, so you keep unfreezing each layer.
       * And for the adapter layers, you basically, add a neural network to each feed-forward in each block of the transformer. And then, these new feed-forward networks, they're designed so that the output dimension matches the input. And this allows them to be inserted without having any structural change. When fine-tuning only these new adapter layers and the layer normalization parameters are being updated.
+* benchmarks: <img width="529" alt="image" src="https://github.com/user-attachments/assets/c564a804-5c0e-48c9-8b38-99c1a52b168d">
+
+
 #### week 4 chatbot
 
 
