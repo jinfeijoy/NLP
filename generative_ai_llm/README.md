@@ -13,3 +13,4 @@
     * [Build LLM Apps with LangChain.js](https://www.coursera.org/programs/manulife-learning-program-zgh8l/projects/build-llm-apps-with-langchain-js-project?collectionId=einh1)
     * [ChatGPT for Beginners: Save time with Microsoft Excel](https://www.coursera.org/programs/manulife-learning-program-zgh8l/projects/chatgpt-for-beginners-save-time-with-microsoft-excel?collectionId=ry49m)
     * [Prompt Engineering Generative AI for Marketing & Advertising](https://www.coursera.org/programs/manulife-learning-program-zgh8l/projects/prompt-engineering-generative-ai-for-marketing-advertising?collectionId=ry49m)
+    * [building agentic rag using llamaindex](https://coursera.org/projects/building-agentic-rag-with-llamaindex)
