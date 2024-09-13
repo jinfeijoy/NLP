@@ -30,7 +30,7 @@
       * mha + layernorml + ffn + dropout_ffn (``tf.keras.layers.Dropout(dropout_rate)``) + layernorm2
 * decoder
    * mha1 + layernorm1 + mha2 + layernorm2 + ffn + layernorm3
-* transformer: encoder + decoder + final layer ``tf.keras.layers.Dense(target_vocab_size, activation='softmax')``
+* transformer: encoder + decoder + final layer ``tf.keras.layers.Dense(target_vocab_size, activation='softmax')``, output: final output and attention weight
 * summarizatiton
    * predict next word: transformer with (encoding padding mask + look ahead mask + decoding padding mask)
    * summarize: tokenize input with padding and expand dims + predict next word  
