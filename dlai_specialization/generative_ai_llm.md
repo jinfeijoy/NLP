@@ -29,11 +29,33 @@
   * different llm: <img width="797" alt="image" src="https://github.com/user-attachments/assets/f0116d68-1a1d-4ccc-ae3a-bad7f1e8117d">
   * <img width="815" alt="image" src="https://github.com/user-attachments/assets/5fa26ba4-5ee2-4922-8c95-f1e776b2ad7f">
   * different tasks in scope: <img width="917" alt="image" src="https://github.com/user-attachments/assets/9f5665c7-0400-4bcb-a864-854e0612995f">
+  * different models:
+    * <img width="898" alt="image" src="https://github.com/user-attachments/assets/7eb4fbf6-0c2b-4573-8120-0b348947a8d2">
+    * encoder only (autoencoding)
+      * <img width="904" alt="image" src="https://github.com/user-attachments/assets/f6c06158-996c-4ffd-a20b-3ec1b5f0115a">
+      * (MLM masked language modelling): objective reconstruct text ('denoising')
+      * (``BERT, ROBERTA``)
+      * sentiment analysis, ner, word classification
+    * decoder only (autoregressive)
+      * <img width="918" alt="image" src="https://github.com/user-attachments/assets/24a3ee78-60f7-4a11-ace6-e5446a38c0f1">
+      * (CLM causal language modelling): objective to predict next token
+      * (``GPT, BLOOM``)
+      * text generation, other emergent behaviour (depend on model size)
+    * encoder-decoder (sequence to sequence)
+      *  <img width="913" alt="image" src="https://github.com/user-attachments/assets/a9e867e6-c2ce-49e0-8a04-6b6467339962">
+      * (``BART, T5``)
+      * text summarization, translation, question answering 
   * adapt & align models: 0/1/few shot inference (no more than 5 or 6 shot) ; fine-tuning ; reinforcement learning 
 
 ## week2 
 * topics: adapting pre-trained model to specific task
 * labs: different transformer model from huggingface
+
+
+
+
+
+
 
 
 ## week3 
