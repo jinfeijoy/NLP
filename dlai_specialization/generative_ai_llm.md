@@ -29,7 +29,7 @@
   * different llm: <img width="797" alt="image" src="https://github.com/user-attachments/assets/f0116d68-1a1d-4ccc-ae3a-bad7f1e8117d">
   * <img width="815" alt="image" src="https://github.com/user-attachments/assets/5fa26ba4-5ee2-4922-8c95-f1e776b2ad7f">
   * different tasks in scope: <img width="917" alt="image" src="https://github.com/user-attachments/assets/9f5665c7-0400-4bcb-a864-854e0612995f">
-  * adapt & align models: 0/1/few shot inference ; fine-tuning ; reinforcement learning 
+  * adapt & align models: 0/1/few shot inference (no more than 5 or 6 shot) ; fine-tuning ; reinforcement learning 
 
 ## week2 
 * topics: adapting pre-trained model to specific task
