@@ -1,4 +1,5 @@
-* https://www.coursera.org/programs/manulife-learning-program-zgh8l/learn/generative-ai-with-llms 
+* https://www.coursera.org/programs/manulife-learning-program-zgh8l/learn/generative-ai-with-llms
+* https://github.com/Ryota-Kawamura/Generative-AI-with-LLMs
 
 ## week1 
 * topics: transformer architecture 
