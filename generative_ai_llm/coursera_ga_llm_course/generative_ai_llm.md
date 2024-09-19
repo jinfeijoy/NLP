@@ -51,6 +51,36 @@
 ## week2 
 * topics: adapting pre-trained model to specific task
 * labs: different transformer model from huggingface
+* Fine-tuning LLMs with instruction 
+
+  * pre-training is unsupervised learning, fine-tuning is supervised learning to use the data with labeled examples to update weight for LLM, the labeled examples are prompt-completion pairs
+     * ![image](https://github.com/user-attachments/assets/632a0e6e-d189-470a-8af1-b144fb3b7846)
+     * using prompts to fine-tune LLM with instructiton: full fine-tuning updates all parameters to improve performance
+     * ![image](https://github.com/user-attachments/assets/199ee342-81c5-44f3-92bd-8d1beb1a73af)
+  * steps:
+     * prepare training dataset
+        * sample prompt instruction templates:
+           * ![image](https://github.com/user-attachments/assets/b6b714f1-0e11-42f2-b724-65b3ea52edaa)
+           * Prompt template libraries for different tasks and dataset  
+     * divide data into training/validation/testing
+        * ![image](https://github.com/user-attachments/assets/de2898eb-d088-4372-b920-fe46a28057e7)
+     * pass data to the model, get result, compare with label and calculate loss, backprobagation to update weight, for n epocs
+        * ![image](https://github.com/user-attachments/assets/9b543c4a-871f-467f-9efa-4bcb49390ec1)
+        * you select prompts from your training data set and pass them to the LLM, which then generates completions. Next, you compare the LLM completion with the response specified in the training data. You can see here that the model didn't do a great job, it classified the review as neutral, which is a bit of an understatement. The review is clearly very positive. Remember that the output of an LLM is a probability distribution across tokens. So you can compare the distribution of the completion and that of the training label and use the standard crossentropy function to calculate loss between the two token distributions. And then use the calculated loss to update your model weights in standard backpropagation. You'll do this for many batches of prompt completion pairs and over several epochs, update the weights so that the model's performance on the task improves
+     * evaluation in validation/testing dataset 
+  * fine-tuning on a single task
+     * often, only 500-1000 examples needed to fine-tune a single task 
+     * drawback: catastrophic forgetting (overfitting, learn new task but forget pre-trained model to generate general words), solutions to resolve this:
+        * multi-task instruction fine-tuning
+        * Parameter efficient fine-tuning (PEFT)
+  * multi-task instruction fine-tuning
+     * require more data, require 50000-100000 examples 
+     * ![image](https://github.com/user-attachments/assets/0f6a9e39-2b6f-4bb2-876f-f738f0c48309)
+     * [FLAN-T5](https://www.coursera.org/learn/generative-ai-with-llms/supplement/aDQwy/scaling-instruct-models) (example, fine-tune on T5)
+        * ![image](https://github.com/user-attachments/assets/7c877390-be1a-4601-9085-e1001c296ffd)
+  * model evaluation
+     *  
+
 
 
 
