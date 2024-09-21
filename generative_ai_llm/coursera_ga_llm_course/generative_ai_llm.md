@@ -79,7 +79,15 @@
      * [FLAN-T5](https://www.coursera.org/learn/generative-ai-with-llms/supplement/aDQwy/scaling-instruct-models) (example, fine-tune on T5)
         * ![image](https://github.com/user-attachments/assets/7c877390-be1a-4601-9085-e1001c296ffd)
   * model evaluation
-     *  
+     *  ROUGE: or recall oriented under study for jesting evaluation is primarily employed to assess the quality of automatically generated summaries by comparing them to human-generated reference summaries
+        * ![image](https://github.com/user-attachments/assets/c7f6fa9f-4930-4a07-b22c-74ad664121f2) (can change ROUGE-1 to ROUGE-2 by changing from unigram to bi-gram)
+        * ![image](https://github.com/user-attachments/assets/5f40ea5d-b659-4576-96d5-035db7f02047)
+        * ![image](https://github.com/user-attachments/assets/1429d202-b105-4e8c-85ac-0da60b14a6ce)
+        * ROUGE-L (longest common subsequence): ![image](https://github.com/user-attachments/assets/3ebacf3c-e754-419d-87d4-7d15058880e8)
+        * ROUGE clipping: ![image](https://github.com/user-attachments/assets/80eb18bd-3348-4ee1-b081-36d593c54009)
+     *  BLEU SCORE: bilingual evaluation understudy is an algorithm designed to evaluate the quality of machine-translated text, again, by comparing it to human-generated translations
+        * ![image](https://github.com/user-attachments/assets/4d0bce59-df10-45c1-af2e-e4cac98d305d)
+  
 
 
 
