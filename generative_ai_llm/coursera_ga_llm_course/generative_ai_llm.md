@@ -3,7 +3,7 @@
 
 ## week1 
 * topics: transformer architecture 
-* labs: different prompt, different inference parameters/sampling
+* labs: [different prompt, different inference parameters/sampling](https://www.coursera.org/learn/generative-ai-with-llms/lecture/wno7h/lab-1-walkthrough)
 * transformer architecture
   * tokenizer -> embedding -> encoding -> positional encoding -> self attention layer (multi-head attention) for encoder -> feed forward network (fully connected) for encoder -> output of decoder
   * tokenizer -> embedding -> encoding -> positinal encoding -> with encoder output -> self attention layer for decoder -> feed forward network for decoder -> softmax output layer -> feed it into the next token and repeat the process until the model predict end sequence token
@@ -50,7 +50,7 @@
 
 ## week2 
 * topics: adapting pre-trained model to specific task
-* labs: different transformer model from huggingface
+* labs: [different transformer model from huggingface](https://www.coursera.org/learn/generative-ai-with-llms/lecture/A6TDx/lab-2-walkthrough)
 * Fine-tuning LLMs with instruction 
   * pre-training is unsupervised learning, fine-tuning is supervised learning to use the data with labeled examples to update weight for LLM, the labeled examples are prompt-completion pairs
      * ![image](https://github.com/user-attachments/assets/632a0e6e-d189-470a-8af1-b144fb3b7846)
