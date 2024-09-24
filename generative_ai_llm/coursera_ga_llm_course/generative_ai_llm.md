@@ -52,7 +52,6 @@
 * topics: adapting pre-trained model to specific task
 * labs: different transformer model from huggingface
 * Fine-tuning LLMs with instruction 
-
   * pre-training is unsupervised learning, fine-tuning is supervised learning to use the data with labeled examples to update weight for LLM, the labeled examples are prompt-completion pairs
      * ![image](https://github.com/user-attachments/assets/632a0e6e-d189-470a-8af1-b144fb3b7846)
      * using prompts to fine-tune LLM with instructiton: full fine-tuning updates all parameters to improve performance
@@ -87,8 +86,37 @@
         * ROUGE clipping: ![image](https://github.com/user-attachments/assets/80eb18bd-3348-4ee1-b081-36d593c54009)
      *  BLEU SCORE: bilingual evaluation understudy is an algorithm designed to evaluate the quality of machine-translated text, again, by comparing it to human-generated translations
         * ![image](https://github.com/user-attachments/assets/4d0bce59-df10-45c1-af2e-e4cac98d305d)
-  
+  * [benchmark](https://www.coursera.org/learn/generative-ai-with-llms/lecture/1OMma/benchmarks)
+     * <img width="845" alt="image" src="https://github.com/user-attachments/assets/94a242f9-5357-4ea2-9dcf-3f68036b0a98">
+     * GLUE: sentiment analysis, question answering
+     * SuperGLUE: multi-sentence reasoning, and reading comprehension
+     * MMLU: tasks that extend way beyond basic language understanding
+     * BIG-bench: currently consists of 204 tasks, ranging through linguistics, childhood development, math, common sense reasoning, biology, physics, social bias, software development and more.
+     * HELM: aims to improve the transparency of models, and to offer guidance on which models perform well for specific tasks.
 
+* Parameter efficient fine-tuning (PEFT)
+   * only update small subset of parameters, In some cases, just 15-20% of the original LLM weights
+   * full fine-tuning: <img width="920" alt="image" src="https://github.com/user-attachments/assets/5fa49a68-cd20-4066-92ef-b3c01bce5b40">
+   * PEFT: <img width="705" alt="image" src="https://github.com/user-attachments/assets/39451614-8dd7-439c-88ad-554120e7f1d6">
+      * trade-off: parameter efficiency, training speed, inference cost, memory effficiency, model performance
+      * method: <img width="899" alt="image" src="https://github.com/user-attachments/assets/c2652d06-c87b-4c4d-ae99-e32ba4782f29">
+   * reparameterization
+      * Reparameterization methods also work with the original LLM parameters, but reduce the number of parameters to train by creating new low rank transformations of the original network weights
+      *  LoRA: <img width="903" alt="image" src="https://github.com/user-attachments/assets/3dfc169d-b907-42fa-8a6a-a61cc77e2136">
+         <img width="812" alt="image" src="https://github.com/user-attachments/assets/1a88e2a5-8817-447d-aa96-741b41319f5a">
+         <img width="886" alt="image" src="https://github.com/user-attachments/assets/b0508dd2-d0f8-41db-a459-a55313e14fa3">
+
+   * additive
+      * additive methods carry out fine-tuning by keeping all of the original LLM weights frozen and introducing new trainable components
+      * Adapter methods add new trainable layers to the architecture of the model, typically inside the encoder or decoder components after the attention or feed-forward layers.
+      * Soft prompt methods, on the other hand, keep the model architecture fixed and frozen, and focus on manipulating the input to achieve better performance. work well in large model
+         * <img width="897" alt="image" src="https://github.com/user-attachments/assets/ec608d9d-68c9-43d4-9940-14a6233959d5">
+         * <img width="906" alt="image" src="https://github.com/user-attachments/assets/aff5e1f3-4b20-4172-af21-2afb30448900">
+
+ 
+
+
+ 
 
 
 
