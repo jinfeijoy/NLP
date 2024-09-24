@@ -113,18 +113,51 @@
          * <img width="897" alt="image" src="https://github.com/user-attachments/assets/ec608d9d-68c9-43d4-9940-14a6233959d5">
          * <img width="906" alt="image" src="https://github.com/user-attachments/assets/aff5e1f3-4b20-4172-af21-2afb30448900">
 
- 
-
-
- 
-
-
-
-
-
-
 
 
 ## week3 
 * topics: align llm with human values to reduce error
-* labs: re-inforcement learning 
+* labs: re-inforcement learning
+* reinforcement learning with human feedback
+   * objective: maximum helpfulness relevance, minimize harm, avoid dangerous topics
+   * Reinforcement learning is a type of machine learning in which an agent learns to make decisions related to a specific goal by taking actions in an environment, with the objective of maximizing some notion of a cumulative reward.
+   * <img width="925" alt="image" src="https://github.com/user-attachments/assets/368b919d-38d0-4dc6-bc3f-4f82c517f221">
+   * steps:
+      * prepare dataset for human feedback
+        <img width="916" alt="image" src="https://github.com/user-attachments/assets/ca7c2bdc-12ca-4b27-8a19-a8a8db61e91d">
+      * collect human feedback: define your model alignment criteria; for the prompt respons sets that you just generated, obtain human feedback through labeler workforce
+      * prepare labeled data for training
+        <img width="949" alt="image" src="https://github.com/user-attachments/assets/a5ca8b26-0b1d-4e8b-be0b-d34770bd3c4c">
+      * train reward model (supervise learning, can use bert)
+        <img width="907" alt="image" src="https://github.com/user-attachments/assets/6aa75910-5012-4aaa-8f87-2b7fa2c1c7e4">
+      * use reward model
+        <img width="896" alt="image" src="https://github.com/user-attachments/assets/da91681a-1c9d-47fd-bcae-1e04f4ad5e99">
+   * RLHF: Fine-tuning with reinforcement learning
+      * This is the algorithm that takes the output of the reward model and uses it to update the LLM model weights so that the reward score increases over time. 
+      * <img width="746" alt="image" src="https://github.com/user-attachments/assets/52ac66e2-28b9-4f91-a60b-ef9b587afa5c">
+      * popular RL algorithm method: proximal policy optimization (ppo)
+   * PPO (Proximal policy optimization)
+      * The goal is to update the policy so that the reward is maximized.
+      * You start PPO with your initial instruct LLM, then at a high level, each cycle of PPO goes over two phases
+         * In Phase I, the LLM, is used to carry out a number of experiments, completing the given prompts. These experiments allow you to update the LLM against the reward model in Phase II.The expected reward of a completion is an important quantity used in the PPO objective. We estimate this quantity through a separate head of the LLM called the value function. The value loss makes estimates for future rewards more accurate. The value function is then used in Advantage Estimation in Phase 2
+         * In Phase 2, you make a small updates to the model and evaluate the impact of those updates on your alignment goal for the model. The model weights updates are guided by the prompt completion, losses, and rewards. PPO also ensures to keep the model updates within a certain small region called the trust region. This is where the proximal aspect of PPO comes into play. Ideally, this series of small updates will move the model towards higher rewards. The PPO policy objective is the main ingredient of this method.
+         * value loss: <img width="912" alt="image" src="https://github.com/user-attachments/assets/1ffffcdd-eb85-4120-84d4-03fb982f8f79">
+         * policy loss: <img width="895" alt="image" src="https://github.com/user-attachments/assets/08a3f3f7-851c-409f-8532-7fbe12304038">
+           <img width="910" alt="image" src="https://github.com/user-attachments/assets/b3c6d1ab-0270-44bf-be68-4f032837c5be">
+         * entropy loss: <img width="893" alt="image" src="https://github.com/user-attachments/assets/0b9ea809-5afa-49e5-82d3-1abfea873302"> (similar as temprature setting, higher entropy has more creativity generation)
+         * overall:  <img width="837" alt="image" src="https://github.com/user-attachments/assets/1fbeb386-fc26-4b5f-b285-8b854415e5df">
+   * reward hacking
+      * e.g. to avoid toxic results, by having rl，it may change the results to opposite way.
+      * avoid reward hacking: to aoivd it, set the initial instruct llm as reference model, froze it and use it to compare with the rl results.  <img width="921" alt="image" src="https://github.com/user-attachments/assets/7576f9f8-8ddc-4993-b1be-996e2c6f8245">
+         * [KL divergence](https://www.coursera.org/learn/generative-ai-with-llms/supplement/JESIK/kl-divergence)
+
+
+
+
+Save note
+
+ 
+* LLM-powered application
+* ongoing research
+
+  
