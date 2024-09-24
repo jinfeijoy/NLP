@@ -150,11 +150,7 @@
       * e.g. to avoid toxic results, by having rl，it may change the results to opposite way.
       * avoid reward hacking: to aoivd it, set the initial instruct llm as reference model, froze it and use it to compare with the rl results.  <img width="921" alt="image" src="https://github.com/user-attachments/assets/7576f9f8-8ddc-4993-b1be-996e2c6f8245">
          * [KL divergence](https://www.coursera.org/learn/generative-ai-with-llms/supplement/JESIK/kl-divergence)
-
-
-
-
-Save note
+  * constitutional ai: <img width="925" alt="image" src="https://github.com/user-attachments/assets/663f540f-4b8e-4c8e-a60b-d3288af9c587">
 
  
 * LLM-powered application
