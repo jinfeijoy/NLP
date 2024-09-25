@@ -163,7 +163,21 @@
         ![image](https://github.com/user-attachments/assets/9dd8fc0f-156f-4862-96f3-84c75fc7279f)
   * project lifecycle cheat sheet 
     ![image](https://github.com/user-attachments/assets/5ac25d75-818e-4e6a-b58d-e77333a99480)
-  *  
+  * interact with external data source
+     * ![image](https://github.com/user-attachments/assets/be8d1b48-2399-42e2-b0c9-75070e0b6348)
+     * RAG (Retrieval augmented generation)
+        * retriever: query encoder: takes user input prompt and encode it to a form that can be used to query data source (external information sources). these two component were trained together to find the document within the external data that most relevant to the input query. retriver returns the best single or group of document from the data source and combines the new information with the original user query. The new expanded prompt is then passed to the language model, which generates a completion that makes use of the data
+        * ![image](https://github.com/user-attachments/assets/78a04fb2-160a-4af5-a95f-c5e7cb40954f)
+        * external information sources: documents, wikis, expert systems, web pages, databases, vector store.
+        * data preparation for vector store for RAG:
+            1. DATA must fit inside context window (prompt context limit few thousand tokens, single document too large to fit in window and we need to split long sources into short chunks, Packages like Langchain can handle this work
+            2. data must be in format that allows its relevance to be assessed at inference time: embedding vectors (prompt text converted to embedding vectors and then do cosine similarity). process each chunk with LLM to produce embedding vectors, the new embedding vectors are stored in vector stores
+            3.  vectore database search: each text in vector store is identified by a key, enables a citation to be included in completion.
+  * interact with external application
+     *  requirements for using LLMs to power applications:
+        * ![image](https://github.com/user-attachments/assets/d1b3d00f-db16-4611-a2f3-8f8727478692)
+  * 
+
 * ongoing research
 
   
