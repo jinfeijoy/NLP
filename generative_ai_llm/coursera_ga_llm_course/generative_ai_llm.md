@@ -152,8 +152,18 @@
          * [KL divergence](https://www.coursera.org/learn/generative-ai-with-llms/supplement/JESIK/kl-divergence)
   * constitutional ai: <img width="925" alt="image" src="https://github.com/user-attachments/assets/663f540f-4b8e-4c8e-a60b-d3288af9c587">
 
- 
 * LLM-powered application
+  * optimization techniques:
+    ![image](https://github.com/user-attachments/assets/d4005f2c-f02f-467d-a8bb-93a14444795c)
+      * Distillation: having a larger teacher model train a smaller student model. The student model learns to statistically mimic the behavior of the teacher model, either just in the final prediction layer or in the model's hidden layers as well. You start with your fine tune LLM as your teacher model and create a smaller LLM for your student model. You freeze the teacher model's weights and use it to generate completions for your training data. At the same time, you generate completions for the training data using your student model. The knowledge distillation between teacher and student model is achieved by minimizing a loss function called the distillation loss. To calculate this loss, distillation uses the probability distribution over tokens that is produced by the teacher model's softmax layer. Now, the teacher model is already fine tuned on the training data. So the probability distribution likely closely matches the ground truth data and won't have much variation in tokens. That's why Distillation applies a little trick adding a temperature parameter to the softmax function. better for encoder only model like Burt. 
+        ![image](https://github.com/user-attachments/assets/02775246-adcb-4926-9227-031233c5a34d)
+      * quantization:
+        ![image](https://github.com/user-attachments/assets/ff0d8e40-1995-423d-af6c-c78ab66e0511)
+      * pruning
+        ![image](https://github.com/user-attachments/assets/9dd8fc0f-156f-4862-96f3-84c75fc7279f)
+  * project lifecycle cheat sheet 
+    ![image](https://github.com/user-attachments/assets/5ac25d75-818e-4e6a-b58d-e77333a99480)
+  *  
 * ongoing research
 
   
