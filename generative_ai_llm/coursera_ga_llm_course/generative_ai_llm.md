@@ -176,7 +176,7 @@
   * interact with external application
      *  requirements for using LLMs to power applications:
         * ![image](https://github.com/user-attachments/assets/d1b3d00f-db16-4611-a2f3-8f8727478692)
-  * 
+  * chain-of-thought prompt can help llm improving reasoning (split it into few steps in prompt)
 
 * ongoing research
 
