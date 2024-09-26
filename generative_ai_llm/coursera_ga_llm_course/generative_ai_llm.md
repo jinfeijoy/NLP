@@ -177,6 +177,12 @@
      *  requirements for using LLMs to power applications:
         * ![image](https://github.com/user-attachments/assets/d1b3d00f-db16-4611-a2f3-8f8727478692)
   * chain-of-thought prompt can help llm improving reasoning (split it into few steps in prompt)
+  * program-aided language models (PAL): translate calculations into code
+    ![image](https://github.com/user-attachments/assets/91e3a542-40e8-4293-bc6d-432b3b9ec7ad)
+  * ReAct: combining reasoning and action: e.g. LangChain
+    ![image](https://github.com/user-attachments/assets/7d82d16a-8549-4ac5-8e3d-9384f2a6b1a1)
+  * application architecture
+    ![image](https://github.com/user-attachments/assets/d85a4ce4-ebc3-4bad-8126-c426cc1de1b4)
 
 * ongoing research
 
