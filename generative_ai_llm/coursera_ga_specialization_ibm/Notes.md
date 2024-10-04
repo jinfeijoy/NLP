@@ -62,6 +62,54 @@ Specialization Summary
 
 
 ## Generative AI: Prompt Engineering Basics
+* prompt tool:
+   * ibm wasonsx.ai prompt tool
+   * spellbook: ide by scaleai
+   * dust
+   * promptperfect: optimal prompt by different model
+   * [github prompt engineering repository](https://github.com/topics/prompt-engineering)
+   * openai playground: a web-based tool
+   * playground ai platform (generate image based on stable diffusion model)
+   * LangChain: python library with functionality for building and chaining prompts
+   * prompt base: marketplace for buying and selling prompt
+* text-to-text techiniques
+   * task specification
+   * contextual guidance
+   * domain experties
+   * bias mitigation
+   * framing
+   * 0-shot prompting
+   * user feedback loop
+   * few-shot prompting
+* interview-pattern approach
+  <img width="656" alt="image" src="https://github.com/user-attachments/assets/5963053b-3c8a-4b5a-9e89-4abda8918cc6">
+* chain-of-thought approach: step by step guidance
+* tree-of-thought approach
+  <img width="642" alt="image" src="https://github.com/user-attachments/assets/a73926d2-fa85-4bdf-9be4-80fcae151920">
+  <img width="628" alt="image" src="https://github.com/user-attachments/assets/5b137b01-b85a-4b58-a82a-cf6a70c6576f">
+* text-to-image prompt
+  <img width="609" alt="image" src="https://github.com/user-attachments/assets/072b2d5a-8d0b-495b-99d1-7c1066b6b6ba">
+  <img width="637" alt="image" src="https://github.com/user-attachments/assets/d76b9d32-4483-4385-a281-950cdfe646b6">
+  <img width="675" alt="image" src="https://github.com/user-attachments/assets/f27a3263-05e8-47f6-ac5c-cdbfa8429a88">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/7e5f8d79-bd58-4e6c-856c-1507af3de867">
+  <img width="634" alt="image" src="https://github.com/user-attachments/assets/93e07efc-b4b7-4aa6-b2b7-9c8cb8e99f91">
+  <img width="682" alt="image" src="https://github.com/user-attachments/assets/7d762360-59d3-409f-b120-7f9781dc9bee">
+  <img width="649" alt="image" src="https://github.com/user-attachments/assets/04227a62-e7b6-4a12-ba53-74a9243f0932">
+  <img width="660" alt="image" src="https://github.com/user-attachments/assets/db851053-20bb-4ad8-b8c8-ea7ad80635c1">
+  <img width="634" alt="image" src="https://github.com/user-attachments/assets/62c7b347-fd06-41f5-883c-852bbc7b2c4e">
+  <img width="644" alt="image" src="https://github.com/user-attachments/assets/1adaf1a5-945a-48aa-b318-b4f3f18fa4a8">
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Generative AI: Foundation Models and Platforms
 
