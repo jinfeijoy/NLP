@@ -118,8 +118,22 @@ Specialization Summary
      <img width="658" alt="image" src="https://github.com/user-attachments/assets/ea55d074-b3e8-455c-a675-d1d3da76d2f9">
 * foundation model: train one model on large amount of data and adapt it to different application. all foundation model has generative ai capability, but not all generative ai models are foundation models
   <img width="377" alt="image" src="https://github.com/user-attachments/assets/bfb603e7-cb10-42e9-80c4-c894ef45878e">
+* pre-trained model
+   * text-to-text generation
+      * statistical: markov chain
+      * neural network: seq2seq, transformer based model (gpt, t5, bart,
+   * text-to-image
+      * gans
+      * diffusion (more efficient than gans)
+         * dall-e by open-ai
+         * imagen by google ai 
+   * text-to-code
+      * seq2seq
+      * transformer
+         * codet5 by google ai
+         * code2seq by openai
+         * pangu-coder by microsoft research 
 
-* 
 
 ## Generative AI: Impact, Considerations, and Ethical Issues
 
