@@ -101,17 +101,25 @@ Specialization Summary
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Generative AI: Foundation Models and Platforms
+* dl and llm: cnn/rnn/transformer-based model(encoder and decoder)
+   * <img width="673" alt="image" src="https://github.com/user-attachments/assets/ebba691a-789c-4106-8c76-d73f12ae5c2d">
+   * <img width="686" alt="image" src="https://github.com/user-attachments/assets/34a5ecea-df23-458f-a10a-a39f5526eabc">
+   * <img width="674" alt="image" src="https://github.com/user-attachments/assets/d7264fb4-c059-4ea2-a7af-9bcfad861f04"> 
+* generative ai models:
+   * variational autoencoder (vae)
+     <img width="615" alt="image" src="https://github.com/user-attachments/assets/0f567532-5a40-4141-808f-db4ae56722f1">
+     <img width="647" alt="image" src="https://github.com/user-attachments/assets/265cbce6-a396-42eb-ae92-3b407d44df00">
+   * generative adversarial networks
+     <img width="614" alt="image" src="https://github.com/user-attachments/assets/74a15627-cddd-4a2b-92da-2b48e154728e">
+        * compare with vae, gans are challanging to train, need large amount of data, heavy computational power, can creat false material
+   * transformer-based model
+   * diffusion model
+     <img width="658" alt="image" src="https://github.com/user-attachments/assets/ea55d074-b3e8-455c-a675-d1d3da76d2f9">
+* foundation model: train one model on large amount of data and adapt it to different application. all foundation model has generative ai capability, but not all generative ai models are foundation models
+  <img width="377" alt="image" src="https://github.com/user-attachments/assets/bfb603e7-cb10-42e9-80c4-c894ef45878e">
+
+* 
 
 ## Generative AI: Impact, Considerations, and Ethical Issues
 
