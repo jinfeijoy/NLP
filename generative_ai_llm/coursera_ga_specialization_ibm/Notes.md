@@ -136,7 +136,9 @@ Specialization Summary
 
 
 ## Generative AI: Impact, Considerations, and Ethical Issues
-
+* issues and concerns: confidential information and pii, copyright and legal exposure
+* responsible generative ai: transpaency, accountability, privacy, safety guardrails, 
+* 
 ## Generative AI: Business Transformation and Career Growth
 
 
