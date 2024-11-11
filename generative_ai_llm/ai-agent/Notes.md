@@ -13,6 +13,8 @@ _ai agent: like a project manager to take actions and made decisions based on co
     * acting: perform an action to help you get closer to your ultimate goal
     * observing: observe the results of the action you performed, and start back at reasoning when necessary, otherwise, give the completed response to the user
     * ![image](https://github.com/user-attachments/assets/718ceec7-106b-484f-82f4-c56aa2db6fdc)
+    * ![image](https://github.com/user-attachments/assets/21f652bb-cf46-4297-9eb7-c1bc86ba57bb)
+
 * Building an OpenAI Functions Agent
 * Automatic Function Calling 
 
