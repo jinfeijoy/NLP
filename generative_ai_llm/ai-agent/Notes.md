@@ -14,9 +14,14 @@ _ai agent: like a project manager to take actions and made decisions based on co
     * observing: observe the results of the action you performed, and start back at reasoning when necessary, otherwise, give the completed response to the user
     * ![image](https://github.com/user-attachments/assets/718ceec7-106b-484f-82f4-c56aa2db6fdc)
     * ![image](https://github.com/user-attachments/assets/21f652bb-cf46-4297-9eb7-c1bc86ba57bb)
-
+    * [A simple Python implementation of the ReAct pattern for LLMs](https://til.simonwillison.net/llms/python-react-pattern)
+    * user need to specifit prompt for ReAct
 * Building an OpenAI Functions Agent
+    * [openai function calling](https://platform.openai.com/docs/guides/function-calling)
+    * [api reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-tools)
+    * no need to define own prompt for loop
 * Automatic Function Calling 
+    * [automatic function call](https://github.com/openai/openai-node/tree/master#automated-function-calls)
 
 ## Learn OpenAI's Assistant API
 
