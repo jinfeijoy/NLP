@@ -23,8 +23,16 @@ _ai agent: like a project manager to take actions and made decisions based on co
 * Automatic Function Calling 
     * [automatic function call](https://github.com/openai/openai-node/tree/master#automated-function-calls)
 
-## Learn OpenAI's Assistant API
-
+## Learn OpenAI's [Assistant API](https://platform.openai.com/docs/assistants/overview)
+* [login page](https://platform.openai.com/playground/assistants?mode=assistant)
+* retrieve external knowledge / manage threads / execute functions / interpret code / make your ai more responsive and informed
+* overview
+    * code interpreter: run code and test code
+    * knowledge retrieval: pull eternal knowledge from outside its model
+    * function calling
+* create an assistant
+* give assistant access to files
+* create conversations with threads & messages 
 
 ## Build AI Apps with LangChain.js
 
