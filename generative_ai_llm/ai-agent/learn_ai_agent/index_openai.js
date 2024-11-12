@@ -61,3 +61,5 @@ await agent("What's the current weather in my current location?")
 /**
 The current weather in New York is sunny with a temperature of 75°F.
  */
+
+// automatic function call
