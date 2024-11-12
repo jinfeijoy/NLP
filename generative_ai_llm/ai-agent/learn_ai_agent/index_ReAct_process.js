@@ -97,4 +97,73 @@ console.log(response.choices[0].message.content)
  You then output:
  Answer: <Suggested activities based on sunny weather that are highly specific to New York City and surrounding areas.>
  `
- 
+ /** Write ReAct prompt - code setup */
+ /**
+ * Challenge: Set up the function
+ * 1. Create a function called `agent` that takes a `query` as a parameter
+ * 2. Create a messages array that follows the pattern openai expects for 
+ *    its chat completions endpoint. The first message should be the system
+ *    prompt we wrote above, and the second message should be the query 
+ *    from the user found in the `agent` function parameter.
+ * 3. Move the code below inside the function (and uncomment it)
+ * 4. Call the function with a string query of any kind and see what gets returned.
+ */
+ async function agent(query) {
+    const response = await openai.chat.completions.create({
+        model: "gpt-3.5-turbo",
+        messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: query }
+        ]
+    })
+
+    console.log(response.choices[0].message.content)
+}
+
+agent("What book should I read next? I like self-help books.")
+// Thought: To recommend a self-help book, I need to gather more information about the user's preferences and current location. Action: getLocation: null PAUSE
+
+/** Write ReAct prompt - Plan for parsing the response and parsing the action */
+    /**
+     * PLAN:
+     * 1. Split the string on the newline character \n
+     * 2. Search through the array of strings for one that has "Action:"
+     *      regex to use: 
+     *      const actionRegex = /^Action: (\w+): (.*)$/
+     * 3. Parse the action (function and parameter) from the string
+     * 4. Calling the function
+     * 5. Add an "Obversation" message with the results of the function call
+     */
+    async function agent(query) {
+    
+        const response = await openai.chat.completions.create({
+            model: "gpt-3.5-turbo",
+            messages: [
+                { role: "system", content: systemPrompt },
+                { role: "user", content: query }
+            ]
+        })
+    
+        /**
+         * CHALLENGE:
+         * 1. Split the string on the newline character ("\n")
+         * 2. Search through the array of strings for one that has "Action:"
+         *      regex to use: 
+         *      const actionRegex = /^Action: (\w+): (.*)$/
+         * 3. Parse the action (function and parameter) from the string
+         * 4. Calling the function
+         * 5. Add an "Obversation" message with the results of the function call
+         */
+        const responseText = response.choices[0].message.content
+        const responseLines = responseText.split("\n")
+        console.log(responseLines)
+        
+        const actionRegex = /^Action: (\w+): (.*)$/
+        const foundActionStr = responseLines.find(str => actionRegex.test(str))
+        const actions = actionRegex["exec"](foundActionStr)
+        const [_, action, actionArg] = actions
+        const observation = await availableFunctions[action](actionArg)
+        console.log(observation)
+    }
+    
+    agent("What book should I read next? I like self-help books.")
