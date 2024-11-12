@@ -30,6 +30,8 @@ _ai agent: like a project manager to take actions and made decisions based on co
     * code interpreter: run code and test code
     * knowledge retrieval: pull eternal knowledge from outside its model
     * function calling
+    * ![image](https://github.com/user-attachments/assets/6bda1019-10b8-499b-a4c2-2425a2327cd2)
+
 * create an assistant
 * give assistant access to files
 * create conversations with threads & messages 
