@@ -31,12 +31,24 @@ _ai agent: like a project manager to take actions and made decisions based on co
     * knowledge retrieval: pull eternal knowledge from outside its model
     * function calling
     * ![image](https://github.com/user-attachments/assets/6bda1019-10b8-499b-a4c2-2425a2327cd2)
-
 * create an assistant
 * give assistant access to files
 * create conversations with threads & messages 
 
 ## Build AI Apps with LangChain.js
-
+_LangChain is a framework that helps developers build context-aware reasoning applications._
+* app flow diagrams
+    * information source: knowledge for the app
+    * splitter: langchain tool to split document to chuncks
+    * embeddings: embedding chuncks
+    * supabase vector store: store chuncks
+* embedding
+* vector stores
+* templates
+* prompts from templates
+* setting up chains
+* the .pipe() method
+* retrieving from vector stores
+* the RunnableSequence class
 
 ## AI Agents in LangGraph 
