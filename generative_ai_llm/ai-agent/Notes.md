@@ -38,10 +38,17 @@ _ai agent: like a project manager to take actions and made decisions based on co
 ## Build AI Apps with LangChain.js
 _LangChain is a framework that helps developers build context-aware reasoning applications._
 * app flow diagrams
-    * information source: knowledge for the app
-    * splitter: langchain tool to split document to chuncks
-    * embeddings: embedding chuncks
-    * supabase vector store: store chuncks
+    * ![image](https://github.com/user-attachments/assets/05388cf7-738d-4197-baed-118bad0c7877)
+       * information source: knowledge for the app
+       * splitter: langchain tool to split document to chuncks
+       * embeddings: embedding chuncks
+       * supabase vector store: store chuncks
+    * ![image](https://github.com/user-attachments/assets/4760736a-4e8e-43a6-9782-8212dd4dc965)
+       * user input
+       * conversation memory: to hold entire conversation
+       * openai to be used to create standalone question with no unnecessary words
+       * 
+      
 * embedding
 * vector stores
 * templates
