@@ -46,6 +46,7 @@ _[LangChain](https://js.langchain.com/docs/introduction/) is a framework that he
             * create project with name and db pwd
             * create table and search function in database (with new query) 
        * split the text
+       * upload to supabase
     * ![image](https://github.com/user-attachments/assets/4760736a-4e8e-43a6-9782-8212dd4dc965)
        * user input
        * conversation memory: to hold entire conversation
@@ -57,6 +58,11 @@ _[LangChain](https://js.langchain.com/docs/introduction/) is a framework that he
 * templates
 * prompts from templates
 * setting up chains
+    * adding first chain
+    * retrieval
+    * add StringOutputParser
+    * fetching the answer
+    * serrialize the docs
 * the .pipe() method
 * retrieving from vector stores
 * the RunnableSequence class
