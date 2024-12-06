@@ -7,5 +7,6 @@ course link: https://learn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson
 * Persistence and Streaming: adding persistence as thread_id to make sure follow up question can be linked together (stream event)
 * Human in the loop
 * Essay Writer
-* LangChain Resources
+  ![image](https://github.com/user-attachments/assets/b70f000c-ea05-4a19-8b10-09d55cfb6697)
+* LangChain Resources: https://github.com/langchain-ai/langchain
 * Conclusion
