@@ -11,7 +11,13 @@
     6. Don't expect Code Interpreter to be a mind reader, you need to be very specific about your goals, constraints, needs, etc.
 
 ### Use case
-
+* ask questions in a small document
+    * when handling pdf, use "extract and read" to help gpt to read the document 
+    * 'continue' when reach the limit, use 'continue' to getting the rest of questions.
+    * after reading, ask question, here is what I want you to tell me or summarize for me, it would be great to provide examples
+* working with structured Data
+    * 
+* working with media 
 
 ### Approprirate use of chatgpt
 
